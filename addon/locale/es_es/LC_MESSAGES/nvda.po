@@ -1,0 +1,41 @@
+# SystrayList Portuguese Translation
+# Copyright (C) 2012 Rui Rui Batista & Rui Fontes
+# This file is distributed under the same license as the systrayList package.
+# Rui Batista <ruiandrebatista@gmail.com, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-19 17:54+0000\n"
+"PO-Revision-Date: 2012-03-27 13:28-0300\n"
+"Last-Translator: Martín Baldassarre <mbaldassarre@gmail.com>\n"
+"Language-Team: Portuguese <PT@li.org>\n"
+"Language: Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: __init__.py:81
+msgid "Shows the list of buttons on the System Tray"
+msgstr "Muestra la lista de botones del área de notificaciones"
+
+#: __init__.py:89
+msgid "System Tray List"
+msgstr "área de notificaciones"
+
+#: __init__.py:97
+msgid "Icons on the System Tray:"
+msgstr "Iconos en el área de notificación:"
+
+#: __init__.py:106
+msgid "&Left Click"
+msgstr "Click en botón &Izquierdo"
+
+#: __init__.py:109
+msgid "Left &Double Click"
+msgstr "Doble Click en botón i&zquierdo"
+
+#: __init__.py:112
+msgid "&Right Click"
+msgstr "Click en botón &Derecho"
+

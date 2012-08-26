@@ -1,0 +1,41 @@
+# SystrayList Portuguese Translation
+# Copyright (C) 2012 Rui Rui Batista & Rui Fontes
+# This file is distributed under the same license as the systrayList package.
+# Rui Batista <ruiandrebatista@gmail.com, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-19 17:54+0000\n"
+"PO-Revision-Date: 2012-04-25 14:41+0200\n"
+"Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
+"Language-Team: Portuguese <PT@li.org>\n"
+"Language: Portuguese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: __init__.py:81
+msgid "Shows the list of buttons on the System Tray"
+msgstr "Sistem tepsisindeki düğme listesini görüntüler"
+
+#: __init__.py:89
+msgid "System Tray List"
+msgstr "Sistem tepsisi"
+
+#: __init__.py:97
+msgid "Icons on the System Tray:"
+msgstr "Sistem tepsisindeki simgeler"
+
+#: __init__.py:106
+msgid "&Left Click"
+msgstr "&sol tık"
+
+#: __init__.py:109
+msgid "Left &Double Click"
+msgstr "sol çift &tık"
+
+#: __init__.py:112
+msgid "&Right Click"
+msgstr "s&ağ tık"
+
