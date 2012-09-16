@@ -60,14 +60,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_createSystrayList(self, gesture):
 		path = ("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
 		objects = self._findAccessibleLeafsFromWindowClassPath(path)
-		self._createObjectsWindow(objects, _("System Notification Area"), _("Icons of systrem tray items in the windows notification area:"))
+		self._createObjectsWindow(objects, _("System Tray List"), _("Icons on the System Tray:"))
 
 	def script_createTaskList(self, gesture):
 		objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","MSTaskListWClass") ,)
 		if not objects:
 			# Probably on XP; try this instea:
 			objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","ToolbarWindow32"),)
-		self._createObjectsWindow(objects, _("Running Applications List"), _("Icons of running applications in the task bar"))
+		self._createObjectsWindow(objects, _("Task Bar List"), _("Icons of running applications in the task bar"))
 
 	def _createObjectsWindow(self, objects, title, label):
 		if globalVars.appArgs.secure:
