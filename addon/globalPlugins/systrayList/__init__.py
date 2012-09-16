@@ -43,32 +43,40 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if self._systrayListDialog is not None:
 			self._systrayListDialog.Destroy()
 
-	def script_createSystrayList(self, gesture):
-		if globalVars.appArgs.secure:
-			return
+	def _findAccessibleLeafsFromWindowClassPath(self, windowClassPath):
 		# Create a list of (obj.name, obj.location)
-		# from the systray.
-		# This runs through the window hierarchy finding 
-		# the first object on the path represented by l
-		# l is a list of windowClassNames.
-		l=("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
-		
 		h,FindWindowExA =0,ctypes.windll.user32.FindWindowExA
-		for element in l:
+		for element in windowClassPath:
 			h = FindWindowExA(h,0,element,0)
-
-		systray = []
+		l = []
 		o = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,1)
 		# When o.next is None it means that there is no more objects on the systray.
 		while o is not None:
-			systray.append((o.name, o.location))
+			l.append((o.name, o.location))
 			o = o.next
+		return l
 
+
+	def script_createSystrayList(self, gesture):
+		path = ("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
+		objects = self._findAccessibleLeafsFromWindowClassPath(path)
+		self._createObjectsWindow(objects, _("System Notification Area"), _("Icons of systrem tray items in the windows notification area:"))
+
+	def script_createTaskList(self, gesture):
+		objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","MSTaskListWClass") ,)
+		if not objects:
+			# Probably on XP; try this instea:
+			objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","ToolbarWindow32"),)
+		self._createObjectsWindow(objects, _("Running Applications List"), _("Icons of running applications in the task bar"))
+
+	def _createObjectsWindow(self, objects, title, label):
+		if globalVars.appArgs.secure:
+			return
 		# If this is the first call create the Window
 		if not self._systrayListDialog:
-			self._systrayListDialog = SystrayListDialog(gui.mainFrame, systray)
+			self._systrayListDialog = SystrayListDialog(gui.mainFrame, objects)
 		# Update the list on the dialog
-		self._systrayListDialog.updateSystray(systray)
+		self._systrayListDialog.updateSystray(objects, title, label)
 		# Show the window if it is Hiden
 		if not self._systrayListDialog.IsShown():
 			gui.mainFrame.prePopup()
@@ -78,14 +86,16 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	# Documentation
 	script_createSystrayList.__doc__ = _(u"Shows the list of buttons on the System Tray")
+	script_createTaskList.__doc___ = _("Shows the list of icons in the task bar")
 
 	__gestures={
+	"kb:NVDA+shift+f11": "createTaskList",
 		"kb:NVDA+f11": "createSystrayList",
 	}
 
 
 class SystrayListDialog(wx.Dialog):
-	def __init__(self, parent, systray, title=_("System Tray List")):
+	def __init__(self, parent, systray, title=""):
 		self.systray = systray
 		super(SystrayListDialog, self).__init__(parent, title=title)
 		# Create interface
@@ -93,8 +103,8 @@ class SystrayListDialog(wx.Dialog):
 		tasksSizer = wx.BoxSizer(wx.VERTICAL)
 		# Create a label and a list view for systray entries
 		# Label is above the list view.
-		tasksLabel = wx.StaticText(self, -1, label=_("Icons on the System Tray:"))
-		tasksSizer.Add(tasksLabel)
+		self.tasksLabel = wx.StaticText(self, -1, label="")
+		tasksSizer.Add(self.tasksLabel)
 		self.listBox = wx.ListBox(self, wx.NewId(), style=wx.LB_SINGLE, size=(550, 250))
 		tasksSizer.Add(self.listBox, proportion=8)
 		mainSizer.Add(tasksSizer)
@@ -131,7 +141,9 @@ class SystrayListDialog(wx.Dialog):
 			self.Hide()
 		return func
 
-	def updateSystray(self, systray):
+	def updateSystray(self, systray, title, label):
+		self.SetTitle(title)
+		self.tasksLabel.SetLabel(label)
 		self.systray = systray
 		self.listBox.SetItems([obj[0] for obj in self.systray])
 		self.listBox.Select(0)
