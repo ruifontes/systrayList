@@ -6,35 +6,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-19 17:54+0000\n"
-"PO-Revision-Date: 2012-09-15 19:08+0400\n"
+"POT-Creation-Date: 2012-09-17 19:41+Ãðóçèíñêîå âðåìÿ (çèìà)\n"
+"PO-Revision-Date: 2012-09-17 19:45+0400\n"
 "Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
 "Language-Team: German <bernd_dorer@yahoo.de>\n"
 "Language: Portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
 
-#: __init__.py:81
-msgid "Shows the list of buttons on the System Tray"
-msgstr "Показывает список кнопок на системном трее"
-
-#: __init__.py:89
-msgid "System Tray List"
-msgstr "Список системного трея"
-
-#: __init__.py:97
+#: __init__.pyw:63
 msgid "Icons on the System Tray:"
 msgstr "Значки на системном трее"
 
-#: __init__.py:106
+#: __init__.pyw:63
+msgid "System Tray List"
+msgstr "Список системного трея"
+
+#: __init__.pyw:70
+msgid "Icons of running applications in the task bar"
+msgstr "Значки запущеных приложений на панеле задач"
+
+#: __init__.pyw:70
+msgid "Task Bar List"
+msgstr "Список значков на панеле задач"
+
+#: __init__.pyw:88
+msgid "Shows the list of buttons on the System Tray"
+msgstr "Показывает список кнопок на системном трее"
+
+#: __init__.pyw:89
+msgid "Shows the list of icons in the task bar"
+msgstr "Показывает список значков на системном трее"
+
+#: __init__.pyw:115
 msgid "&Left Click"
 msgstr "Левый клик"
 
-#: __init__.py:109
+#: __init__.pyw:118
 msgid "Left &Double Click"
 msgstr "двойной левый клик"
 
-#: __init__.py:112
+#: __init__.pyw:121
 msgid "&Right Click"
 msgstr "правый клик"
