@@ -1,53 +1,56 @@
-# SystrayList Portuguese Translation
-# Copyright (C) 2012 Rui Rui Batista & Rui Fontes
-# This file is distributed under the same license as the systrayList package.
-# Rui Batista <ruiandrebatista@gmail.com, 2012
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
+"Project-Id-Version: systrayList 1.4pre\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-20 10:51+0100\n"
-"PO-Revision-Date: 2012-09-20 16:10+0100\n"
-"Last-Translator: Patrick ZAJDA <webmaster@gansta93.com>\n"
-"Language-Team: French <fr@li.org>\n"
-"Language: Portuguese\n"
+"PO-Revision-Date: 2012-09-22 07:26+0200\n"
+"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
 
 #: addon/globalPlugins/systrayList/__init__.py:63
 msgid "System Tray List"
-msgstr "Liste de la Zone de Notification"
+msgstr "Ilmoitusalue"
 
 #: addon/globalPlugins/systrayList/__init__.py:63
 msgid "Icons on the System Tray:"
-msgstr "Icônes dans la zone de notification :"
+msgstr "Ilmoitusalueen kuvakkeet:"
 
 #: addon/globalPlugins/systrayList/__init__.py:70
 msgid "Task Bar List"
-msgstr "Liste de la barre des Tâches"
+msgstr "Tehtäväpalkki"
 
 #: addon/globalPlugins/systrayList/__init__.py:70
 msgid "Icons of running applications in the task bar"
-msgstr "Icônes des applications s'exécutants dans la barre des tâches"
+msgstr "Käynnissä olevien sovellusten kuvakkeet tehtäväpalkissa"
 
 #: addon/globalPlugins/systrayList/__init__.py:88
 msgid "Shows the list of buttons on the System Tray"
-msgstr "Affiche la liste des boutons dans la zone de notification"
+msgstr "Näyttää listan ilmoitusalueella olevista painikkeista"
 
 #: addon/globalPlugins/systrayList/__init__.py:89
 msgid "Shows the list of icons in the task bar"
-msgstr "Affiche la liste des icônes dans la barre des tâches"
+msgstr "Näyttää listan tehtäväpalkissa olevista kuvakkeista"
 
 #: addon/globalPlugins/systrayList/__init__.py:115
 msgid "&Left Click"
-msgstr "Clique &Gauche"
+msgstr "&Vasen napsautus"
 
 #: addon/globalPlugins/systrayList/__init__.py:118
 msgid "Left &Double Click"
-msgstr "&double clique gauche"
+msgstr "Vasen &kaksoisnapsautus"
 
 #: addon/globalPlugins/systrayList/__init__.py:121
 msgid "&Right Click"
-msgstr "&click droit"
+msgstr "&Oikea napsautus"
+

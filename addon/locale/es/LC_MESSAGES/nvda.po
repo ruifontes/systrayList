@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-19 17:54+0000\n"
-"PO-Revision-Date: 2012-03-27 13:28-0300\n"
-"Last-Translator: Martín Baldassarre <mbaldassarre@gmail.com>\n"
+"PO-Revision-Date: 2012-09-20 23:51+0100\n"
+"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: Portuguese <PT@li.org>\n"
 "Language: Portuguese\n"
 "MIME-Version: 1.0\n"
@@ -17,25 +17,25 @@ msgstr ""
 
 #: __init__.py:81
 msgid "Shows the list of buttons on the System Tray"
-msgstr "Muestra la lista de botones del área de notificaciones"
+msgstr "Muestra la lista de botones de la Bandeja del Sistema"
 
 #: __init__.py:89
 msgid "System Tray List"
-msgstr "área de notificaciones"
+msgstr "Lista de la Bandeja del Sistema"
 
 #: __init__.py:97
 msgid "Icons on the System Tray:"
-msgstr "Iconos en el área de notificación:"
+msgstr "Iconos en la Bandeja del Sistema:"
 
 #: __init__.py:106
 msgid "&Left Click"
-msgstr "Click en botón &Izquierdo"
+msgstr "Clic en botón &Izquierdo"
 
 #: __init__.py:109
 msgid "Left &Double Click"
-msgstr "Doble Click en botón i&zquierdo"
+msgstr "Doble Clic en botón i&zquierdo"
 
 #: __init__.py:112
 msgid "&Right Click"
-msgstr "Click en botón &Derecho"
+msgstr "Clic en botón &Derecho"
 
