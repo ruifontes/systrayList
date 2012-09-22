@@ -7,6 +7,10 @@ This plugin makes possible to read and activate icons on the system tray within 
 
 Note that you can access the windows sysstem tray in any screenreader software using the windows+b shortcut key. This plugin is only useful to make the transition from JAWS for Windows smoother and to avoid some tooltips that may pop-up when cycling through the system tray with the windows keyboard means.
 
+## Changes for 1.4 -  ##
+
+* New translations: Finnish, Korean, Nepali, Russian
+
 ## Changes for 1.3 - 2012-05-25 ##
 
 * Converted to an add-on package
