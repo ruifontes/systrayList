@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Σύλλογος Τεχνολογικής Ανάπτυξης Τυφλών (ΣΤΑΤ), 2012.
+# Translated by Gerasimos Xydas (e-rhetor) on behalf of the Hellenic Technology for the Blind Development Association (STAT)
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-20 10:51+0100\n"
+"PO-Revision-Date: 2012-10-11 11:37+0200\n"
+"Last-Translator: Gerasimos Xydas <access@e-rhetor.com>\n"
+"Language-Team: Gerasimos Xydas <access@e-rhetor.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: addon/globalPlugins/systrayList/__init__.py:63
+msgid "System Tray List"
+msgstr "Λίστα Χώρου Ειδοποιήσεων"
+
+#: addon/globalPlugins/systrayList/__init__.py:63
+msgid "Icons on the System Tray:"
+msgstr "Εικονίδια στο Χώρο Ειδοποιήσεων"
+
+#: addon/globalPlugins/systrayList/__init__.py:70
+msgid "Task Bar List"
+msgstr "Λίστα Λωρίδας Διεργασιών"
+
+#: addon/globalPlugins/systrayList/__init__.py:70
+msgid "Icons of running applications in the task bar"
+msgstr "Εικονίδια εφαρμογών που εκτελούνται στη λωρίδα διεργασιών"
+
+#: addon/globalPlugins/systrayList/__init__.py:88
+msgid "Shows the list of buttons on the System Tray"
+msgstr "Εμφανίζει τη λίστα κουμπιών στο Χώρο Ειδοποιήσεων "
+
+#: addon/globalPlugins/systrayList/__init__.py:89
+msgid "Shows the list of icons in the task bar"
+msgstr "Εμφανίζει τη λίστα των εικονιδίων στη λωρίδα διεργασιών"
+
+#: addon/globalPlugins/systrayList/__init__.py:115
+msgid "&Left Click"
+msgstr "&Αριστερό κλικ"
+
+#: addon/globalPlugins/systrayList/__init__.py:118
+msgid "Left &Double Click"
+msgstr "&Διπλό Αριστερό κλικ"
+
+#: addon/globalPlugins/systrayList/__init__.py:121
+msgid "&Right Click"
+msgstr "&Δεξί κλικ"
+
