@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: systrayList 1.4pre\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-20 10:51+0100\n"
+"PO-Revision-Date: 2012-10-19 08:19+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: addon/globalPlugins/systrayList/__init__.py:63
+msgid "System Tray List"
+msgstr "Systémový panel"
+
+#: addon/globalPlugins/systrayList/__init__.py:63
+msgid "Icons on the System Tray:"
+msgstr "Položky na systémovom panely:"
+
+#: addon/globalPlugins/systrayList/__init__.py:70
+msgid "Task Bar List"
+msgstr "panel úloh"
+
+#: addon/globalPlugins/systrayList/__init__.py:70
+msgid "Icons of running applications in the task bar"
+msgstr "Ikony na panely úloh"
+
+#: addon/globalPlugins/systrayList/__init__.py:88
+msgid "Shows the list of buttons on the System Tray"
+msgstr "Zobrazí položky na systémovom panely"
+
+#: addon/globalPlugins/systrayList/__init__.py:89
+msgid "Shows the list of icons in the task bar"
+msgstr "Zobrazí položky na panely úloh"
+
+#: addon/globalPlugins/systrayList/__init__.py:115
+msgid "&Left Click"
+msgstr "ľ&avý klik"
+
+#: addon/globalPlugins/systrayList/__init__.py:118
+msgid "Left &Double Click"
+msgstr "Ľavý &dvojklik"
+
+#: addon/globalPlugins/systrayList/__init__.py:121
+msgid "&Right Click"
+msgstr "P&ravý klik"
+
