@@ -5,37 +5,66 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-19 17:54+0000\n"
-"PO-Revision-Date: 2012-09-20 23:51+0100\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2012-10-21 10:27+0100\n"
+"PO-Revision-Date: 2012-10-21 11:33+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: Portuguese <PT@li.org>\n"
 "Language: Portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
 
-#: __init__.py:81
-msgid "Shows the list of buttons on the System Tray"
-msgstr "Muestra la lista de botones de la Bandeja del Sistema"
-
-#: __init__.py:89
+#: addon/globalPlugins/systrayList/__init__.py:63
 msgid "System Tray List"
 msgstr "Lista de la Bandeja del Sistema"
 
-#: __init__.py:97
+#: addon/globalPlugins/systrayList/__init__.py:63
 msgid "Icons on the System Tray:"
 msgstr "Iconos en la Bandeja del Sistema:"
 
-#: __init__.py:106
+#: addon/globalPlugins/systrayList/__init__.py:70
+msgid "Task Bar List"
+msgstr "Lista de Barra de Tareas"
+
+#: addon/globalPlugins/systrayList/__init__.py:70
+msgid "Icons of running applications in the task bar"
+msgstr "Iconos de aplicaciones en ejecución en la Barra de Tareas"
+
+#. Documentation
+#: addon/globalPlugins/systrayList/__init__.py:88
+msgid "Shows the list of buttons on the System Tray"
+msgstr "Muestra la lista de botones de la Bandeja del Sistema"
+
+#: addon/globalPlugins/systrayList/__init__.py:89
+msgid "Shows the list of icons in the task bar"
+msgstr "Muestra la lista de iconos en la Barra de Tareas"
+
+#: addon/globalPlugins/systrayList/__init__.py:115
 msgid "&Left Click"
 msgstr "Clic en botón &Izquierdo"
 
-#: __init__.py:109
+#: addon/globalPlugins/systrayList/__init__.py:118
 msgid "Left &Double Click"
 msgstr "Doble Clic en botón i&zquierdo"
 
-#: __init__.py:112
+#: addon/globalPlugins/systrayList/__init__.py:121
 msgid "&Right Click"
 msgstr "Clic en botón &Derecho"
 
+#: addon/installTasks.py:11
+msgid ""
+" {name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
+msgstr ""
+" {name} es un complemento libre para NVDA.\n"
+"Puedes hacer una donación a su autor para más soporte del desarrollo de este "
+"complemento y  otros productos de software libre.\n"
+"¿Quieres donar ahora? (se te redirecionará al sitio web de Paypal)."
+
+#: addon/installTasks.py:14
+msgid "Request for Contributions to {name}"
+msgstr "Solicitud de Contribuciones para {name}"
