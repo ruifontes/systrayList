@@ -1,7 +1,7 @@
 [[!meta title="systrayList"]]
 
 * Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista <ruiandrebatista at gmail.com>
-* Download: [version 1.4pre][downloadLink]
+* Download: [version 1.4beta1][downloadLink]
 
 This plugin makes possible to read and activate icons on the system tray within a list box for easy access to those items. With the plugin installed press NVDA+f11 for this dialog to pop-up.
 
@@ -29,4 +29,4 @@ Note that you can access the windows sysstem tray in any screenreader software u
 
 * Initial Release
 
-[downloadLink]: http://addons.nvda-project.org/files/systrayList-1.4pre.nvda-addon
+[downloadLink]: http://addons.nvda-project.org/files/systrayList-1.4beta1.nvda-addon
