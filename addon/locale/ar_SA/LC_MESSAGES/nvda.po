@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-20 10:51+0100\n"
+"PO-Revision-Date: 2012-10-19 13:37-0000\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: addon/globalPlugins/systrayList/__init__.py:63
+msgid "System Tray List"
+msgstr "قائمة عناصر صينية النظام"
+
+#: addon/globalPlugins/systrayList/__init__.py:63
+msgid "Icons on the System Tray:"
+msgstr "الأيقونات الموجودة على صينية النظام:"
+
+#: addon/globalPlugins/systrayList/__init__.py:70
+msgid "Task Bar List"
+msgstr "قائمة عناصر شريط المهام"
+
+#: addon/globalPlugins/systrayList/__init__.py:70
+msgid "Icons of running applications in the task bar"
+msgstr "أيقونات التطبيقات العاملة على شريط المهام"
+
+#: addon/globalPlugins/systrayList/__init__.py:88
+msgid "Shows the list of buttons on the System Tray"
+msgstr "إظهار قائمة بالأزرار الموجودة على صينية النظام"
+
+#: addon/globalPlugins/systrayList/__init__.py:89
+msgid "Shows the list of icons in the task bar"
+msgstr "إظهار قائمة الأيقونات الموجودة على شريط المهام"
+
+#: addon/globalPlugins/systrayList/__init__.py:115
+msgid "&Left Click"
+msgstr "&نقر يسار"
+
+#: addon/globalPlugins/systrayList/__init__.py:118
+msgid "Left &Double Click"
+msgstr "نقر &يسار مزدوج"
+
+#: addon/globalPlugins/systrayList/__init__.py:121
+msgid "&Right Click"
+msgstr "نقر &يمين"
