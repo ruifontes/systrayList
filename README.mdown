@@ -10,7 +10,7 @@ Note that you can access the windows sysstem tray in any screenreader software u
 ## Changes for 1.4 -  ##
 
 * implemented taskbar support
-* New translations: Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Brazilian Portuguese, Russian, Tamil.
+* New translations: Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Polish, Brazilian Portuguese, Russian, Tamil.
 
 ## Changes for 1.3 - 2012-05-25 ##
 
