@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-29 21:36+0000\n"
+"POT-Creation-Date: 2012-10-31 15:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Rui Batista <ruiandrebatista@gmail.com>\n"
 "Language-Team: Portuguese <PT@li.org>\n"
@@ -15,39 +15,39 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:63
+#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "Lista da Área de Notificação"
 
-#: addon/globalPlugins/systrayList/__init__.py:63
+#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Ícones na Área de Notificação:"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
+#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "Lista da barra de tarefas"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
+#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "ìcones das aplicações a correrem, na bara de tarefas"
 
-#: addon/globalPlugins/systrayList/__init__.py:88
-msgid "Shows the list of buttons on the System Tray"
-msgstr "Mostra a lista dos butões na área de notificação"
+#: addon/globalPlugins/systrayList/__init__.py:94
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the task bar."
+msgstr ""
+" Mostra a lista de buttons na área de notificação. "
+"Se premido duas vezes, rapidamente, mostra os items da barra de tarefas"
 
-#: addon/globalPlugins/systrayList/__init__.py:89
-msgid "Shows the list of icons in the task bar"
-msgstr "Mostra a lista dos butões na barra de tarefas"
-
-#: addon/globalPlugins/systrayList/__init__.py:115
+#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "Click &Esquerdo"
 
-#: addon/globalPlugins/systrayList/__init__.py:118
+#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "D&uplo Click Esquerdo"
 
-#: addon/globalPlugins/systrayList/__init__.py:121
+#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "Click &Direito"
 
@@ -59,11 +59,12 @@ msgid ""
 "Do you want to donate now? (you will be redirected to the Paypal website)."
 msgstr ""
 "o {name} é um extra gratuito para o NVDA.\n"
-"Pode fazer uma doação ao seu autor para suportar mais desenvolvimentos deste extra, "
-"e de outros produtos de software livre.\n"
-"Deseja fazer agora uma doação? (será redireccionado para o web site do Paypal)."
-
+"Pode fazer uma doação ao seu autor para suportar mais desenvolvimentos deste "
+"extra, e de outros produtos de software livre.\n"
+"Deseja fazer agora uma doação? (será redireccionado para o web site do "
+"Paypal)."
 
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Pedido de contribuições para o {name}"
+
