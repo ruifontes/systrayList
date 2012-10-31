@@ -57,12 +57,18 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		return l
 
 
-	def script_createSystrayList(self, gesture):
+	def script_createList(self, gesture):
+		if scriptHandler.getLastScriptRepeatCount() == 0:
+			self._createSystrayList()
+		else:
+			self._createTaskList()
+
+	def _createSystrayList(self):
 		path = ("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
 		objects = self._findAccessibleLeafsFromWindowClassPath(path)
 		self._createObjectsWindow(objects, _("System Tray List"), _("Icons on the System Tray:"))
 
-	def script_createTaskList(self, gesture):
+	def _createTaskList(self):
 		objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","MSTaskListWClass") ,)
 		if not objects:
 			# Probably on XP; try this instea:
@@ -85,12 +91,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			gui.mainFrame.postPopup()
 
 	# Documentation
-	script_createSystrayList.__doc__ = _(u"Shows the list of buttons on the System Tray")
-	script_createTaskList.__doc___ = _("Shows the list of icons in the task bar")
+	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar.")
 
 	__gestures={
-	"kb:NVDA+shift+f11": "createTaskList",
-		"kb:NVDA+f11": "createSystrayList",
+		"kb:NVDA+f11": "createList",
 	}
 
 
