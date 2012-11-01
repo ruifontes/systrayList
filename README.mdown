@@ -9,10 +9,10 @@ Note that you can access the windows sysstem tray in any screenreader software u
 
 ## Changes for 1.4 -  ##
 
-* Requires NVDA 2012.3bet2 or greater.
-* Add donation request o installation
+* Requires NVDA 2012.3beta2 or greater.
+* Add donation request to installation
 * implemented taskbar support
-* New translations: Arabic, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Polish, Brazilian Portuguese, Russian, Slovak, Tamil.
+* New translations: Arabic, Bolgarian, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Polish, Brazilian Portuguese, Russian, Slovak, Tamil.
 
 ## Changes for 1.3 - 2012-05-25 ##
 

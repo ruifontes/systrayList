@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-31 15:24+0000\n"
+"PO-Revision-Date: 2012-10-31 18:55+0200\n"
+"Last-Translator: Kostadin Kolev <k_kolev1985@abv.bg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: addon/globalPlugins/systrayList/__init__.py:69
+msgid "System Tray List"
+msgstr "Списък на областта за уведомяване"
+
+#: addon/globalPlugins/systrayList/__init__.py:69
+msgid "Icons on the System Tray:"
+msgstr "Икони в областта за уведомяване:"
+
+#: addon/globalPlugins/systrayList/__init__.py:76
+msgid "Task Bar List"
+msgstr "Списък на лентата на задачите"
+
+#: addon/globalPlugins/systrayList/__init__.py:76
+msgid "Icons of running applications in the task bar"
+msgstr "Бутони на работещите приложения в лентата на задачите:"
+
+#: addon/globalPlugins/systrayList/__init__.py:94
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the task bar."
+msgstr ""
+"Показва списъка с иконите, видими в областта за уведомяване. Ако бъде "
+"натисната бързо двукратно, показва бутоните в лентата на задачите."
+
+#: addon/globalPlugins/systrayList/__init__.py:119
+msgid "&Left Click"
+msgstr "&Ляво щракване"
+
+#: addon/globalPlugins/systrayList/__init__.py:122
+msgid "Left &Double Click"
+msgstr "&Двойно ляво щракване"
+
+#: addon/globalPlugins/systrayList/__init__.py:125
+msgid "&Right Click"
+msgstr "Д&ясно щракване"
+
+#: addon/installTasks.py:11
+msgid ""
+" {name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
+msgstr ""
+"{name} е безплатна добавка за NVDA.\n"
+"Можете да направите дарение на нейния автор за да подкрепите бъдещото "
+"развитие на тази добавка и други безплатни софтуерни продукти.\n"
+"Желаете ли да направите дарение сега? (ще бъдете пренасочени към уеб сайта "
+"на Paypal)."
+
+#: addon/installTasks.py:14
+msgid "Request for Contributions to {name}"
+msgstr "Заявка за подкрепа на {name}"
