@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-17 19:41+Ãðóçèíñêîå âðåìÿ (çèìà)\n"
-"PO-Revision-Date: 2012-09-17 19:45+0400\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2012-11-02 06:19+0400\n"
+"PO-Revision-Date: 2012-11-02 06:22+0400\n"
 "Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
 "Language-Team: German <bernd_dorer@yahoo.de>\n"
 "Language: Portuguese\n"
@@ -16,38 +16,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.3\n"
 
-#: __init__.pyw:63
-msgid "Icons on the System Tray:"
-msgstr "Значки на системном трее"
-
-#: __init__.pyw:63
+#: addon\globalPlugins\systrayList\__init__.py:69
 msgid "System Tray List"
 msgstr "Список системного трея"
 
-#: __init__.pyw:70
-msgid "Icons of running applications in the task bar"
-msgstr "Значки запущеных приложений на панеле задач"
+#: addon\globalPlugins\systrayList\__init__.py:69
+msgid "Icons on the System Tray:"
+msgstr "Значки на системном трее"
 
-#: __init__.pyw:70
+#: addon\globalPlugins\systrayList\__init__.py:76
 msgid "Task Bar List"
 msgstr "Список значков на панеле задач"
 
-#: __init__.pyw:88
-msgid "Shows the list of buttons on the System Tray"
-msgstr "Показывает список кнопок на системном трее"
+#: addon\globalPlugins\systrayList\__init__.py:76
+msgid "Icons of running applications in the task bar"
+msgstr "Значки запущеных приложений на панеле задач"
 
-#: __init__.pyw:89
-msgid "Shows the list of icons in the task bar"
-msgstr "Показывает список значков на системном трее"
+#. Documentation
+#: addon\globalPlugins\systrayList\__init__.py:94
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the task bar."
+msgstr ""
+"Показывает список значков на системном трее. Если нажать дважды быстро, "
+"показывает элементы на панеле задач."
 
-#: __init__.pyw:115
+#: addon\globalPlugins\systrayList\__init__.py:119
 msgid "&Left Click"
 msgstr "Левый клик"
 
-#: __init__.pyw:118
+#: addon\globalPlugins\systrayList\__init__.py:122
 msgid "Left &Double Click"
 msgstr "двойной левый клик"
 
-#: __init__.pyw:121
+#: addon\globalPlugins\systrayList\__init__.py:125
 msgid "&Right Click"
 msgstr "правый клик"
+
+#: addon\installTasks.py:11
+msgid ""
+" {name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
+msgstr ""
+" {name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
+
+#: addon\installTasks.py:14
+msgid "Request for Contributions to {name}"
+msgstr "Request for Contributions to {name}"
+
+#~ msgid "Shows the list of buttons on the System Tray"
+#~ msgstr "Показывает список кнопок на системном трее"
+
+#~ msgid "Shows the list of icons in the task bar"
+#~ msgstr "Показывает список значков на системном трее"
