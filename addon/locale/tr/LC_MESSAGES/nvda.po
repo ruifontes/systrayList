@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-21 10:27+0100\n"
-"PO-Revision-Date: 2012-10-21 12:12+0200\n"
+"POT-Creation-Date: 2012-10-31 22:22+0100\n"
+"PO-Revision-Date: 2012-10-31 23:48+0200\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: Portuguese <PT@li.org>\n"
 "Language: Portuguese\n"
@@ -16,40 +16,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:63
+#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "Sistem tepsisi"
 
-#: addon/globalPlugins/systrayList/__init__.py:63
+#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Sistem tepsisindeki simgeler"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
+#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "Görev Çubuğu"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
+#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "Çalışan uygulamaların Görev çubuğundaki simgeleri"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:88
-msgid "Shows the list of buttons on the System Tray"
-msgstr "Sistem tepsisindeki düğme listesini görüntüler"
+#: addon/globalPlugins/systrayList/__init__.py:94
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the task bar."
+msgstr ""
+"Sistem tepsisi simgelerini görüntüler. İki kez basıldığında ise, görev "
+"çubuğu simgeleri görüntülenir."
 
-#: addon/globalPlugins/systrayList/__init__.py:89
-msgid "Shows the list of icons in the task bar"
-msgstr "Görev çubuğundaki simge listesini görüntüler"
-
-#: addon/globalPlugins/systrayList/__init__.py:115
+#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "&sol tık"
 
-#: addon/globalPlugins/systrayList/__init__.py:118
+#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "sol çift &tık"
 
-#: addon/globalPlugins/systrayList/__init__.py:121
+#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "s&ağ tık"
 
@@ -68,3 +68,9 @@ msgstr ""
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "{name} için bağış ricası"
+
+#~ msgid "Shows the list of buttons on the System Tray"
+#~ msgstr "Sistem tepsisindeki düğme listesini görüntüler"
+
+#~ msgid "Shows the list of icons in the task bar"
+#~ msgstr "Görev çubuğundaki simge listesini görüntüler"
