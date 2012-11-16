@@ -1,0 +1,20 @@
+## SystrayList 1.4 for NVDA now available
+
+The systrayList add-on for NVDA, version 1.4, is now available. You can download it from the following link:
+
+http://dev.unreliabledevice.net/files/nvda/addons/systrayList-1.4.nvda-addon
+
+You can get more information about in the add-on's page at
+
+http://addons.nvda-project.org/addons/systrayList.en.html
+
+Many thanks goes to all the testers and translators that made the release possible.
+
+### What's New in 1.4:
+
+* Requires NVDA 2012.3beta2 or greater.
+* Add donation request to installation procedure
+* implemented taskbar support
+* New translations: Arabic, Bolgarian, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Polish, Brazilian Portuguese, Russian, Slovak, Tamil.
+
+
