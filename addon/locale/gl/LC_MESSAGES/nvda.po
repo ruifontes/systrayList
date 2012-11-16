@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-21 10:27+0100\n"
-"PO-Revision-Date: 2012-10-21 11:40+0100\n"
+"POT-Creation-Date: 2012-10-31 22:22+0100\n"
+"PO-Revision-Date: 2012-10-31 23:20+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,40 +16,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:63
+#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "System Tray List"
 
-#: addon/globalPlugins/systrayList/__init__.py:63
+#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Iconas na Bandexa do Sistema:"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
+#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "Lista da Barra de Tarefas"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
+#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "Iconas das aplicacións en execución na barra de tarefas"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:88
-msgid "Shows the list of buttons on the System Tray"
-msgstr "Amosa a lista de botóns na Bandexa do Sistema"
+#: addon/globalPlugins/systrayList/__init__.py:94
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the task bar."
+msgstr ""
+"Amosa a lista de botóns na Bandexa do Sistema. Se se premeu dúas veces "
+"rápidamente, amosa os elementos na barra de tarefas."
 
-#: addon/globalPlugins/systrayList/__init__.py:89
-msgid "Shows the list of icons in the task bar"
-msgstr "Amosa a lista de iconas na barra de tarefas"
-
-#: addon/globalPlugins/systrayList/__init__.py:115
+#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "Clic &Esquerdo"
 
-#: addon/globalPlugins/systrayList/__init__.py:118
+#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "&Doble Clic esquerdo"
 
-#: addon/globalPlugins/systrayList/__init__.py:121
+#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "Clic De&Reito"
 
@@ -68,3 +68,9 @@ msgstr ""
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Solicitude de Contribucións para {name}"
+
+#~ msgid "Shows the list of buttons on the System Tray"
+#~ msgstr "Amosa a lista de botóns na Bandexa do Sistema"
+
+#~ msgid "Shows the list of icons in the task bar"
+#~ msgstr "Amosa a lista de iconas na barra de tarefas"
