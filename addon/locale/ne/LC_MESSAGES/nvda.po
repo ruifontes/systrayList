@@ -1,52 +1,77 @@
-# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: System Tray\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-20 10:51+0100\n"
-"PO-Revision-Date: 2012-09-22 13:20+0545\n"
-"Last-Translator: Him Prasad Gautam <drishtibachak@gmail.com>\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2012-10-31 22:22+0100\n"
+"PO-Revision-Date: 2012-11-01 22:43+0545\n"
+"Last-Translator: हिम प्रसाद गौतम \n"
 "Language-Team: Him Prasad Gautam\n"
 "Language: Nepali\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:63
+#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
-msgstr "प्रणाली थाली  सुची"
+msgstr "प्रणाली थाली सुची"
 
-#: addon/globalPlugins/systrayList/__init__.py:63
+#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "प्रणाली थाली प्रतिमा"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
+#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "कार्य पट्टी सुची"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
+#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "कार्य पट्टीमा अङ्कित चालू अनुप्रयोगको प्रतिमा"
 
-#: addon/globalPlugins/systrayList/__init__.py:88
-msgid "Shows the list of buttons on the System Tray"
-msgstr "प्रणालि थालीमा  उपलब्ध टाँकहरूको सुचीदेखाउछ ।"
+#. Documentation
+#: addon/globalPlugins/systrayList/__init__.py:94
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the task bar."
+msgstr ""
+"थाली प्रणालिमा भएका सुचीहरूलाई देखाउने छ ।  यदि दुई पटक दबाएमा कार्य पट्टीमा भएका "
+"सामाग्रीहरूलाई देखाउने छ ।"
 
-#: addon/globalPlugins/systrayList/__init__.py:89
-msgid "Shows the list of icons in the task bar"
-msgstr "कार्य पट्टीमा उपलब्ध प्रतिमाहरूको सुची देखाउछ ।"
-
-#: addon/globalPlugins/systrayList/__init__.py:115
+#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "&देब्रे टाँक किटिक्क"
 
-#: addon/globalPlugins/systrayList/__init__.py:118
+#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "देब्रे टाँक &दुई पटक किटिक्क"
 
-#: addon/globalPlugins/systrayList/__init__.py:121
+#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "दाहिने टाँक किटिक्क"
 
+#: addon/installTasks.py:11
+msgid ""
+" {name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
+msgstr ""
+" {name} नेत्रवाणीको एउटा थप-साधन हो । \n"
+"तपाइ निःशुल्क उपलब्ध हुने यो वा यस्तै किसिमका यन्त्रप्राणको विकासको लागि यसका लेखकलाई "
+"चन्दा दान गर्न सक्नु हुन्छ । \n"
+"के तपाइ अहिले नै केही दिन चाहनु हुन्छ ? तपाइलाई पेपाल वेभ साईट तर्फ पठाइने छ ।"
+
+#: addon/installTasks.py:14
+msgid "Request for Contributions to {name}"
+msgstr " {name} को योगदानका लागि अनुरोध गरिन्छ ।"
+
+#~ msgid "Shows the list of buttons on the System Tray"
+#~ msgstr "प्रणाली थालीमा उपलब्ध टाँकहरूको सुची देखाउँछ ।"
+
+#~ msgid "Shows the list of icons in the task bar"
+#~ msgstr "कार्य पट्टीमा उपलब्ध प्रतिमाहरूको सुची देखाउँछ ।"
+
+#~ msgid " {name} is a free add-on for NVDA.\n"
+#~ msgstr " {name} नेत्र वाणीमा काम गर्ने एउटा निःशुल्क थप-साधन हो ।\n"
