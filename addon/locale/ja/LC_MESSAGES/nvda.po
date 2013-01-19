@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-31 22:22+0100\n"
-"PO-Revision-Date: 2012-11-01 22:32+0900\n"
+"POT-Creation-Date: 2013-01-06 12:47+0100\n"
+"PO-Revision-Date: 2013-01-18 16:52+0900\n"
 "Last-Translator: Takuya Nishimoto <nishimotz@gmail.com>\n"
 "Language-Team: NVDA Japanese Team <nvdajp@nvda.jp>\n"
 "Language: Japanese\n"
@@ -37,7 +37,9 @@ msgstr "タスクバーの実行中のアプリケーションのアイコン"
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the task bar."
-msgstr "システムトレイのボタンの一覧を表示します。すばやく2回押すとタスクバーの項目の一覧を表示します。"
+msgstr ""
+"システムトレイのボタンの一覧を表示します。すばやく2回押すとタスクバーの項目の"
+"一覧を表示します。"
 
 #: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
@@ -65,3 +67,17 @@ msgstr ""
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "{name} への寄付のご案内"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "List of SysTray and task bar elements"
+msgstr "システムトレイとタスクバーの要素リスト"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
+"running task lists."
+msgstr "NVDA+F11を1回押すとシステムトレイのボタン一覧を表示します。2回押すと実行中のタスク一覧を表示します。"

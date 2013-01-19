@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-31 22:22+0100\n"
-"PO-Revision-Date: 2012-10-31 23:48+0200\n"
+"POT-Creation-Date: 2013-01-06 12:47+0100\n"
+"PO-Revision-Date: 2013-01-06 15:09+0200\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: Portuguese <PT@li.org>\n"
 "Language: Portuguese\n"
@@ -68,6 +68,22 @@ msgstr ""
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "{name} için bağış ricası"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "List of SysTray and task bar elements"
+msgstr "Sistem tepsisi ve görev çubuğundaki öğe listesi"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
+"running task lists."
+msgstr ""
+"Sistem tepsisi simgelerini görüntüler. İki kez basıldığında ise, görev "
+"çubuğu simgeleri görüntülenir."
 
 #~ msgid "Shows the list of buttons on the System Tray"
 #~ msgstr "Sistem tepsisindeki düğme listesini görüntüler"

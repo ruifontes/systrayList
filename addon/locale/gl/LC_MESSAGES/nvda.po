@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-31 22:22+0100\n"
-"PO-Revision-Date: 2012-10-31 23:20+0100\n"
+"POT-Creation-Date: 2013-01-06 12:47+0100\n"
+"PO-Revision-Date: 2013-01-06 21:20+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -68,6 +68,22 @@ msgstr ""
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Solicitude de Contribucións para {name}"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "List of SysTray and task bar elements"
+msgstr "Lista dos elementos da Bandexa do Sistema e da barra de Tarefas"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
+"running task lists."
+msgstr ""
+"Amosa a lista dos botóns na Bandexa do Sistema con NVDA+F11 unha vez, dúas "
+"veces amosa a lista das tarefas en execución."
 
 #~ msgid "Shows the list of buttons on the System Tray"
 #~ msgstr "Amosa a lista de botóns na Bandexa do Sistema"

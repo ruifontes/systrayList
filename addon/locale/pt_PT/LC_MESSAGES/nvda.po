@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0 \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-31 15:24+0000\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2013-01-19 07:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Rui Batista <ruiandrebatista@gmail.com>\n"
 "Language-Team: Portuguese <PT@li.org>\n"
@@ -31,13 +31,14 @@ msgstr "Lista da barra de tarefas"
 msgid "Icons of running applications in the task bar"
 msgstr "ìcones das aplicações a correrem, na bara de tarefas"
 
+#. Documentation
 #: addon/globalPlugins/systrayList/__init__.py:94
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the task bar."
 msgstr ""
-" Mostra a lista de buttons na área de notificação. "
-"Se premido duas vezes, rapidamente, mostra os items da barra de tarefas"
+" Mostra a lista de buttons na área de notificação. Se premido duas vezes, "
+"rapidamente, mostra os items da barra de tarefas"
 
 #: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
@@ -68,3 +69,19 @@ msgstr ""
 msgid "Request for Contributions to {name}"
 msgstr "Pedido de contribuições para o {name}"
 
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "List of SysTray and task bar elements"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+#, fuzzy
+msgid ""
+"Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
+"running task lists."
+msgstr ""
+" Mostra a lista de buttons na área de notificação. Se premido duas vezes, "
+"rapidamente, mostra os items da barra de tarefas"

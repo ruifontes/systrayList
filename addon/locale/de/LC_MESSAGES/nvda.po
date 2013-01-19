@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Systraylist 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-31 22:22+0100\n"
-"PO-Revision-Date: 2012-11-05 08:13+0100\n"
+"POT-Creation-Date: 2013-01-06 12:47+0100\n"
+"PO-Revision-Date: 2013-01-07 00:27+0100\n"
 "Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
 "Language-Team: German <bernd_dorer@yahoo.de>\n"
 "Language: German\n"
@@ -73,6 +73,23 @@ msgstr ""
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Bitte spenden Sie für  {name}"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "List of SysTray and task bar elements"
+msgstr "Liste der Elemente im Infobereich und der Taskleiste"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
+"running task lists."
+msgstr ""
+"Zeigt eine Liste der Schalter im Infobereich, wenn Sie NVDA+F11 drücken. "
+"Drücken Sie diese Tastenkombination zwei mal schnell hintereinander, um die "
+"Liste der laufenden Anwendungen anzuzeigen."
 
 #~ msgid "Shows the list of buttons on the System Tray"
 #~ msgstr "Zeigt eine Liste der Symbole, welche sich im Infobereich befinden."

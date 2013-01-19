@@ -8,10 +8,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: SysTrayList\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-31 22:22+0100\n"
-"PO-Revision-Date: 2012-11-08 17:12+0200\n"
+"POT-Creation-Date: 2013-01-06 12:47+0100\n"
+"PO-Revision-Date: 2013-01-06 15:23+0200\n"
 "Last-Translator: Gerasimos Xydas <access@e-rhetor.com>\n"
 "Language-Team: Gerasimos Xydas <access@e-rhetor.com>\n"
 "Language: \n"
@@ -58,10 +58,25 @@ msgid ""
 "You can make a donation to its author to support further developments of this add-on and other free software products.\n"
 "Do you want to donate now? (you will be redirected to the Paypal website)."
 msgstr ""
+" Το {name} είναι ένα δωρεάν πρόσθετο για το NVDA.\n"
+"You can make a donation to its author to support further developments of this add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
 
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
-msgstr ""
+msgstr "Request for Contributions to {name}"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "List of SysTray and task bar elements"
+msgstr "Εμφανίζει λίστα με τα στοιχεία στο Χώρο Ειδοποιήσεων και τη Λωρίδα Εργασιών."
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."
+msgstr "Εμφανίζει σε Λίστα Κουμπιών τα Αντικείμενα που υπάρχουν στον Χώρο Ειδοποιήσεων πατώντας τα πλήκτρα NVDA+F11 μία φορά. Πατώντας δύο φορές εμφανίζει τις τρέχουσες διεργασίες."
 
 #~ msgid "Shows the list of buttons on the System Tray"
 #~ msgstr "Εμφανίζει τη λίστα κουμπιών στο Χώρο Ειδοποιήσεων "
