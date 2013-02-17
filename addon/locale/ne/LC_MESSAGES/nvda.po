@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: System Tray\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2012-11-01 22:43+0545\n"
+"PO-Revision-Date: 2013-01-19 18:25+0545\n"
 "Last-Translator: हिम प्रसाद गौतम \n"
 "Language-Team: Him Prasad Gautam\n"
 "Language: Nepali\n"
@@ -71,18 +71,17 @@ msgstr " {name} को योगदानका लागि अनुरोध 
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
 #: buildVars.py:13
 msgid "List of SysTray and task bar elements"
-msgstr ""
+msgstr "प्रणाली थालिमा र कार्य पट्टिमा भएका एकाईहरूलाई देखाउने छ ।"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
 #: buildVars.py:16
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
-"थाली प्रणालिमा भएका सुचीहरूलाई देखाउने छ ।  यदि दुई पटक दबाएमा कार्य पट्टीमा भएका "
-"सामाग्रीहरूलाई देखाउने छ ।"
+"नेत्रवाणि+F11 कुञ्जीलाई एक पटक दबाएमा थाली प्रणालिमा भएका सुचीहरूलाई देखाउने छ ।  यदि "
+"दुई पटक दबाएमा कार्य पट्टीमा भएका सामाग्रीहरूलाई देखाउने छ ।"
 
 #~ msgid "Shows the list of buttons on the System Tray"
 #~ msgstr "प्रणाली थालीमा उपलब्ध टाँकहरूको सुची देखाउँछ ।"

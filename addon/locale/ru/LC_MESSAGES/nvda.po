@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2013-01-07 08:59+0300\n"
+"PO-Revision-Date: 2013-02-09 20:58+0400\n"
 "Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
 "Language-Team: German <bernd_dorer@yahoo.de>\n"
 "Language: Portuguese\n"
@@ -60,14 +60,14 @@ msgid ""
 "this add-on and other free software products.\n"
 "Do you want to donate now? (you will be redirected to the Paypal website)."
 msgstr ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
+" {name} является бесплатным дополнением для NVDA.\n"
+"Вы можете сделать пожертвование автору для поддержки Дальнейшего развития "
+"этого дополнения и других бесплатных программных продуктов.\n"
+"Вы хотите пожертвовать сейчас? ;(Вы будете перенаправлены на сайт Paypal)."
 
 #: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
-msgstr "Request for Contributions to {name}"
+msgstr "Запрос Взноса для {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
