@@ -10,7 +10,7 @@ addon_info = {
 	"addon-name" : "systrayList",
 	# Add-on description
 	# TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-	"addon-summary" : _("List of SysTray and task bar elements"),
+	"addon-summary" : _("Sys Tray - list  sys tray and task bar elements"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
 	"addon-description" : _("""Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."""),
