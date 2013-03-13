@@ -8,32 +8,27 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2013-01-06 21:20+0100\n"
+"PO-Revision-Date: 2013-03-10 17:51+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "System Tray List"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Iconas na Bandexa do Sistema:"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "Lista da Barra de Tarefas"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "Iconas das aplicacións en execución na barra de tarefas"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the task bar."
@@ -41,19 +36,15 @@ msgstr ""
 "Amosa a lista de botóns na Bandexa do Sistema. Se se premeu dúas veces "
 "rápidamente, amosa os elementos na barra de tarefas."
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "Clic &Esquerdo"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "&Doble Clic esquerdo"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "Clic De&Reito"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -65,19 +56,17 @@ msgstr ""
 "desenrolos de este complemento e outros produtos de software libre.\n"
 "¿Queres doar agora? (redireccionaráseche ó sitio Web de Paypal)."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Solicitude de Contribucións para {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
-msgstr "Lista dos elementos da Bandexa do Sistema e da barra de Tarefas"
+msgid "sysTrayList - list sys tray and task bar elements"
+msgstr ""
+"sysTrayList - lista os elementos da bandexa do sistema e da barra de tarefas"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."

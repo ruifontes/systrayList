@@ -11,29 +11,25 @@ msgstr ""
 "PO-Revision-Date: 2013-01-07 11:00+0100\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
 "Language-Team: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "Elenco System Tray"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Icone nel system tray:"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "Elenco barra applicazioni"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "Icone dei programmi in esecuzione nella barra delle applicazioni"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the task bar."
@@ -41,19 +37,15 @@ msgstr ""
 "Visualizza l'elenco dei pulsanti nel system tray. Se premuto due volte, "
 "visualizza l'elenco delle applicazioni in esecuzione."
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "Click &sinistro"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "&Doppio click sinistro"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "Click dest&ro"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -65,19 +57,17 @@ msgstr ""
 "e altri prodotti gratuiti in futuro.\n"
 "Desideri donare adesso? Verrai rediretto alla pagina di pagamento Paypal."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Richiesta contributi per {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
+#, fuzzy
+msgid "sysTrayList - list sys tray and task bar elements"
 msgstr "Elenco degli elementi del System Tray e delle applicazioni"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."

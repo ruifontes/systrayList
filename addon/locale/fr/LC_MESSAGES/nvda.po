@@ -16,24 +16,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "Liste de la Zone de Notification"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Icônes dans la zone de notification :"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "Liste de la barre des Tâches"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "Icônes des applications s'exécutants dans la barre des tâches"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the task bar."
@@ -42,19 +37,15 @@ msgstr ""
 "rapidement, affiche les applications en cour d'exécution dans la barre des "
 "tâches."
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "Clique &Gauche"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "&double clique gauche"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "&click droit"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -66,20 +57,18 @@ msgstr ""
 "ultérieurs de ce module et d'autres logiciels gratuits.\n"
 "Voulez-vous donner maintenant ? (Vous serez redirigé vers le site Paypal)."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Appel à contribution pour {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
+#, fuzzy
+msgid "sysTrayList - list sys tray and task bar elements"
 msgstr ""
 "Liste des éléments de la zone de notification et de la barre des tâches"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."

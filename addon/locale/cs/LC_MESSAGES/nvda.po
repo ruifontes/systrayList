@@ -17,24 +17,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.3\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "Seznam systémové plochy"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Ikony na systémové ploše"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "Seznam úlohové lišty"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "Ikony spuštěných aplikací na úlohové liště"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the task bar."
@@ -42,19 +37,15 @@ msgstr ""
 "Zobrazí seznam tlačítek na systémové ploše. Při rychlém stisknutí dvakrát za "
 "sebou zobrazí položky na úlohové liště."
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "&Levý klik"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "Levý &dvojklik"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "&Pravý klik"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -66,19 +57,16 @@ msgstr ""
 "dalších svobodných produktů.\n"
 "Chcete teď přispět? (budete přesměrováni na stránku Paypal)."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Požadavek na přispění pro {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
+msgid "sysTrayList - list sys tray and task bar elements"
 msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 #, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "

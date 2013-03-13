@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Complemento Lista da área de notificação para NVDA\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2013-01-11 11:59-0300\n"
+"PO-Revision-Date: 2013-03-10 18:38-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever92000@yahoo.com.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil <clever92000@yahoo.com.br>\n"
 "Language: pt_BR\n"
@@ -18,40 +18,31 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "Lista da área de notificação"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Ícones da área de notificação"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "Lista da barra de tarefas"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "Ícones dos aplicativos em execução na barra de tarefas"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
 msgid "Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar."
 msgstr "Mostra a lista de botões na área de notificação. Se pressionada duas vezes rapidamente, mostra os itens na barra de tarefas."
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "&Clique Esquerdo"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "Duplo Clique &Esquerdo"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "Clique &Direito"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of this add-on and other free software products.\n"
@@ -61,19 +52,16 @@ msgstr ""
 "Você pode fazer uma doação para seu autor para garantir suporte a maiores desenvolvimentos deste complemento e outros softwares gratuitos.\n"
 "Deseja doar agora? (você será redirecionado para a página web do Paypal website)."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Solicitação de contribuição para {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
-msgstr "Lista de itens da área de notificação e da barra de tarefas"
+msgid "sysTrayList - list sys tray and task bar elements"
+msgstr "lista da área de notificação - Lista os elementos da área de notificação e da barra de tarefas"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."
 msgstr "Mostra a lista de botões da área de notificação com NVDA+F11 pressionada uma vez, duas vezes mostra a lista de tarefas executando."
 

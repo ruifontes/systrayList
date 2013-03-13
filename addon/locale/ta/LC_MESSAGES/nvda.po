@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: systraylist\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2013-01-24 19:50+0530\n"
+"PO-Revision-Date: 2013-03-09 21:03+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: Tamil <td.dinkar@gmail.com>\n"
 "Language: \n"
@@ -19,40 +19,31 @@ msgstr ""
 "X-Poedit-Language: Tamil\n"
 "X-Poedit-Country: India\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "கணினித் தட்டுப் பட்டியல்"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "கணினித் தட்டில் இருக்கும் படவுருக்கள்"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "பணிப்பட்டை பட்டியல்"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "பணிப்பட்டையில் ஓடிக் கொண்டிருக்கும் பயன்பாடுகளின் படவுருக்கள்"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
 msgid "Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar."
 msgstr "கணினித் தட்டில் இருக்கும் பொத்தான்களின் வரிசைப் பட்டியலைக் காண்பிக்கும். இருமுறை அழுத்தினால், பணிப்பட்டையில் இருக்கும் உருப்படிகளின் வரிசைப் பட்டியலைக் காண்பிக்கும். "
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "இடது சொடுக்கு"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "இடது இரட்டை சொடுக்கு"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "வலது சொடுக்கு"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of this add-on and other free software products.\n"
@@ -62,19 +53,16 @@ msgstr ""
 "இந்தக் கூட்டுறுப்பையும், பிற மென்பொருட்களையும் உருவாக்க, படைப்பாளருக்கு நன்கொடையளிக்கலாம்.\n"
 "இப்பொழுது நன்கொடை அளிக்க விரும்புகிறீர்களா? (பே பால் இணையதளத்திற்கு தாங்கள் இட்டுச் செல்லப்படுவீர்கள்)."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "{name} கூட்டுறுப்பிற்கு பங்களிக்க வேண்டுகோள்"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
+msgid "sysTrayList - list sys tray and task bar elements"
 msgstr "கணினித் தட்டு/பணிப்பட்டை  உருப்படிகளின் பட்டியல்"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."
 msgstr "என்விடிஏ+f11 விசையை ஒரு முறை அழுத்தினால், கணினித் தட்டில் இருக்கும் பொத்தான்களின் பட்டியலை காண்பிக்கும். இரு முறை அழுத்தினால், பணிப்பட்டையில் ஓடிக் கொண்டிருக்கும் பயன்பாடுகளின் உருவங்களின் பட்டியலைக் காண்பிக்கும்."
 

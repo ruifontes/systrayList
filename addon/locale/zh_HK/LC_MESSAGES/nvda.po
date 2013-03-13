@@ -17,42 +17,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "系統匣圖示"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "系統匣常駐程式的圖示:"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "工作列圖示"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "工作列應用程式的圖示"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the task bar."
 msgstr "列出系統匣的圖示, 連按兩次則列出工作列的圖示"
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "滑鼠左擊(&L)"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "滑鼠左擊兩下(&D)"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "滑鼠右擊(&R)"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -63,19 +54,16 @@ msgstr ""
 "你可以向組件的開發者作出捐款, 支持他們改良這個組件甚或開發更多免費程式.\n"
 "你要現在作出捐款嗎? (若回答是的話, 你的網頁瀏覽器會打開 Paypal 網站)."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "請協助 {name} 的發展"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
+msgid "sysTrayList - list sys tray and task bar elements"
 msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 #, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "

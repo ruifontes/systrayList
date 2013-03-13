@@ -16,64 +16,63 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "Systémový panel"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "Položky na systémovom panely:"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "panel úloh"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "Ikony na panely úloh"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
-msgid "Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar."
-msgstr "Zobrazí v dialógu ikony na systémovom panely. Stlačené dvakrát zobrazí položky na panely úloh."
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the task bar."
+msgstr ""
+"Zobrazí v dialógu ikony na systémovom panely. Stlačené dvakrát zobrazí "
+"položky na panely úloh."
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "ľ&avý klik"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "Ľavý &dvojklik"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "P&ravý klik"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of this add-on and other free software products.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
 "Do you want to donate now? (you will be redirected to the Paypal website)."
 msgstr ""
 "Doplnok  {name} Je zdarma.\n"
-"Môžete finančne podporiť autora, aby ste pomohli pri ďalšom vývoji doplnku a iných bezplatných programov.\n"
+"Môžete finančne podporiť autora, aby ste pomohli pri ďalšom vývoji doplnku a "
+"iných bezplatných programov.\n"
 "Chcete prispieť teraz? (Budete presmerovaný na stránku Paypal)."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Žiadosť o príspevok pre {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
+#, fuzzy
+msgid "sysTrayList - list sys tray and task bar elements"
 msgstr "Systray list"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
-msgid "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."
-msgstr "Skratkou NVDA+F11 zobrazíte v dialógu ikony na systémovom panely. Stlačené dvakrát zobrazí položky na panely úloh."
+msgid ""
+"Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
+"running task lists."
+msgstr ""
+"Skratkou NVDA+F11 zobrazíte v dialógu ikony na systémovom panely. Stlačené "
+"dvakrát zobrazí položky na panely úloh."
 
 #~ msgid "Shows the list of buttons on the System Tray"
 #~ msgstr "Zobrazí položky na systémovom panely"

@@ -16,24 +16,19 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "System Tray List"
 msgstr "システムトレイ一覧"
 
-#: addon/globalPlugins/systrayList/__init__.py:69
 msgid "Icons on the System Tray:"
 msgstr "システムトレイのアイコン："
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Task Bar List"
 msgstr "タスクバー一覧"
 
-#: addon/globalPlugins/systrayList/__init__.py:76
 msgid "Icons of running applications in the task bar"
 msgstr "タスクバーの実行中のアプリケーションのアイコン"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:94
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the task bar."
@@ -41,19 +36,15 @@ msgstr ""
 "システムトレイのボタンの一覧を表示します。すばやく2回押すとタスクバーの項目の"
 "一覧を表示します。"
 
-#: addon/globalPlugins/systrayList/__init__.py:119
 msgid "&Left Click"
 msgstr "左クリック(&L)"
 
-#: addon/globalPlugins/systrayList/__init__.py:122
 msgid "Left &Double Click"
 msgstr "左ダブルクリック(&D)"
 
-#: addon/globalPlugins/systrayList/__init__.py:125
 msgid "&Right Click"
 msgstr "右クリック(&R)"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -64,20 +55,20 @@ msgstr ""
 "このアドオンや他のフリーソフトの開発に対する寄付を受け付けています。\n"
 "寄付をしますか？(ペイパルのサイトに移動します)"
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "{name} への寄付のご案内"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
-msgid "List of SysTray and task bar elements"
+#, fuzzy
+msgid "sysTrayList - list sys tray and task bar elements"
 msgstr "システムトレイとタスクバーの要素リスト"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
-msgstr "NVDA+F11を1回押すとシステムトレイのボタン一覧を表示します。2回押すと実行中のタスク一覧を表示します。"
+msgstr ""
+"NVDA+F11を1回押すとシステムトレイのボタン一覧を表示します。2回押すと実行中の"
+"タスク一覧を表示します。"
