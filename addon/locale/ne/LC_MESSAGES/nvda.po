@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: System Tray\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2013-02-11 14:27+0545\n"
-"Last-Translator: Him Prasad Gautam\n"
+"PO-Revision-Date: 2013-03-17 19:58+0545\n"
+"Last-Translator: \n"
 "Language-Team: Him Prasad Gautam\n"
 "Language: Nepali\n"
 "MIME-Version: 1.0\n"
@@ -59,9 +59,8 @@ msgstr " {name} को योगदानका लागि अनुरोध 
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#, fuzzy
 msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "प्रणाली थालिमा र कार्य पट्टिमा भएका एकाईहरूलाई देखाउने छ ।"
+msgstr "प्रणाली थाली सुची- प्रणाली थालिमा र कार्य पट्टिमा भएका एकाईहरूलाई देखाउने छ ।"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
