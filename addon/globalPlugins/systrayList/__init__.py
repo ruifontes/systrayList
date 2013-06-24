@@ -122,7 +122,7 @@ class SystrayListDialog(wx.Dialog):
 		leftDoubleClickButton = wx.Button(self, leftDoubleClickButtonID, _("Left &Double Click"))
 		buttonsSizer.Add(leftDoubleClickButton)
 		rightClickButtonID = wx.NewId()
-		rightClickButton = wx.Button(self, leftClickButtonID, _("&Right Click"))
+		rightClickButton = wx.Button(self, rightClickButtonID, _("&Right Click"))
 		buttonsSizer.Add(rightClickButton)
 		cancelButton = wx.Button(self, wx.ID_CANCEL)
 		buttonsSizer.Add(cancelButton)
@@ -131,7 +131,7 @@ class SystrayListDialog(wx.Dialog):
 		# that performs the passed events. Functional programming at its best.
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP), id=leftClickButtonID)
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP, winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP), id=leftDoubleClickButtonID)
-		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_RIGHTDOWN, winUser.MOUSEEVENTF_RIGHTUP), id=leftClickButtonID)
+		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_RIGHTDOWN, winUser.MOUSEEVENTF_RIGHTUP), id=rightClickButtonID)
 		mainSizer.Fit(self)
 		self.SetSizer(mainSizer)
 		rightClickButton.SetDefault()
