@@ -3,6 +3,7 @@
 # Authors:
 # Rui Fontes <rui.fontes@tiflotecnia.com>
 # Rui Batista <ruiandrebatista@gmail.com>
+# Masamitsu Misono <misono@nvsupport.org>
 # Shortcut: NVDA+f11
 
 import ctypes
