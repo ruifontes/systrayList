@@ -29,7 +29,7 @@ import os.path
 pythonSources = [os.path.join("addon", "globalPlugins", "systrayList", "*.py"), os.path.join("addon", "installTasks.py")]
 
 # Files that contain strings for translation. Usually your python sources
-i18nSources = pythonSources + ["buildVars.py"]
+i18nSources = pythonSources + ["buildVars.py", "docHandler.py"]
 
 # Files that will be ignored when building the nvda-addon file
 # Paths are relative to the addon directory, not to the root directory of your addon sources.
