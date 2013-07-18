@@ -92,6 +92,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			gui.mainFrame.postPopup()
 
 	# Documentation
+	# Translators: Input help mode message for system tray list command.
 	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar.")
 
 	__gestures={
@@ -117,12 +118,15 @@ class SystrayListDialog(wx.Dialog):
 		# Buttons are in a horizontal row
 		buttonsSizer = wx.BoxSizer(wx.HORIZONTAL)
 		leftClickButtonID = wx.NewId()
+		# Translators: A button on the system tray list dialog to perform left mouse click.
 		leftClickButton = wx.Button(self, leftClickButtonID, _("&Left Click"))
 		buttonsSizer.Add(leftClickButton)
 		leftDoubleClickButtonID = wx.NewId()
+		# Translators: A button in the system tray list dialog to perform left double mouse click.
 		leftDoubleClickButton = wx.Button(self, leftDoubleClickButtonID, _("Left &Double Click"))
 		buttonsSizer.Add(leftDoubleClickButton)
 		rightClickButtonID = wx.NewId()
+		# Translators: A button in the system tray list dialog to perform right mouse click.
 		rightClickButton = wx.Button(self, rightClickButtonID, _("&Right Click"))
 		buttonsSizer.Add(rightClickButton)
 		cancelButton = wx.Button(self, wx.ID_CANCEL)
