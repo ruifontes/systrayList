@@ -30,7 +30,7 @@ msgstr "Ikony na panely úloh"
 
 #. Documentation
 msgid "Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar."
-msgstr "Zobrazí v dialógu ikony na systémovom panely. Stlačené dvakrát zobrazí položky na panely úloh."
+msgstr "V dialógu zobrazí ikony na systémovom panely. Stlačené dvakrát zobrazí položky na panely úloh."
 
 msgid "&Left Click"
 msgstr "ľ&avý klik"
@@ -61,7 +61,7 @@ msgstr "sysTrayList - zobrazí položky na systémovej lište a panely úloh"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
 msgid "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."
-msgstr "Skratkou NVDA+F11 zobrazíte v dialógu ikony na systémovom panely. Stlačené dvakrát zobrazí položky na panely úloh."
+msgstr "Skratkou NVDA+F11 zobrazíte v dialógu ikony na systémovom panely. Stlačené dvakrát zobrazíte položky na panely úloh."
 
 #~ msgid "Shows the list of buttons on the System Tray"
 #~ msgstr "Zobrazí položky na systémovom panely"
