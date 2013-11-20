@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2013-02-09 20:58+0400\n"
-"Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
+"PO-Revision-Date: 2013-11-10 01:00+0400\n"
+"Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
 "Language-Team: German <bernd_dorer@yahoo.de>\n"
 "Language: Portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 msgid "System Tray List"
 msgstr "Список системного трея"
@@ -23,10 +23,10 @@ msgid "Icons on the System Tray:"
 msgstr "Значки на системном трее"
 
 msgid "Task Bar List"
-msgstr "Список значков на панеле задач"
+msgstr "Список значков на панели задач"
 
 msgid "Icons of running applications in the task bar"
-msgstr "Значки запущеных приложений на панеле задач"
+msgstr "Значки запущеных приложений на панели задач"
 
 #. Documentation
 msgid ""
@@ -34,7 +34,7 @@ msgid ""
 "shows the items on the task bar."
 msgstr ""
 "Показывает список значков на системном трее. Если нажать дважды быстро, "
-"показывает элементы на панеле задач."
+"показывает элементы на панели задач."
 
 msgid "&Left Click"
 msgstr "Левый клик"
@@ -61,9 +61,8 @@ msgstr "Запрос Взноса для {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#, fuzzy
 msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "Список значков на системном трее и на панеле задач"
+msgstr "sysTrayList - Список значков на системном трее и на панели задач"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -72,7 +71,7 @@ msgid ""
 "running task lists."
 msgstr ""
 "Показывает список значков на системном трее. Если нажать дважды быстро, "
-"показывает элементы на панеле задач."
+"показывает элементы на панели задач."
 
 #~ msgid "Shows the list of buttons on the System Tray"
 #~ msgstr "Показывает список кнопок на системном трее"
