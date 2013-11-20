@@ -19,6 +19,9 @@ from api import getFocusObject
 import winUser
 import gui
 import addonHandler
+_addonDir = os.path.join(os.path.dirname(__file__), "..", "..").decode("mbcs")
+_curAddon = addonHandler.Addon(_addonDir)
+_addonSummary = _curAddon.manifest['summary']
 addonHandler.initTranslation()
 
 def mouseEvents(location, *events):
@@ -31,6 +34,7 @@ def mouseEvents(location, *events):
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+	scriptCategory = unicode(_addonSummary)
 
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()

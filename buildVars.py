@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 # Build customizations
 # Change this file instead of sconstruct or manifest files, whenever possible.
 
@@ -6,21 +8,24 @@ _ = lambda x : x
 
 # Add-on information variables
 addon_info = {
-	# add-on Name
+	# for previously unpublished addons, please follow the community guidelines at:
+	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
+	# add-on Name, internal for nvda
 	"addon-name" : "systrayList",
-	# Add-on description
-	# TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+	# Add-on summary, usually the user visible name of the addon.
+	# Translators: Summary for this add-on to be shown on installation and add-on information.
 	"addon-summary" : _("sysTrayList - list sys tray and task bar elements"),
 	# Add-on description
-	# Translators: Long description to be shown for this add-on on installation and add-on information
+	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon-description" : _("""Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."""),
 	# version
 	"addon-version" : "2.0-dev",
 	# Author(s)
-	"addon-author" : "Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, NVDA Community Contributors",
+	"addon-author" : u"Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, NVDA Community Contributors",
 	# URL for the add-on documentation support
 	"addon-url" : "http://addons.nvda-project.org"
 }
+
 
 import os.path
 
