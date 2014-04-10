@@ -67,6 +67,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self._createSystrayList()
 		else:
 			self._createTaskList()
+	# Translators: Input help mode message for system tray list command.
+	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar.")
 
 	def _createSystrayList(self):
 		path = ("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
@@ -94,10 +96,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self._systrayListDialog.Show()
 			self._systrayListDialog.Centre()
 			gui.mainFrame.postPopup()
-
-	# Documentation
-	# Translators: Input help mode message for system tray list command.
-	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar.")
 
 	__gestures={
 		"kb:NVDA+f11": "createList",
