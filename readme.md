@@ -1,7 +1,8 @@
-[[!meta title="systrayList"]]
+# systrayList #
 
-* Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista <ruiandrebatista at gmail.com>, NVDA Community contributors
-* Download: [version 2.0-dev][1]
+*   Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista <ruiandrebatista at gmail.com>, NVDA Community contributors
+*   Download [stable version][1]
+*   Download [development version][2]
 
 This plugin allows you to read and activate icons on the system tray or the task bar, within a list box, for easy access and interaction to those items. With the plugin installed, press NVDA+f11 once for this dialog to pop-up with system tray elements, and press twice to display task bar elements, which are the currently running applications.
 
@@ -37,3 +38,5 @@ Note that you can access the windows system tray in any screenreader software us
 * Initial Release
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st
+
+[2]: http://addons.nvda-project.org/files/get.php?file=st-dev
