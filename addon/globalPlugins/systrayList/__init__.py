@@ -38,14 +38,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
-			# The dialog instance is initialy None.
-			# We only create it on the first time the script is called.
+		# The dialog instance is initially None.
+		# We only create it the first time the script is called.
 		self._systrayListDialog = None
 
 	def __del__(self):
-		# Destroy the window on plugin deletion just for making sure it goes away
-		# (to prevent strange things on plugin realoading)
-		if self._systrayListDialog is not None:
+		# Destroy the window on plugin deletion just to make sure it goes away
+		# (to prevent strange things when reloading plugin)
+		if not self._systrayListDialog:
 			self._systrayListDialog.Destroy()
 
 	def _findAccessibleLeafsFromWindowClassPath(self, windowClassPath):
@@ -86,9 +86,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# If this is the first call create the Window
 		if not self._systrayListDialog:
 			self._systrayListDialog = SystrayListDialog(gui.mainFrame, objects)
-		# Update the list on the dialog
+		# Update the list in the dialog
 		self._systrayListDialog.updateSystray(objects, title, label)
-		# Show the window if it is Hiden
+		# Show the window if it is hidden
 		if not self._systrayListDialog.IsShown():
 			gui.mainFrame.prePopup()
 			self._systrayListDialog.Show()
