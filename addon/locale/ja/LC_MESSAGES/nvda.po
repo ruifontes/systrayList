@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2013-01-18 16:52+0900\n"
+"PO-Revision-Date: 2013-06-17 15:46+0900\n"
 "Last-Translator: Takuya Nishimoto <nishimotz@gmail.com>\n"
 "Language-Team: NVDA Japanese Team <nvdajp@nvda.jp>\n"
 "Language: Japanese\n"
@@ -60,9 +60,8 @@ msgstr "{name} への寄付のご案内"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#, fuzzy
 msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "システムトレイとタスクバーの要素リスト"
+msgstr "sysTrayList システムトレイとタスクバーの要素の一覧"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
