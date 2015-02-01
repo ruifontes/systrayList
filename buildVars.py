@@ -11,19 +11,19 @@ addon_info = {
 	# for previously unpublished addons, please follow the community guidelines at:
 	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
 	# add-on Name, internal for nvda
-	"addon-name" : "systrayList",
+	"addon_name" : "systrayList",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on to be shown on installation and add-on information.
-	"addon-summary" : _("sysTrayList - list sys tray and task bar elements"),
+	"addon_summary" : _("sysTrayList - list sys tray and task bar elements"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-	"addon-description" : _("""Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."""),
+	"addon_description" : _("""Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."""),
 	# version
-	"addon-version" : "1.5",
+	"addon_version" : "1.5",
 	# Author(s)
-	"addon-author" : u"Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, NVDA Community Contributors",
+	"addon_author" : u"Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, NVDA Community Contributors",
 	# URL for the add-on documentation support
-	"addon-url" : "http://addons.nvda-project.org",
+	"addon_url" : "http://addons.nvda-project.org",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
 }
