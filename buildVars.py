@@ -23,7 +23,7 @@ addon_info = {
 	# Author(s)
 	"addon-author" : u"Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, NVDA Community Contributors",
 	# URL for the add-on documentation support
-	"addon-url" : "http://addons.nvda-project.org"
+	"addon-url" : "http://addons.nvda-project.org",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
 }
