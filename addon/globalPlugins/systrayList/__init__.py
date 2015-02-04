@@ -42,11 +42,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# We only create it the first time the script is called.
 		self._systrayListDialog = None
 
-	def __del__(self):
+	def terminate(self):
 		# Destroy the window on plugin deletion just to make sure it goes away
 		# (to prevent strange things when reloading plugin)
-		if not self._systrayListDialog:
-			self._systrayListDialog.Destroy()
+		try:
+			if not self._systrayListDialog:
+				self._systrayListDialog.Destroy()
+		except AttributeError:
+			pass
 
 	def _findAccessibleLeafsFromWindowClassPath(self, windowClassPath):
 		# Create a list of (obj.name, obj.location)
