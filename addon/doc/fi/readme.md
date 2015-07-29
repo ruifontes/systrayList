@@ -1,13 +1,15 @@
 # Ilmoitusalueen kuvakkeet #
 
-* Tekijät: Rui Fontes, Rui Batista ja NVDA-yhteisö
-* Lataa: [versio 2.0-dev][1]
+*   Tekijät: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com> ja muut NVDA-yhteisön jäsenet
+*   Lataa [vakaa versio][1]
+
 
 Tämän lisäosan avulla on mahdollista lukea ja aktivoida ilmoitusalueen ja
-tehtäväpalkin kuvakkeita helppokäyttöisestä listaruudusta. Avaa
-ilmoitusalueen painikkeet näyttävä valintaikkuna painamalla kerran NVDA+F11
-ja tehtäväpalkin kuvakkeet, jotka ovat käynnissä olevia sovelluksia,
-näyttävä painamalla kahdesti samaa komentoa.
+tehtäväpalkin kuvakkeita helppokäyttöisestä listaruudusta. Pääset
+ilmoitusalueen painikkeet näyttävään valintaikkunaan painamalla kerran
+NVDA+F11 ja tehtäväpalkin kuvakkeisiin, jotka ovat käynnissä olevia
+sovelluksia, painamalla kahdesti samaa komentoa.
 
 Huom: Windowsin ilmoitusalueelle pääsee mitä tahansa ruudunlukuohjelmaa
 käytettäessä Windows+B-näppäinkomennolla ja tehtäväpalkkiin painamalla
@@ -17,9 +19,11 @@ välttämisessä, joita saattaa ponnahdella näkyviin liikuttaessa
 ilmoitusalueella nuolinäppäinten avulla.
 
 
-## Muutokset versiossa 2.0-dev ##
+## Muutokset versiossa 1.5, 1.2.2015 ##
 
 * Korjattu vasemman/oikean hiiren painikkeen napsautuksen toiminto.
+* Ohje on käytettävissä lisäosien hallinnasta.
+* Käännöksiä päivitetty.
 
 ## Muutokset versiossa 1.4 - 19.1.2013 ##
 
@@ -48,6 +52,7 @@ ilmoitusalueella nuolinäppäinten avulla.
 
 * Ensimmäinen versio
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

@@ -1,14 +1,15 @@
 # systrayList #
 
-* Geliştiriciler: Rui Fontes, Rui Batista, NVDA topluluğundaki çeşitli
-  arkadaşlar
-* İndir: [versiyon 2.0-dev][1]
+*   Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, NVDA Community contributors
+*   Download [stable version][1]
 
-Bu eklenti, sistem tepsisindeki ve görev çubuğundaki simgeleri liste olarak
-görüntüler ve bu simgelerle etkileşim kurulmasını sağlar. Eklentiyi
-yükledikten sonra, NVDA+f11 tuşlarına bir kez bastığınızda sistem
-tepsisindeki simgeler, iki kez bastığınızda ise görev çubuğundakiler yani
-çalışan uygulamaların simgeleri görüntülenecektir.
+
+This plugin allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the plugin installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 Kullandığınız ekran okuyuculardan bağımsız olarak sistem tepsisine ulaşmak
 için Windows+B, görev çubuğundaki simgeler için Windows+T tuşlarını
@@ -18,9 +19,11 @@ sistem tepsisinde normal yollarla dolaşırken açılabilecek ipucu iletişim
 kutularıyla karşılaşılmaması için geliştirilmiştir.
 
 
-## 2.0-dev için değişiklikler ##
+## Changes for 1.5 2015-02-01 ##
 
 * Sağ / sol klik eylemi düzeltildi.
+* Add-on help is now available from add-ons manager.
+* Translation updates.
 
 ## 1.4 için değişiklikler - 2013-01-19 ##
 
@@ -52,6 +55,7 @@ kutularıyla karşılaşılmaması için geliştirilmiştir.
 
 * İlk sürüm
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

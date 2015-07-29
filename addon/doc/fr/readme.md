@@ -1,14 +1,17 @@
 # Liste des Icônes de la Zone de Notification #
 
-* Auteurs : Rui Fontes, Rui Batista, contributeurs de la communauté NVDA
-* Télécharger: [version 2.0-dev][1]
+*   Auteurs : Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, Contributeurs de la communauté de NVDA
+*   Télécharger [version stable][1]
 
-Ce module complémentaire rend possible la lecture et l'activation des icônes
-de la zone de notification ou de la barre des tâches avec une zone de liste
-pour un accès facil à ces éléments. Avec le module complémentaire installé,
-appuyez sur NVDA+f11 une fois pour afficher la liste des icônes de la zone
-de notification, deux fois pour la liste des applications en cours
-d'exécution dans la barre des tâches dans cette boîte de dialogue.
+
+Ce module complémentaire vous permet de lire et d'activer les icônes sur la
+zone de notification ou la barre des tâches dedans d'une zone de liste pour
+faciliter l'accès et l'interaction de ces éléments. Avec le module
+complémentaire installé, appuyer sur NVDA+f11 une fois pour cette fenêtre de
+la boîte de dialogue avec les éléments de la zone de notification, et
+appuyer deux fois pour afficher les éléments de la barre des tâches qui sont
+les applications en cours d'exécution.
 
 Notez que vous pouvez accéder à la zone de notification avec n'importequel
 lecteur d'écran en appuyant sur windows+b, et à la barre des tâches avec une
@@ -18,9 +21,12 @@ bules d'aides qui s'affichent lorsqu'on parcourt la zone de notification au
 clavier.
 
 
-## Changements pour la version 2.0-dev - ##
+## Changements pour la version 1.5 - 01/02/2015 ##
 
 * Correction de l'action clique gauche/droit.
+* L'aide du module complémentaire est disponible à partir du Gestionnaire de
+  modules complémentaires.
+* Mises à jour des traductions.
 
 ## Changements pour la version 1.4 - 19/01/2013 ##
 
@@ -50,6 +56,7 @@ clavier.
 
 * Première version
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

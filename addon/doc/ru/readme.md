@@ -1,24 +1,29 @@
 # systrayList #
 
-* Авторы: Rui Fontes, Rui Batista, Учасники Сообщества NVDA
-* Загрузить: [версию 2.0-dev][1]
-
-This plugin makes possible to read and activate icons on the system tray or
-the task bar, within a list box, for easy access and interaction to those
-items. With the plugin installed, press NVDA+f11 once for this dialog to
-pop-up with system tray elements, and press twice to pop it up with task bar
-elements, which are the currently running applications.
-
-Note that you can access the windows system tray in any screenreader
-software using the windows+b shortcut key, and the task bar by pressing tab
-from the start button. This plugin is only useful to make the transition
-from JAWS for Windows smoother and to avoid some tooltips that may pop-up
-when cycling through the system tray with the windows keyboard means.
+*   Авторы: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, участники сообщества NVDA
+*   Загрузить [стабильную версию][1]
 
 
-## Изменения для 2.0-dev ##
+Это дополнение предоставляет окно со списком значков области уведомлений или
+панели задач, для удобного с ними взаимодействия. После установки
+дополнения, нажмите NVDA+f11 однократно для вызова окна со списком значков
+области уведомлений или дважды быстро для вызова списка значков панели
+задач, которые в данный момент являются запущенными приложениями.
+
+Обратите внимание, что вы можете получить доступ к области уведомлений
+Windows с любой программой экранного доступа используя комбинацию клавиш
+windows+b и к панели задач нажав клавишу tab от кнопки "Пуск". Это
+дополнение полезно для гладкого перехода с JAWS for Windows и избавляет от
+всплывающих подсказок в области уведомлений, которые могут сообщаться при
+использовании системных комбинаций клавиш.
+
+
+## Изменения в версии 1.5 2015-02-01 ##
 
 * Исправлено действие левого/правого щелчка.
+* Справка дополнения доступна в диспетчере дополнений.
+* Обновления перевода.
 
 ## Изменения в версии1.4 - 2013-01-19 ##
 
@@ -48,6 +53,7 @@ when cycling through the system tray with the windows keyboard means.
 
 * Первый публичный релиз
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

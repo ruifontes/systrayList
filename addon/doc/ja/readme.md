@@ -1,7 +1,9 @@
 # systrayList #
 
-* 作者: Rui Fontes, Rui Batista, NVDA Community contributors
-* Download: [version 2.0-dev][1]
+*   Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, NVDA Community contributors
+*   ダウンロード [安定版][1]
+
 
 このプラグインはシステムトレイとタスクバーのアイコンをリストボックスに並べて、
 読みあげや選択操作をしやすくするためのものです。
@@ -13,9 +15,11 @@
 またキーボードでシステムトレイの項目を移動するときにツールチップが開くことを防ぎます。
 
 
-## 2.0-dev での変更 - 2013-01-19 ##
+## 1.5 での変更 - 2015-02-01 ##
 
 * 左クリック、右クリックのアクションを修正しました。
+* アドオン ヘルプはアドオン マネージャから利用できます
+* 翻訳の更新
 
 ## 1.4 での変更 - 2013-01-19 ##
 
@@ -25,24 +29,24 @@
 * 新しい翻訳：アラビア語、ブルガリア語、オランダ語、フィンランド語、ガリシア語、ギリシャ語、
   ハンガリー語、イタリア語、日本語、韓国語、ネパール語、ノルウェー語、ポーランド語、ポルトガル語(ブラジル)、ロシア語、スロバキア語、タミル語、繁体字中国語(香港)。
 
-## Changes for 1.3 - 2012-05-25 ##
+## 1.3での変更　- 2012-05-25 ##
 
-* Converted to an add-on package
-* French and Turkish Translations.
+* アドオンパッケージに変換しました。
+* フランス語とトルコ語の翻訳。
 
-## Changes for  1.2 - 2012-04.25 ##
+## 1.2での変更 - 2012-04.25 ##
 
-* Spanish and German translations. Thanks to all that contributed.
+* スペイン語とドイツ語の翻訳。貢献者に感謝いたします。
 
-## Changes for 1.1 - 2012-03-20 ##
+## 1.1での変更 - 2012-03-20 ##
 
-* Corrected a bug that was making it impossible to use the plugin when a
-  gettext translation is not available
+* gettext translationが利用できない時に、プラグインを使用できないバグを修正しました。
 
-## Changes for 1.0 - 2012-03-19 ##
+## バージョン1.0 - 2012-03-19 ##
 
-* Initial Release
+* 最初のバージョン
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

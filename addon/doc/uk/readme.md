@@ -1,15 +1,15 @@
 # systrayList #
 
-* Автори: Rui Fontes, Rui Batista та учасники спільноти NVDA
-* Завантажити: [versiя 2.0-dev][1]
+*   Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, NVDA Community contributors
+*   Download [stable version][1]
 
-Цей плагін робить можливими читання та активацію іконок на системній панелі
-та на панелі завдань, які представлені у вигляді списку, для легкого доступу
-до цих елементів та інтерактивної взаємодії з ними. Якщо плагін встановлено,
-натисніть nvda+f11 один раз, щоб відкрити діалог зі списком елементів
-системної панелі, або ж двічі, щоб відкрити діалог зі списком елементів
-панелі завдань, де представлені програми, запущені станом на поточний
-момент.
+
+This plugin allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the plugin installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 Зверніть увагу, що ви можете отримати доступ до системної панелі, натиснувши
 комбінацію клавіш Windows+b, використовуючи будь-яку програму екранного
@@ -20,9 +20,11 @@
 стандартних клавіш Windows.
 
 
-## Зміни у версії 2.0-dev ##
+## Changes for 1.5 2015-02-01 ##
 
 * Скоректовано дію лівого/правого кліка.
+* Add-on help is now available from add-ons manager.
+* Translation updates.
 
 ## Зміни у версії 1.4 - 2013-01-19 ##
 
@@ -53,6 +55,7 @@
 
 * Перший реліз
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

@@ -1,7 +1,9 @@
 # systrayLijst #
 
-* Auteurs: Rui Fontes, Rui Batista, bijdragers uit de NVDA gemeenschap
-* Download: [versie 2.0-dev][1]
+*   Auteurs: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, bijdragers uit de NVDA gemeenschap
+*   Download [stabiele versie][1]
+
 
 Met deze add-on kunt u iconen in het systeemvak en op de taakbalk lezen en
 activeren. Om er gemakkelijk mee te kunnen werken, worden de iconen in een
@@ -15,9 +17,11 @@ de Start knop focus heeft. Deze add-on helpt JAWS gebruikers over te stappen
 op NVDA en voorkomt het openklappen van een aantal tooltips.
 
 
-## Veranderingen voor 2.0-dev ##
+## Veranderingen voor 1.5 2015-02-01 ##
 
 * De actie voor links/rechhts klikken is gecorrigeerd.
+* Add-on help is nu beschikbaar vanuit add-ons beheren.
+* Vertalingen bijgewerkt.
 
 ## Veranderingen voor 1.4 - 19 januari 2013 ##
 
@@ -47,6 +51,7 @@ op NVDA en voorkomt het openklappen van een aantal tooltips.
 
 * Eerste versie.
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

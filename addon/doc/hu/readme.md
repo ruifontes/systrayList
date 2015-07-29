@@ -1,11 +1,14 @@
 # Rendszertálca-kilistázó #
 
-* Fejlesztők: Rui Fontes, Rui Batista, NVDA közreműködők
-* Letöltés: [2.0-dev verzió][1]
+*   Készítők: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, NVDA közreműködők
+*   Letöltés [stabil verzió][1]
 
-Ezzel a kiegészítővel egy listába gyűjthetőek a rendszertálca ikonjai. A
-kiegészítő telepítése után az NVDA+f11 billentyű használható. Kétszeri gyors
-lenyomásra az épp futó alkalmazások listája hívható elő.
+
+Ezzel a kiegészítővel egy listába gyűjthetőek a rendszertálca és a futó
+alkalmazások ikonjai. A kiegészítő telepítése után az NVDA+f11 billentyű
+egyszeri megnyomására a rendszertálca ikonjai, kétszeri gyors lenyomásra az
+épp futó alkalmazások listája hívható elő.
 
 A rendszertálca bármely képernyőolvasóval a windows+b billentyűparanccsal
 elérhető. Ez a kiegészítő a Jaws for Windows képernyőolvasó programot
@@ -13,9 +16,11 @@ használóknak segíthet, valamint az esetenként felbukkanó eszköztippek is
 kikerülhetőek.
 
 
-## A 2.0-dev verzió változásai ##
+## Verzió 1.5 - 2015-02-01 ##
 
 * A bal és jobbegérgombokkal való műveletvégzés javítása.
+* A kiegészítő súgója már elérhető a Bővítménykezelőben.
+* Frissített fordítások
 
 ## Verzió 1.4 -2013-01-19 ##
 
@@ -23,7 +28,7 @@ kikerülhetőek.
 * Támogatás kérésének hozzáadása a telepítőhöz
 * Futó allkalmazások listájának hozzáadása
 * Új nyelvek: Arab, Bolgár, Holland, Finn, Galíciai, Görög, Magyar, Olasz,
-  Japán, Kóreai, Nepáli, Norvég, Lengyel, Brazil Portugál, Orosz, Szlovák,
+  Japán, Koreai, Nepáli, Norvég, Lengyel, Brazil Portugál, Orosz, Szlovák,
   Tamil, Hagyományos Kínai.
 
 ## Verzió 1.3 - 2012-05-25 ##
@@ -44,6 +49,7 @@ kikerülhetőek.
 
 * Első kiadás
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

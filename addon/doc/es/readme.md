@@ -1,14 +1,16 @@
 # systrayList #
 
-* Autores: Rui Fontes, Rui Batista, colaboradores de la comunidad de NVDA
-* Descarga: [versión 2.0-dev][1]
+*   Autores: Rui Fontes <rui.fontes en tiflotecnia.com>, Rui Batista
+    <ruiandrebatista en gmail.com>, colaboradores de la Comunidad de NVDA
+*   Descargar [Versión estable][1]
 
-Este plugin hace posible leer y activar iconos en la bandeja del sistema o
-la barra de tareas, dentro de un cuadro de lista, para facilitar el acceso y
-la interacción con esos elementos.Con el plugin instalado, pulsa NVDA+f11
-una vez para que este diálogo se despliegue con los elementos de la bandeja
-del sistema, y púlsala dos veces para que se despliegue con los elementos de
-la barra de tareas, que son las aplicaciones actualmente en ejecución.
+
+Este plugin te permite leer y  activar iconos en la bandeja del sistema o en
+la barra de tareas, dentro de un cuadro de lista, para un acceso e
+interacción fácil con aquéllos elementos. Con el plugin instalado, pulsa
+NVDA+f11 una vez para desplegar este diálogo con los elementos de la bandeja
+del sistema, y pulsa dos veces para mostrar los elementos de la barra de
+tareas, que son las actuales aplicaciones en ejecución.
 
 Ten en cuenta que se puede acceder a la bandeja de sistema de Windows con
 cualquier software de lector de pantalla con la tecla de atajo Windows+b, y
@@ -18,9 +20,12 @@ evitar algunas etiquetas que pueden desplegarse cuando se navega por la
 bandeja del sistema con las teclas de windows.
 
 
-## Cambios para 2.0-dev ##
+## Cambios para 1.5 2015-02-01 ##
 
 * Corregida la acción de clic izquierdo o derecho.
+* La ayuda del complemento ahora está disponible desde el administrador de
+  complementos.
+* Actualizaciones de traducciones.
 
 ## Cambios para 1.4 - 2013-01-19 ##
 
@@ -49,6 +54,7 @@ bandeja del sistema con las teclas de windows.
 
 * Versión Inicial
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st
