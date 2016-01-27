@@ -16,40 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
 msgid "System Tray List"
 msgstr "Список системної панелі"
 
-#: addon/globalPlugins/systrayList/__init__.py:70
 msgid "Icons on the System Tray:"
 msgstr "Іконки на системній панелі:"
 
-#: addon/globalPlugins/systrayList/__init__.py:77
 msgid "Task Bar List"
 msgstr "Список панелі завдань"
 
-#: addon/globalPlugins/systrayList/__init__.py:77
 msgid "Icons of running applications in the task bar"
 msgstr "Список запущених програм на панелі завдань"
 
 #. Documentation
-#: addon/globalPlugins/systrayList/__init__.py:95
 msgid "Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar."
 msgstr "Показує список кнопок на системній панелі. При швидкому подвійному натисненні показує елементи панелі завдань"
 
-#: addon/globalPlugins/systrayList/__init__.py:120
 msgid "&Left Click"
 msgstr "&Лівий клік"
 
-#: addon/globalPlugins/systrayList/__init__.py:123
 msgid "Left &Double Click"
 msgstr "Подвійний &лівий клік"
 
-#: addon/globalPlugins/systrayList/__init__.py:126
 msgid "&Right Click"
 msgstr "&Правий клік"
 
-#: addon/installTasks.py:11
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of this add-on and other free software products.\n"
@@ -59,19 +50,16 @@ msgstr ""
 "Ви можете внести свій благодійний внесок для подальшої розробки цього додатка та іншого вільного ПЗ.\n"
 "Хочете внести свій благодійний внесок зараз? (Вас буде скеровано на сайт Paypal)."
 
-#: addon/installTasks.py:14
 msgid "Request for Contributions to {name}"
 msgstr "Request for Contributions to {name}"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
-#: buildVars.py:13
 msgid "sysTrayList - list sys tray and task bar elements"
 msgstr "sysTrayList - список системної панелі та елементів панелі завдань"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."
 msgstr "Показує список кнопок системної панелі при одноразовому натисненні клавіатурної комбінації NVDA+F11. При швидкому подвійному натисненні показує список запущених завдань."
 
