@@ -34,18 +34,18 @@ erscheinen, wenn mittels der Tastatur durch den Infobereich navigiert wird.
 * Möglichkeit zum Spenden bei der Installation hinzugefügt
 * Unterstützung für die Taskleiste hinzugefügt.
 * Neue Übersetzungen: Arabisch, Bulgarisch, Niderländisch, Finnisch,
-  Galicisch, Griechisch, ungarisch, Italienisch, Japanisch, Koreanisch,
-  Nepalesisch, Norwegisch, Polisch, Brazilianisches Portugisisch, Russisch,
-  Slovakisch, Tamil, Traditionelles Chinesisch Hong Kong.
+  Gälisch, Griechisch, Ungarisch, Italienisch, Japanisch, Koreanisch,
+  Nepalesisch, Norwegisch, Polnisch, Portugiesisch (Brasilien), Russisch,
+  Slovakisch, Tamil, Traditionelles Chinesisch (Hong Kong).
 
 ## Änderungen in 1.3 - 5-25.05.2012 ##
 
 * In ein Erweiterungspaket konvertiert.
-* türkische und französische Übersetzungen.
+* Übersetzungen für Türkisch und Französisch.
 
 ## Änderungen in 1.2 - 25.04.2012 ##
 
-* Deutsche und spanische Übersetzungen. Danke an alle, die mitgeholfen
+* Übersetzungen für Spanisch und Deutsch. Danke an alle, die mitgeholfen
   haben.
 
 ## Änderungen in 1.1 - 20.03.2012 ##
