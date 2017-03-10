@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the systrayList package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: systrayList 1.8\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2017-02-03 19:05+1000\n"
+"PO-Revision-Date: 2017-03-07 16:33+0700\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Dang Hoai Phuc <danghoaiphuc@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.12\n"
+
+#. Translators: Input help mode message for system tray list command.
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the task bar."
+msgstr ""
+"Liệt kê các biểu tượng trên khay hệ thống trong một danh sách. Nhấn nhanh "
+"hai lần để liệt kê các biểu tượng trên thanh tác vụ."
+
+msgid "System Tray List"
+msgstr "Danh Sách Khay Hệ Thống"
+
+msgid "Icons on the System Tray:"
+msgstr "Biểu tượng trên khay hệ thống:"
+
+msgid "Task Bar List"
+msgstr "Danh Sách Thanh Tác Vụ"
+
+msgid "Icons of running applications in the task bar"
+msgstr "Biểu tượng các chương trình đang chạy trên thanh tác vụ"
+
+#. Translators: A button on the system tray list dialog to perform left mouse click.
+msgid "&Left Click"
+msgstr "Kích &trái"
+
+#. Translators: A button in the system tray list dialog to perform left double mouse click.
+msgid "Left &Double Click"
+msgstr "Kích trái &hai lần"
+
+#. Translators: A button in the system tray list dialog to perform right mouse click.
+msgid "&Right Click"
+msgstr "Kích &phải"
+
+#. Translators: The text of the dialog shown during add-on installation.
+#, python-brace-format
+msgid ""
+" {name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
+msgstr ""
+" {name} là add-on miễn phí cho NVDA.\n"
+"Bạn có thể tài trợ cho tác giả của add-on này để cải thiện tính năng thêm.\n"
+"Bạn có muốn tài trợ bây giờ không? (Bạn sẽ được đưa đến trang thanh toán của "
+"PayPal.)."
+
+#. Translators: The title of the dialog shown during add-on installation.
+#, python-brace-format
+msgid "Request for Contributions to {name}"
+msgstr "Yêu cầu đóng góp cho {name}"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "sysTrayList - list sys tray and task bar elements"
+msgstr "Danh sách các biểu tượng trên khay hệ thống và thanh tác vụ"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
+"running task lists."
+msgstr ""
+"Nhấn NVDA+f11 để mở danh sách các biểu tượng trên khay hệ thống; nhấn nhanh "
+"hai lần để mở danh sách các biểu tượng trên thanh tác vụ."
