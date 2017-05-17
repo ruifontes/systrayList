@@ -4,18 +4,15 @@
 # Rui Fontes <rui.fontes@tiflotecnia.com>
 # Rui Batista <ruiandrebatista@gmail.com>
 # Masamitsu Misono <misono@nvsupport.org>
+# Joseph Lee <joseph.lee22590@gmail.com>
 # Shortcut: NVDA+f11
 
-import ctypes
-import gettext
-import languageHandler
 import os.path
 import wx
-import globalPluginHandler,IAccessibleHandler
+import globalPluginHandler
 import globalVars
 import scriptHandler
 import NVDAObjects
-from api import getFocusObject
 import winUser
 import gui
 import addonHandler
@@ -53,7 +50,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def _findAccessibleLeafsFromWindowClassPath(self, windowClassPath):
 		# Create a list of (obj.name, obj.location)
-		h,FindWindowExA =0,ctypes.windll.user32.FindWindowExA
+		h,FindWindowExA =0,winUser.user32.FindWindowExA
 		for element in windowClassPath:
 			h = FindWindowExA(h,0,element,0)
 		l = []
@@ -63,7 +60,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			l.append((o.name, o.location))
 			o = o.next
 		return l
-
 
 	def script_createList(self, gesture):
 		if scriptHandler.getLastScriptRepeatCount() == 0:
@@ -97,7 +93,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if not self._systrayListDialog.IsShown():
 			gui.mainFrame.prePopup()
 			self._systrayListDialog.Show()
-			self._systrayListDialog.Centre()
 			gui.mainFrame.postPopup()
 
 	__gestures={
