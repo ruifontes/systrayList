@@ -20,6 +20,7 @@ _addonDir = os.path.join(os.path.dirname(__file__), "..", "..").decode("mbcs")
 _curAddon = addonHandler.Addon(_addonDir)
 _addonSummary = _curAddon.manifest['summary']
 addonHandler.initTranslation()
+CENTER_ON_SCREEN = wx.CENTER_ON_SCREEN if hasattr(wx,"CENTER_ON_SCREEN") else 2
 
 def mouseEvents(location, *events):
 	x,y = int (location[0]+location[2]/2), int (location[1]+location[3]/2)
@@ -77,9 +78,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def _createTaskList(self):
 		objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","MSTaskListWClass") ,)
 		if not objects:
-			# Probably on XP; try this instea:
+			# Probably on XP; try this instead:
 			objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","ToolbarWindow32"),)
-		self._createObjectsWindow(objects, _("Task Bar List"), _("Icons of running applications in the task bar"))
+		self._createObjectsWindow(objects, _("Task Bar List"), _("Icons of running applications on the task bar:"))
 
 	def _createObjectsWindow(self, objects, title, label):
 		if globalVars.appArgs.secure:
@@ -109,7 +110,7 @@ class SystrayListDialog(wx.Dialog):
 		tasksSizer = wx.BoxSizer(wx.VERTICAL)
 		# Create a label and a list view for systray entries
 		# Label is above the list view.
-		self.tasksLabel = wx.StaticText(self, -1, label="")
+		self.tasksLabel = wx.StaticText(self, -1)
 		tasksSizer.Add(self.tasksLabel)
 		self.listBox = wx.ListBox(self, wx.NewId(), style=wx.LB_SINGLE, size=(550, 250))
 		tasksSizer.Add(self.listBox, proportion=8)
@@ -134,15 +135,23 @@ class SystrayListDialog(wx.Dialog):
 		# Bind the buttons to perform mouse clicks
 		# The `makeBindingClicFunction just returns a function
 		# that performs the passed events. Functional programming at its best.
+		# Except for Cancel button that should destory this dialog.
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP), id=leftClickButtonID)
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP, winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP), id=leftDoubleClickButtonID)
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_RIGHTDOWN, winUser.MOUSEEVENTF_RIGHTUP), id=rightClickButtonID)
+		self.Bind(wx.EVT_BUTTON,self.onClose,id=wx.ID_CANCEL)
+		mainSizer.Add(buttonsSizer)
 		mainSizer.Fit(self)
 		self.SetSizer(mainSizer)
 		rightClickButton.SetDefault()
+		self.Center(wx.BOTH | CENTER_ON_SCREEN)
+
+	def onClose(self, evt):
+		self.Destroy()
 
 	def makeBindingClickFunction(self, *events):
 		def func(event):
+			self.Destroy
 			index = self.listBox.GetSelections()
 			if index is not None:
 				location = self.systray[index[0]][1]
@@ -151,6 +160,8 @@ class SystrayListDialog(wx.Dialog):
 		return func
 
 	def updateSystray(self, systray, title, label):
+		# Clear the label, otherwise a jumble of labels will be shown on screen and via screen review.
+		self.tasksLabel.SetLabel("")
 		self.SetTitle(title)
 		self.tasksLabel.SetLabel(label)
 		self.systray = systray
