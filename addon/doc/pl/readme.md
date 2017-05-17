@@ -1,7 +1,9 @@
 # Lista ikon zasobnika systemowego / systrayList #
 
-* Autorzy: Rui Fontes, Rui Batista, społeczność NVDA
-* Pobierz: [wersja 2.0-dev][1]
+*   Autorzy: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, społeczność NVDA
+*   Pobierz [wersja stabilna][1]
+
 
 Ta wtyczka umożliwia odczyt i aktywowanie ikon w zasobniku systemowym lub na
 pasku zadań, wybieranych z listy, dla łatwego dostępu do tych elementów i
@@ -18,9 +20,11 @@ uniknięcia etykietek narzędzi, które wyskakują podczas przechodzenia po
 zawartości zasobnika w samym systemie.
 
 
-## Zmiany dla wersji 2.0-dev ##
+## Zmiany dla wersji 1.5 2015-02-01 ##
 
 * Poprawiona akcja lewego i prawego kliknięcia.
+* Pomoc dodatku dostępna teraz w managerze dodatków.
+* Uaktualnione tłumaczenia.
 
 ## Zmiany dla wersji 1.4 - 2013-01-19 ##
 
@@ -51,6 +55,7 @@ zawartości zasobnika w samym systemie.
 
 * Wstępne wydanie
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

@@ -1,33 +1,40 @@
 # systrayList #
 
-* Autori: Rui Fontes, Rui Batista, Collaboratori della comunità di NVDA
-* Download: [version 2.0-dev][1]
-
-This plugin makes possible to read and activate icons on the system tray or
-the task bar, within a list box, for easy access and interaction to those
-items. With the plugin installed, press NVDA+f11 once for this dialog to
-pop-up with system tray elements, and press twice to pop it up with task bar
-elements, which are the currently running applications.
-
-Note that you can access the windows system tray in any screenreader
-software using the windows+b shortcut key, and the task bar by pressing tab
-from the start button. This plugin is only useful to make the transition
-from JAWS for Windows smoother and to avoid some tooltips that may pop-up
-when cycling through the system tray with the windows keyboard means.
+*   Autori: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, altri collaboratori della comunità di
+    NVDA.
+*   Download [stable version][1]
 
 
-## Changes for 2.0-dev ##
+Questo componente aggiuntivo rende possibile la lettura e l'attivazione
+delle icone del System Tray o della barra delle applicazioni  tramite una
+casella ad elenco per accedere più velocemente agli elementi. Con il
+componente installato, premere NVDA+f11 per far apparire questa finestra di
+dialogo, o premere la stessa combinazione due volte per far apparire
+l'elenco dei programmi presenti nellabarra delle applicazioni. 
 
-* Corrected left/right click action.
+Si noti che è possibile accedere al System Tray con qualsiasi Screen Reader
+premendo la combinazione di tasti Windows+b, o alla barra delle applicazioni
+premendo tab dal desktop. Questo componente aggiuntivo aiuta in particolare
+gli utenti che hanno utilizzato Jaws per molti anni, per rendere il processo
+di migrazione da uno screen reader all'altro il più semplice possibile.
+
+
+## Cambiamenti per la versione1.5 2015-02-01 ##
+
+* Corrette le azioni di click col pulsante sinistro o destro del mouse.
+* è disponibile l'aiuto su questo componente, raggiungibile dal menu
+  gestione componenti aggiuntivi.
+* Aggiornamenti sulle traduzioni.
 
 ## Cambiamenti per la versione 1.4 - 2013-01-19 ##
 
 * Richiede NVDA 2012.3Beta2 o superiore.
 * Aggiunta richiesta di donazione durante l'installazione.
-* Implemented taskbar support
-* New translations: Arabic, Bulgarian, Dutch, Finnish, Galician, Greek,
-  Hungarian, Italian, Japanese, Korean, Nepali, Norwegian, Polish, Brazilian
-  Portuguese, Russian, Slovak, Tamil, Traditional Chinese Hong Kong.
+* Aggiunto il supporto alla barra delle applicazioni.
+* Nuove traduzioni: Arabo, Dutch, Finlandese, Galiziano, Greco, Ungherese,
+  Italiano, Giapponese, Coreano, Nepalese, Polacco, Portoghese Brasiliano,
+  Russo, Slovacco, Tamil.
 
 ## Camiamenti per la versione 1.3 - 25/05/2012 ##
 
@@ -36,7 +43,7 @@ when cycling through the system tray with the windows keyboard means.
 
 ## Cambiamenti per la versione 1.2 - 25/04/2012 ##
 
-* Spanish and German translations. Thanks to all that contributed.
+* Traduzione tedesca e spagnola. Grazie a tutti i collaboratori.
 
 ## Cambiamenti per la versione 1.1 20-03-2012 ##
 
@@ -47,6 +54,7 @@ when cycling through the system tray with the windows keyboard means.
 
 * Prima versione
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

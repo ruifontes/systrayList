@@ -1,7 +1,9 @@
 # systrayList #
 
-* Autori: Rui Fontes, Rui Batista a ďalší z tímu NVDA.
-* Stiahnuť: [verzia 2.0-dev][1]
+*   Autori: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com> a ďalší
+*   Stiahnuť [stabilnú verziu][1]
+
 
 Pomocou tohto doplnku môžete zobraziť položky na systémovej lište a na
 panely úloh v jednoduchom dialógu. V zozname potom môžete položku
@@ -15,9 +17,11 @@ používali JAWS a takisto na zabránenie zobrazenia bublín, ktoré vyskakujú
 pri použití štandardnej navigácie Windows.
 
 
-## Zmeny vo verzii 2.0-dev ##
+## Zmeny vo verzii zo dňa 1. 2. 2015. ##
 
 * opravené klikanie ľavým a pravým tlačidlom myši.
+* Pomocník k doplnku je dostupný zo správcu doplnkov.
+* Aktualizované preklady.
 
 ## Zmeny vo verzii 1.4 - 19. 1. 2013 ##
 
@@ -46,6 +50,7 @@ pri použití štandardnej navigácie Windows.
 
 * Prvé vydanie
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

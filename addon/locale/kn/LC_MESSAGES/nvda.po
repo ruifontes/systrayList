@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: systrayList 1.5\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2015-02-06 19:05+1000\n"
+"PO-Revision-Date: 2015-08-04 13:11+0530\n"
+"Last-Translator: siddalingeshwar ingalagi <ingalagisiddu@gmail.com>\n"
+"Language-Team: Kannada <LL@li.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Translators: Input help mode message for system tray list command.
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, shows "
+"the items on the task bar."
+msgstr ""
+"ವ್ಯವಸ್ಥಾ ಖಾನೆಯಲ್ಲಿನ  ಗುಂಡಿಗಳ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಒಂದುವೇಲೆ ಎರಡು ಬಾರಿ ವೇಗವಾಗಿ "
+"ಒತ್ತಿದರೆ, ಕಾರ್ಯಗಳ ಪಟ್ಟಿಯ ಮೇಲಿನ  ಸಾಮಗ್ರಿಗಳನ್ನು ತೋರಿಸುತ್ತದೆ"
+
+msgid "System Tray List"
+msgstr "ವ್ಯವಸ್ತೆಯ  ಖಾನೆಗಳ ಪಟ್ಟಿ"
+
+msgid "Icons on the System Tray:"
+msgstr "ವ್ಯವಸ್ತೆಯ ಖಾನೆ ಮೇಲಿನ ಚಿಹ್ನೆಗಳು:"
+
+msgid "Task Bar List"
+msgstr "ಕಾರ್ಯಗಳ ಸ್ತಿತಿಯ ಪಟ್ಟಿ"
+
+msgid "Icons of running applications in the task bar"
+msgstr "ಕಾರ್ಯ ಪಟ್ಟಿಯಲ್ಲಿನ ಚಾಲನೆಯಲ್ಲಿರುವ ಅನ್ವಯಗಳ ಚಿಹ್ನೆಗಳು"
+
+#. Translators: A button on the system tray list dialog to perform left mouse click.
+msgid "&Left Click"
+msgstr "&ಎಡಕ್ಕೆ  ಒತ್ತಿ"
+
+#. Translators: A button in the system tray list dialog to perform left double mouse click.
+msgid "Left &Double Click"
+msgstr "ಎಡಕ್ಕೆ &ಎರಡು ಬಾರಿ ಒತ್ತಿ"
+
+#. Translators: A button in the system tray list dialog to perform right mouse click.
+msgid "&Right Click"
+msgstr "&ಬಲಕ್ಕೆ ಒತ್ತಿ"
+
+#. Translators: The text of the dialog shown during add-on installation.
+#, python-brace-format
+msgid ""
+" {name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further developments of this "
+"add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
+msgstr ""
+"{name} ಉಚಿತ NVDA ಆಡ್ ಆನ್ ಆಗಿದೆ.\n"
+"ನೀವು ಬೇಕಾದರೆ ಈ ಎನ್ ವಿ ಡಿ ಏ ಯಾಡ್ಆನ್ಗೆ ಲೇಖಕರ ಕೊಡಿಗೆಯಾಗಿ ದೇನಿಗೆ ನೀಡಬಹುದಾಗಿದೆ ಮತ್ತು ಇದರ "
+"ಹೆಚ್ಚಿನ ಸುಧಾರಣೆಗೆ ಹಾಗು ಇನ್ನಿತರ ಉಚಿತ ತಂತ್ರಾಂಶಗಳಿಗೆ ಮತ್ತು ಅವುಗಳ ಉತ್ಪಾದನೆಗೆ ಬೆಂಬಲ "
+"ನೀಡಬಹುದಾಗಿದೆ.\n"
+"ನೀವು ಈಗ ದೇನಿಗೆ ನೀಡಲು ಬಯಸುವೀರಾ? ಹಾಗಾದರೆ ಇದು ನಿಮ್ಮನ್ನು ಈಗ ಪಾವತಿ ಜಾಲತಾಣಕ್ಕೆ "
+"ಕರೆದೊಯುತ್ತದೆ (you will be redirected to the Paypal website)."
+
+#. Translators: The title of the dialog shown during add-on installation.
+#, python-brace-format
+msgid "Request for Contributions to {name}"
+msgstr "ಕೊಡುಗೆಗಳಿಗಾಗಿ ವಿನಂತಿ {name}"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "sysTrayList - list sys tray and task bar elements"
+msgstr "ವ್ಯವಸ್ಥೆಯ ಪಟ್ಟಿಗಳು - ಪಟ್ಟಿ ವ್ಯವಸ್ಥೆಯ ಕಾನೆ ಮತ್ತು ಕಾರ್ಯಗಳ ಪಟ್ಟಿಯ ಅಂಶಗಳು"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
+"running task lists."
+msgstr ""
+"NVDA+F11 ಒಮ್ಮೆ ಒತ್ತಿದಾಗ ವ್ಯವಸ್ಥಾ ಖಾನೆಯಲ್ಲಿನ  ಗುಂಡಿಗಳ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಒಂದುವೇಲೆ "
+"ಎರಡು ಬಾರಿ ಒತ್ತಿದರೆ, ಚಾಲನೆಯಲ್ಲಿರುವ ಕಾರ್ಯಗಳ ಪಟ್ಟಿಗಳನ್ನು  ತೋರಿಸುತ್ತದೆ."

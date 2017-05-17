@@ -1,21 +1,26 @@
 # فهرست تکه‌ها در هشدارگاه سامانه #
 
-* سازندگان: Rui Fontes, Rui Batista, حامیان انجمن NVDA
-* دانلود: [نسخه 2.0-dev][1]
+*   Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, NVDA Community contributors
+*   Download [stable version][1]
 
-این پلاگین به کاربران این امکان را میدهد تا نشانها در هشدارگاه سامانه یا
-نوار وظیفه را فعال کرده و داخل جعبه لیست بخوانند, برای دسترسی آسان NVDA+f11
-را یکبار فشار داده تا هشدارگاه سامانه باز شود و با دوبار فشار دادن میتوانید
-نوار وظیفه را باز نمایید تا برنامه های در کار را مشاهده نمایید.
+
+This plugin allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the plugin installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 توجه داشته باشید که شما میتوانید به هشدارگاه سامانه ویندوز در همه صفحه
 خوانها با کلید میانبر windows+b دسترسی داشته باشید, و با زدن کلید تب
 میتوانید به نوار وظیفه بروید موقعی که روی دکمه شروع هستید. 
 
 
-## تغییرات داده شده در نسخه 2.0-dev ##
+## Changes for 1.5 2015-02-01 ##
 
 * عمل چپ/راست کلیک اصلاح شد
+* Add-on help is now available from add-ons manager.
+* Translation updates.
 
 ## تغییرات داده شده در نسخه 1.4 - 2013-01-19 ##
 
@@ -44,6 +49,7 @@
 
 * انتشار اولیه
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

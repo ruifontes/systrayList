@@ -1,14 +1,16 @@
 # Lista da área de notificação #
 
-* Autores: Rui Fontes, Rui Batista, colaboradores da comunidade do NVDA
-* Baixe: [versão 2.0-dev][1]
+*   Autores: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, colaboradores da comunidade do NVDA
+*   Baixe a [versão estável][1]
 
-Este plug-in torna possível ler e ativar ícones da área de notificação
-colocando-os numa caixa de lista para facilitar o acesso a eles. Com o
-plug-in instalado,  pressione NVDA+f11 uma vez para que apareça a janela com
-os elementos da área de notificação ou duas vezes para trazê-la com os
-elementos da barra de tarefas, que são os aplicativos em execução no
-momento.
+
+Este plug-in possibilita ler e ativar ícones da área de notificação ou da
+barra de tarefas, numa caixa de lista para um fácil acesso e interação com
+tais itens. Com o plug-in instalado,  pressione NVDA+f11 uma vez para que
+apareça o diálogo com os elementos da área de notificação e pressione duas
+vezes para mostrar os elementos da barra de tarefas, que são os aplicativos
+em execução no momento.
 
 Note que você pode acessar a área de notificação do Windows com qualquer
 leitor de telas usando a tecla windows+b e a barra de tarefas pressionando
@@ -17,9 +19,12 @@ migração do JAWS for Windows e para fugir de dicas de ferramentas que possam
 surgir ao percorrer a área de notificação com a tecla nativa do Windows.
 
 
-## Mudanças na 2.0-dev ##
+## Mudanças na 1.5 - 01/02/2015 ##
 
 * Corrigida ação de clique esquerdo/direito.
+* A ajuda do complemento agora está disponível a partir do gestor de
+  complementos.
+* Atualizadas traduções.
 
 ## Mudanças na 1.4 - 19/01/2013 ##
 
@@ -48,6 +53,7 @@ surgir ao percorrer a área de notificação com a tecla nativa do Windows.
 
 * Primeira versão pública
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

@@ -1,12 +1,15 @@
 # प्रणालीथालीशुचि (systrayList)  #
 
-* लेखकहरू: रुई फन्ट्स, रुई बटिस्ट, नेत्रवाणी योगदान समुदाय ।
-* टाउनलोड: [version 2.0-dev][1]
+*   Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
+    <ruiandrebatista at gmail.com>, NVDA Community contributors
+*   Download [stable version][1]
 
-यो चुकुलले सूची बाकसमा भएका मद्धे प्रणाली थालिका प्रतिमाहरूलाई पढ्न र सक्रिय
-पार्न सहजै सम्भव बनाउने छ।यो चुकुल भित्रयाए पछी सम्बन्धित पातो हेर्न
-नेत्रवाणी+f11 दबाउनु होला । दुई पटक यही कुञ्जी दबाएमा कार्य पट्टीमा भएका
-चालू अनुप्रयोगहरूलाई जान्न सकिन्छ ।
+
+This plugin allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the plugin installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 स्मरणीय छ, तपाईले कुनै दृष्टिवाचक चलाउँदा  पनि द्रुतमार्ग windows+b दबाएर
 प्रणाली थाली सुची र सुरुवात टाँक पछी Tab दबाएर कार्य पट्टी जान्न त सक्नु
@@ -15,9 +18,11 @@
 ।
 
 
-## संस्करण २.० - -dev मा गरिएका परिवर्तनहरू  ##
+## Changes for 1.5 2015-02-01 ##
 
 * दाँया र वायाँ कार्यमा सच्याइयो ।
+* Add-on help is now available from add-ons manager.
+* Translation updates.
 
 ## संस्करण १.४ - २०१३-०-१९ मा गरिएका परिवर्तनहरू  ##
 
@@ -30,7 +35,7 @@
 
 ## संस्करण १.३ - २०१२-०५-२५ मा गरिएका परिवर्तनहरू  ##
 
-* थप-साधनको पोकोमा रुपान्तरित 
+* उप-कर्मीको पोकोमा रुपान्तरित 
 * फान्सेली र तुर्किका अनुवादहरू
 
 ## संस्करण १.२ - २०१२-०४.२५ मा गरिएका परिवर्तनहरू  ##
@@ -46,6 +51,7 @@
 
 * प्रारम्भिक लोकार्पण
 
-[[!tag dev]]
+
+[[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st
