@@ -68,7 +68,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			self._createTaskList()
 	# Translators: Input help mode message for system tray list command.
-	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the task bar.")
+	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the taskbar.")
 
 	def _createSystrayList(self):
 		path = ("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
@@ -80,7 +80,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		if not objects:
 			# Probably on XP; try this instead:
 			objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","ToolbarWindow32"),)
-		self._createObjectsWindow(objects, _("Task Bar List"), _("Icons of running applications on the task bar:"))
+		self._createObjectsWindow(objects, _("Taskbar List"), _("Icons of running applications on the taskbar:"))
 
 	def _createObjectsWindow(self, objects, title, label):
 		if globalVars.appArgs.secure:
