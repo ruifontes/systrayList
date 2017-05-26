@@ -1,14 +1,14 @@
 # systrayList #
 
-*   Autori: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com> a ďalší
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
 *   Stiahnuť [stabilnú verziu][1]
 
-
-Pomocou tohto doplnku môžete zobraziť položky na systémovej lište a na
-panely úloh v jednoduchom dialógu. V zozname potom môžete položku
-aktivovať. Skratkou NVDA+F11 zobrazíte položky na systémovej lište. Ak
-skratku stlačíte dvakrát za sebou, zobrazí sa panel bežiacich úloh.
+This add-on allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the add-on installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 Všimnite si, že na systémovú lištu sa dostanete aj štandardným príkazom
 Windows, skratkou Windows+b. Na panel úloh sa dostanete stlačením tabulátora
@@ -16,11 +16,16 @@ na tlačidle štart. Tento doplnok je užitočný najmä pre tých, ktorí dopos
 používali JAWS a takisto na zabránenie zobrazenia bublín, ktoré vyskakujú
 pri použití štandardnej navigácie Windows.
 
+## Changes for 2.0 2017-05-20 ##
 
-## Zmeny vo verzii zo dňa 1. 2. 2015. ##
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
+
+## Changes for 1.5 2015-mm-dd ##
 
 * opravené klikanie ľavým a pravým tlačidlom myši.
-* Pomocník k doplnku je dostupný zo správcu doplnkov.
+* Add-on help is now available from add-ons manger.
 * Aktualizované preklady.
 
 ## Zmeny vo verzii 1.4 - 19. 1. 2013 ##
@@ -50,7 +55,6 @@ pri použití štandardnej navigácie Windows.
 
 * Prvé vydanie
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

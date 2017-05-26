@@ -1,16 +1,14 @@
 # systrayList #
 
-*   مطورو الإضافة: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, وآخرون
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
 *   تحميل [الإصدار النهائي][1]
 
-
-تمكنك هذه الإضافة البرمجية من قراءة وتنشيط الأيقونات الموجودة على صينية
-النظام أو على شريط المهام, وإظهارها في شكل قائمة، للوصول السريع والتفاعل مع
-تلك الأيقونات. بعد تثبيت الإضافة قم بالضغط على مفتاح الاختصار NVDA+f11 مرة
-واحدة لإظهار هذه المحاورة بعناصر أيقونات صينية النظام, واضغط على نفس
-الاختصار مرتين متتاليتين لإظهار عناصر شريط المهام, والتي تمثل التطبيقات
-العاملة.
+This add-on allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the add-on installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 يرجى الملاحظة بأنه يمكنك الوصول إلى صينية النظام بالضغط على windos+B مع أي
 برنامج قارئ شاشة, كما يمكنك الوصول إلى شريط المهام بالضغط على مفتاح Tab بعد
@@ -18,11 +16,16 @@
 برنامج جوز كما تفيد في تجنب الرسائل التي يمكن أن تظهر أثناء الحركة على صينية
 النظامباستخدام الاختصار المقدم من نظام التشغيل ويندوز.
 
+## Changes for 2.0 2017-05-20 ##
 
-## مستجدات الإصدار 1.5 2015-02-01 ##
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
+
+## Changes for 1.5 2015-mm-dd ##
 
 * تصحيح عمل مفتاحي النقر يمين والنقر يسار.
-* إتاحة ملف المساعدة للإضافة من خلال مدير الإضافات البرمجية.
+* Add-on help is now available from add-ons manger.
 * تردمة الإضافة لمزيد من اللغات
 
 ## مستجدات الإصدار 1.4 - 2013-01-19 ##
@@ -53,7 +56,6 @@
 
 * النسخة الأولى
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

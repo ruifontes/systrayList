@@ -1,13 +1,12 @@
 # فهرست تکه‌ها در هشدارگاه سامانه #
 
-*   Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, NVDA Community contributors
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
 *   Download [stable version][1]
 
-
-This plugin allows you to read and activate icons on the system tray or the
+This add-on allows you to read and activate icons on the system tray or the
 task bar, within a list box, for easy access and interaction to those
-items. With the plugin installed, press NVDA+f11 once for this dialog to
+items. With the add-on installed, press NVDA+f11 once for this dialog to
 pop-up with system tray elements, and press twice to display task bar
 elements, which are the currently running applications.
 
@@ -15,11 +14,16 @@ elements, which are the currently running applications.
 خوانها با کلید میانبر windows+b دسترسی داشته باشید, و با زدن کلید تب
 میتوانید به نوار وظیفه بروید موقعی که روی دکمه شروع هستید. 
 
+## Changes for 2.0 2017-05-20 ##
 
-## Changes for 1.5 2015-02-01 ##
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
+
+## Changes for 1.5 2015-mm-dd ##
 
 * عمل چپ/راست کلیک اصلاح شد
-* Add-on help is now available from add-ons manager.
+* Add-on help is now available from add-ons manger.
 * Translation updates.
 
 ## تغییرات داده شده در نسخه 1.4 - 2013-01-19 ##
@@ -49,7 +53,6 @@ elements, which are the currently running applications.
 
 * انتشار اولیه
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

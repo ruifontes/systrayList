@@ -1,12 +1,11 @@
 # Ilmoitusalueen kuvakkeet #
 
-*   Tekijät: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com> ja muut NVDA-yhteisön jäsenet
+*   Tekijät: Rui Fontes, Rui Batista, Joseph Lee ja muut NVDA-yhteisön
+    jäsenet
 *   Lataa [vakaa versio][1]
 
-
 Tämän lisäosan avulla on mahdollista lukea ja aktivoida ilmoitusalueen ja
-tehtäväpalkin kuvakkeita helppokäyttöisestä listaruudusta. Pääset
+tehtäväpalkin kuvakkeita helppokäyttöisestä luetteloruudusta. Pääset
 ilmoitusalueen painikkeet näyttävään valintaikkunaan painamalla kerran
 NVDA+F11 ja tehtäväpalkin kuvakkeisiin, jotka ovat käynnissä olevia
 sovelluksia, painamalla kahdesti samaa komentoa.
@@ -18,6 +17,11 @@ hyötyä vain JAWSista NVDA:han siirtyneille sekä joidenkin työkaluvihjeiden
 välttämisessä, joita saattaa ponnahdella näkyviin liikuttaessa
 ilmoitusalueella nuolinäppäinten avulla.
 
+## Muutokset versiossa 2.0, 20.5.2017 ##
+
+* Ilmoitusalue/tehtäväpalkkivalintaikkuna on nyt näytöllä keskitettynä.
+* Korjattu useita käyttöliittymän ongelmia.
+* Uusia ja päivitettyjä käännöksiä.
 
 ## Muutokset versiossa 1.5, 1.2.2015 ##
 
@@ -52,7 +56,6 @@ ilmoitusalueella nuolinäppäinten avulla.
 
 * Ensimmäinen versio
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

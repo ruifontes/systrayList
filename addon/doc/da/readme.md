@@ -1,15 +1,14 @@
 # systrayList (systembakke som liste) #
 
-*   Forfattere: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, bidragydere fra NVDA-fælleskabet
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
 *   download [stabil version][1]
 
-
-Med dette tilføjelsesprogram kan du læse og aktivere ikoner i systembakken
-og på joblinjen i en listeboks, så du nemt kan få adgang til og gøre brug af
-disse emner. Når tilføjelsesprogrammet er installeret, kan du trykke
-NVDA+F11 en gang for at se denne dialog med elementer fra systembakken. Tryk
-to gange for at se elementer på joblinjen.
+This add-on allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the add-on installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 Bemærk at du kan få adgang til systembakken med ethvert skærmlæserprogram
 ved hjælp af genvejstasten Windows+d og til joblinjen ved at trykke Tab fra
@@ -17,12 +16,16 @@ Start-knappen. Dette tilføjelsesprogram kan kun bruges til at gøre
 overgangen fra JAWS for Windows glattere og til at undgå nogle værktøjstips,
 som kan poppe op, når man går gennem systembakken med Windows-tastaturet.
 
+## Changes for 2.0 2017-05-20 ##
 
-## Ændringer i 1.5 2015-02-01 ##
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
+
+## Changes for 1.5 2015-mm-dd ##
 
 * Korrigeret handling ved venstre/højre klik.
-* Hjælp til tilføjelsesprogrammet er nu til rådighed fra styring af
-  tilføjelsesprogrammer.
+* Add-on help is now available from add-ons manger.
 * Opdateringer til oversættelse.
 
 ## Ændringer i 1.4 - 2013-01-19 ##
@@ -53,7 +56,6 @@ som kan poppe op, når man går gennem systembakken med Windows-tastaturet.
 
 * Første udgivelse
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

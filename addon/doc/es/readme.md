@@ -1,16 +1,15 @@
 # systrayList #
 
-*   Autores: Rui Fontes <rui.fontes en tiflotecnia.com>, Rui Batista
-    <ruiandrebatista en gmail.com>, colaboradores de la Comunidad de NVDA
+*   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores de la
+    comunidad de NVDA
 *   Descargar [Versión estable][1]
 
-
-Este plugin te permite leer y  activar iconos en la bandeja del sistema o en
-la barra de tareas, dentro de un cuadro de lista, para un acceso e
-interacción fácil con aquéllos elementos. Con el plugin instalado, pulsa
-NVDA+f11 una vez para desplegar este diálogo con los elementos de la bandeja
-del sistema, y pulsa dos veces para mostrar los elementos de la barra de
-tareas, que son las actuales aplicaciones en ejecución.
+Este complemento te permite leer y  activar iconos en la bandeja del sistema
+o en la barra de tareas, dentro de un cuadro de lista, para un acceso e
+interacción fácil con aquéllos elementos. Con el complemento instalado,
+pulsa NVDA+f11 una vez para desplegar este diálogo con los elementos de la
+bandeja del sistema, y pulsa dos veces para mostrar los elementos de la
+barra de tareas, que son las actuales aplicaciones en ejecución.
 
 Ten en cuenta que se puede acceder a la bandeja de sistema de Windows con
 cualquier software de lector de pantalla con la tecla de atajo Windows+b, y
@@ -19,8 +18,14 @@ es útil para hacer la transición desde JAWS para Windows más suave y para
 evitar algunas etiquetas que pueden desplegarse cuando se navega por la
 bandeja del sistema con las teclas de windows.
 
+## Cambios para 2.0 2017-05-20 ##
 
-## Cambios para 1.5 2015-02-01 ##
+* el diálogo Bandeja de sistema/barra de tareas ahora se centra en la
+  pantalla.
+* Corregidos varios problemas de la interfaz de usuario.
+* Traducciones nuevas y actualizadas.
+
+## Cambios para 1.5 2015-mm-dd ##
 
 * Corregida la acción de clic izquierdo o derecho.
 * La ayuda del complemento ahora está disponible desde el administrador de
@@ -54,7 +59,6 @@ bandeja del sistema con las teclas de windows.
 
 * Versión Inicial
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

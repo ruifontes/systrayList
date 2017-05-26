@@ -1,25 +1,30 @@
 # Rendszertálca-kilistázó #
 
-*   Készítők: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, NVDA közreműködők
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
 *   Letöltés [stabil verzió][1]
 
-
-Ezzel a kiegészítővel egy listába gyűjthetőek a rendszertálca és a futó
-alkalmazások ikonjai. A kiegészítő telepítése után az NVDA+f11 billentyű
-egyszeri megnyomására a rendszertálca ikonjai, kétszeri gyors lenyomásra az
-épp futó alkalmazások listája hívható elő.
+This add-on allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the add-on installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 A rendszertálca bármely képernyőolvasóval a windows+b billentyűparanccsal
 elérhető. Ez a kiegészítő a Jaws for Windows képernyőolvasó programot
 használóknak segíthet, valamint az esetenként felbukkanó eszköztippek is
 kikerülhetőek.
 
+## Changes for 2.0 2017-05-20 ##
 
-## Verzió 1.5 - 2015-02-01 ##
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
+
+## Changes for 1.5 2015-mm-dd ##
 
 * A bal és jobbegérgombokkal való műveletvégzés javítása.
-* A kiegészítő súgója már elérhető a Bővítménykezelőben.
+* Add-on help is now available from add-ons manger.
 * Frissített fordítások
 
 ## Verzió 1.4 -2013-01-19 ##
@@ -49,7 +54,6 @@ kikerülhetőek.
 
 * Első kiadás
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

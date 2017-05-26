@@ -1,17 +1,16 @@
 # Liste des Icônes de la Zone de Notification #
 
-*   Auteurs : Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, Contributeurs de la communauté de NVDA
+*   Auteurs : Rui Fontes, Rui Batista, Joseph Lee, Contributeurs de la
+    communauté de NVDA
 *   Télécharger [version stable][1]
-
 
 Ce module complémentaire vous permet de lire et d'activer les icônes sur la
 zone de notification ou la barre des tâches dedans d'une zone de liste pour
 faciliter l'accès et l'interaction de ces éléments. Avec le module
-complémentaire installé, appuyer sur NVDA+f11 une fois pour cette fenêtre de
-la boîte de dialogue avec les éléments de la zone de notification, et
-appuyer deux fois pour afficher les éléments de la barre des tâches qui sont
-les applications en cours d'exécution.
+complémentaire installé, appuyer sur NVDA+f11 une fois pour que cette
+fenêtre de la boîte de dialogue s'affiche avec les éléments de la zone de
+notification, et appuyer deux fois pour afficher les éléments de la barre
+des tâches qui sont les applications en cours d'exécution.
 
 Notez que vous pouvez accéder à la zone de notification avec n'importequel
 lecteur d'écran en appuyant sur windows+b, et à la barre des tâches avec une
@@ -20,6 +19,12 @@ utile pour la transition depuis JAWS pour Windows et pour éviter sertaines
 bules d'aides qui s'affichent lorsqu'on parcourt la zone de notification au
 clavier.
 
+## Changements pour la version 2.0 - 20/05/2017 ##
+
+* La boîte de dialogue Zone de Notification / Barre des tâches est
+  maintenant centrée sur l'écran.
+* Correction de différents problèmes dans l'interface utilisateur.
+* Nouvelles traductions et mises à jour.
 
 ## Changements pour la version 1.5 - 01/02/2015 ##
 
@@ -56,7 +61,6 @@ clavier.
 
 * Première version
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

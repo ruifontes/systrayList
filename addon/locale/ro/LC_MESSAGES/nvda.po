@@ -18,9 +18,10 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 
 #. Translators: Input help mode message for system tray list command.
+#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
-"shows the items on the task bar."
+"shows the items on the taskbar."
 msgstr ""
 "Arată lista de butoane din zona de notificare a sistemului. Dacă e apăsat "
 "rapid de două ori, arată elementele de pe bara de sarcini."
@@ -31,10 +32,12 @@ msgstr "Listă Zonă notificare"
 msgid "Icons on the System Tray:"
 msgstr "Iconițe de pe Zona de notificare"
 
-msgid "Task Bar List"
+#, fuzzy
+msgid "Taskbar List"
 msgstr "Listă Bară de sarcini"
 
-msgid "Icons of running applications in the task bar"
+#, fuzzy
+msgid "Icons of running applications on the taskbar:"
 msgstr "Iconițe ale aplicațiilor care rulează în bara de sarcini"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.

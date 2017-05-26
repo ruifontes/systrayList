@@ -18,9 +18,10 @@ msgstr ""
 "X-Generator: Poedit 1.6.11\n"
 
 #. Translators: Input help mode message for system tray list command.
+#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
-"shows the items on the task bar."
+"shows the items on the taskbar."
 msgstr ""
 "Prikazuje listu dugmadi na sistemskoj traci. Ako se pritisne dva puta, biće "
 "izlistani programi na programskoj traci."
@@ -31,10 +32,12 @@ msgstr "Ikone sistemske trake"
 msgid "Icons on the System Tray:"
 msgstr "Ikone na sistemskoj traci:"
 
-msgid "Task Bar List"
+#, fuzzy
+msgid "Taskbar List"
 msgstr "Ikone na programskoj traci"
 
-msgid "Icons of running applications in the task bar"
+#, fuzzy
+msgid "Icons of running applications on the taskbar:"
 msgstr "Ikone pokrenutih aplikacija na programskoj traci"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.

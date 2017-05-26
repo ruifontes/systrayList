@@ -1,26 +1,30 @@
 # systrayLijst #
 
-*   Auteurs: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, bijdragers uit de NVDA gemeenschap
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
 *   Download [stabiele versie][1]
 
-
-Met deze add-on kunt u iconen in het systeemvak en op de taakbalk lezen en
-activeren. Om er gemakkelijk mee te kunnen werken, worden de iconen in een
-lijst geplaatst. Als u op NVDA+f11 drukt, opent de lijst met de iconen van
-het systeemvak. Drukt u tweemaal dan komen de iconen van de taalkbalk
-tevoorschijn; dit zijn de toepassingen die momentele geopend zijn.
+This add-on allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the add-on installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 Merk op dat het altijd mogelijk is om het systeemvak te benaderen met
 windowstoets+B en dat de taakbalk te bereiken is door op tab te drukken als
 de Start knop focus heeft. Deze add-on helpt JAWS gebruikers over te stappen
 op NVDA en voorkomt het openklappen van een aantal tooltips.
 
+## Changes for 2.0 2017-05-20 ##
 
-## Veranderingen voor 1.5 2015-02-01 ##
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
+
+## Changes for 1.5 2015-mm-dd ##
 
 * De actie voor links/rechhts klikken is gecorrigeerd.
-* Add-on help is nu beschikbaar vanuit add-ons beheren.
+* Add-on help is now available from add-ons manger.
 * Vertalingen bijgewerkt.
 
 ## Veranderingen voor 1.4 - 19 januari 2013 ##
@@ -51,7 +55,6 @@ op NVDA en voorkomt het openklappen van een aantal tooltips.
 
 * Eerste versie.
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

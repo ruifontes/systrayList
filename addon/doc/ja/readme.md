@@ -1,24 +1,30 @@
 # systrayList #
 
-*   Authors: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, NVDA Community contributors
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
 *   ダウンロード [安定版][1]
 
-
-このプラグインはシステムトレイとタスクバーのアイコンをリストボックスに並べて、
-読みあげや選択操作をしやすくするためのものです。
-インストールするとNVDA+F11でシステムトレイのアイコン一覧を表示します。2回押すとタスクバーのアイコン一覧、つまり実行中のアプリケーションを表示します。
+This add-on allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the add-on installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 スクリーンリーダーの種類にかかわらず Windows+B でシステムトレイを操作できます。
 また、スタートボタンからタブを押してタスクバーに移動できます。
 このプラグインは JAWS for Windows からの乗り換えを容易にするためのものです。
 またキーボードでシステムトレイの項目を移動するときにツールチップが開くことを防ぎます。
 
+## Changes for 2.0 2017-05-20 ##
 
-## 1.5 での変更 - 2015-02-01 ##
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
+
+## Changes for 1.5 2015-mm-dd ##
 
 * 左クリック、右クリックのアクションを修正しました。
-* アドオン ヘルプはアドオン マネージャから利用できます
+* Add-on help is now available from add-ons manger.
 * 翻訳の更新
 
 ## 1.4 での変更 - 2013-01-19 ##
@@ -46,7 +52,6 @@
 
 * 最初のバージョン
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

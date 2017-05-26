@@ -19,9 +19,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Translators: Input help mode message for system tray list command.
+#, fuzzy
 msgid ""
-"Shows the list of buttons on the System Tray. If pressed twice quickly, shows "
-"the items on the task bar."
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the taskbar."
 msgstr ""
 "ವ್ಯವಸ್ಥಾ ಖಾನೆಯಲ್ಲಿನ  ಗುಂಡಿಗಳ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಒಂದುವೇಲೆ ಎರಡು ಬಾರಿ ವೇಗವಾಗಿ "
 "ಒತ್ತಿದರೆ, ಕಾರ್ಯಗಳ ಪಟ್ಟಿಯ ಮೇಲಿನ  ಸಾಮಗ್ರಿಗಳನ್ನು ತೋರಿಸುತ್ತದೆ"
@@ -32,10 +33,12 @@ msgstr "ವ್ಯವಸ್ತೆಯ  ಖಾನೆಗಳ ಪಟ್ಟಿ"
 msgid "Icons on the System Tray:"
 msgstr "ವ್ಯವಸ್ತೆಯ ಖಾನೆ ಮೇಲಿನ ಚಿಹ್ನೆಗಳು:"
 
-msgid "Task Bar List"
+#, fuzzy
+msgid "Taskbar List"
 msgstr "ಕಾರ್ಯಗಳ ಸ್ತಿತಿಯ ಪಟ್ಟಿ"
 
-msgid "Icons of running applications in the task bar"
+#, fuzzy
+msgid "Icons of running applications on the taskbar:"
 msgstr "ಕಾರ್ಯ ಪಟ್ಟಿಯಲ್ಲಿನ ಚಾಲನೆಯಲ್ಲಿರುವ ಅನ್ವಯಗಳ ಚಿಹ್ನೆಗಳು"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
@@ -54,14 +57,14 @@ msgstr "&ಬಲಕ್ಕೆ ಒತ್ತಿ"
 #, python-brace-format
 msgid ""
 " {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of this "
-"add-on and other free software products.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
 "Do you want to donate now? (you will be redirected to the Paypal website)."
 msgstr ""
 "{name} ಉಚಿತ NVDA ಆಡ್ ಆನ್ ಆಗಿದೆ.\n"
-"ನೀವು ಬೇಕಾದರೆ ಈ ಎನ್ ವಿ ಡಿ ಏ ಯಾಡ್ಆನ್ಗೆ ಲೇಖಕರ ಕೊಡಿಗೆಯಾಗಿ ದೇನಿಗೆ ನೀಡಬಹುದಾಗಿದೆ ಮತ್ತು ಇದರ "
-"ಹೆಚ್ಚಿನ ಸುಧಾರಣೆಗೆ ಹಾಗು ಇನ್ನಿತರ ಉಚಿತ ತಂತ್ರಾಂಶಗಳಿಗೆ ಮತ್ತು ಅವುಗಳ ಉತ್ಪಾದನೆಗೆ ಬೆಂಬಲ "
-"ನೀಡಬಹುದಾಗಿದೆ.\n"
+"ನೀವು ಬೇಕಾದರೆ ಈ ಎನ್ ವಿ ಡಿ ಏ ಯಾಡ್ಆನ್ಗೆ ಲೇಖಕರ ಕೊಡಿಗೆಯಾಗಿ ದೇನಿಗೆ ನೀಡಬಹುದಾಗಿದೆ ಮತ್ತು "
+"ಇದರ ಹೆಚ್ಚಿನ ಸುಧಾರಣೆಗೆ ಹಾಗು ಇನ್ನಿತರ ಉಚಿತ ತಂತ್ರಾಂಶಗಳಿಗೆ ಮತ್ತು ಅವುಗಳ ಉತ್ಪಾದನೆಗೆ "
+"ಬೆಂಬಲ ನೀಡಬಹುದಾಗಿದೆ.\n"
 "ನೀವು ಈಗ ದೇನಿಗೆ ನೀಡಲು ಬಯಸುವೀರಾ? ಹಾಗಾದರೆ ಇದು ನಿಮ್ಮನ್ನು ಈಗ ಪಾವತಿ ಜಾಲತಾಣಕ್ಕೆ "
 "ಕರೆದೊಯುತ್ತದೆ (you will be redirected to the Paypal website)."
 
@@ -81,5 +84,5 @@ msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
-"NVDA+F11 ಒಮ್ಮೆ ಒತ್ತಿದಾಗ ವ್ಯವಸ್ಥಾ ಖಾನೆಯಲ್ಲಿನ  ಗುಂಡಿಗಳ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಒಂದುವೇಲೆ "
-"ಎರಡು ಬಾರಿ ಒತ್ತಿದರೆ, ಚಾಲನೆಯಲ್ಲಿರುವ ಕಾರ್ಯಗಳ ಪಟ್ಟಿಗಳನ್ನು  ತೋರಿಸುತ್ತದೆ."
+"NVDA+F11 ಒಮ್ಮೆ ಒತ್ತಿದಾಗ ವ್ಯವಸ್ಥಾ ಖಾನೆಯಲ್ಲಿನ  ಗುಂಡಿಗಳ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸುತ್ತದೆ. "
+"ಒಂದುವೇಲೆ ಎರಡು ಬಾರಿ ಒತ್ತಿದರೆ, ಚಾಲನೆಯಲ್ಲಿರುವ ಕಾರ್ಯಗಳ ಪಟ್ಟಿಗಳನ್ನು  ತೋರಿಸುತ್ತದೆ."

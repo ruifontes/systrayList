@@ -1,14 +1,13 @@
 # systrayList #
 
-*   Autores: Rui Fontes <rui.fontes en tiflotecnia.com>, Rui Batista
-    <ruiandrebatista en gmail.com>, Colaboradores da Comunidade de NVDA
+*   Autores: Rui Fontes, Rui Batista , Joseph Lee, Colaboradores da
+    Comunidade de NVDA
 *   Descargar [versión estable][1]
 
-
-Este plugin permíteche ler e activar iconas na bandexa do sistema ou na
+Este complemento permíteche ler e activar iconas na bandexa do sistema ou na
 barra de tarefas, dentro dunha caixa de lista, para un acceso e interacción
-sinxelo con aqueles elementos. Co plugin instalado, preme NVDA+f11 unha vez
-para despregar este diálogo cos elementos da bandexa do sistema, e preme
+sinxelo con aqueles elementos. Co complemento instalado, preme NVDA+f11 unha
+vez para despregar este diálogo cos elementos da bandexa do sistema, e preme
 dúas veces para despregar cos elementos da barra de tarefas, que son as
 aplicacións actualmente en execución.
 
@@ -19,8 +18,14 @@ para facer a transición máis sinxela dende JAWS for Windows e evitar algúns
 consellos que poderán despregarse cando se percorre pola bandexa do sistema
 co teclado de Windows.
 
+## Cambios para 2.0 2017-05-20 ##
 
-## Cambios para 1.5 2015-02-01 ##
+* O diálogo Bandexa do systema/barra de tarefas agora está centrado na
+  pantalla.
+* Correxidos varios problemas da interfaz do usuario.
+* Traducións novas e actualizacións.
+
+## Cambios para 1.5 2015-mm-dd ##
 
 * Correxida a acción do clic exquerdo e dereito.
 * A axuda do complemento está dispoñible dende o Administrador de
@@ -54,7 +59,6 @@ co teclado de Windows.
 
 * Versión Inicial
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

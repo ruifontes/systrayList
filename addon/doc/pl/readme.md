@@ -1,9 +1,7 @@
 # Lista ikon zasobnika systemowego / systrayList #
 
-*   Autorzy: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, społeczność NVDA
+*   Autorzy: Rui Fontes, Rui Batista, Joseph Lee, współtwórcy zespołu NVDA
 *   Pobierz [wersja stabilna][1]
-
 
 Ta wtyczka umożliwia odczyt i aktywowanie ikon w zasobniku systemowym lub na
 pasku zadań, wybieranych z listy, dla łatwego dostępu do tych elementów i
@@ -19,11 +17,16 @@ do ułatwienia przejścia z JAWS for Windows; może też się przydać dla
 uniknięcia etykietek narzędzi, które wyskakują podczas przechodzenia po
 zawartości zasobnika w samym systemie.
 
+## Zmiany dla wersji 2.0 2017-05-20 ##
 
-## Zmiany dla wersji 1.5 2015-02-01 ##
+* Dialog Systray/pasek zadań teraz znajduje się na środku ekranu.
+* Poprawione różne błędy interfejsu użytkownika.
+* Nowe i zaktualizowane tłumaczenia.
+
+## Zmiany w wersji 1.5 2015-mm-dd ##
 
 * Poprawiona akcja lewego i prawego kliknięcia.
-* Pomoc dodatku dostępna teraz w managerze dodatków.
+* Pomoc dodatku jest dostępna teraz w menedżerze dodatków.
 * Uaktualnione tłumaczenia.
 
 ## Zmiany dla wersji 1.4 - 2013-01-19 ##
@@ -55,7 +58,6 @@ zawartości zasobnika w samym systemie.
 
 * Wstępne wydanie
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

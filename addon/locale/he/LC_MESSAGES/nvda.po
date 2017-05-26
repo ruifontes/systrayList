@@ -19,9 +19,10 @@ msgstr ""
 "X-Generator: Poedit 1.6.10\n"
 
 #. Translators: Input help mode message for system tray list command.
+#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
-"shows the items on the task bar."
+"shows the items on the taskbar."
 msgstr ""
 "מציג את רשימת הכפתורים על מגש המערכת. אם נלחץ פעמיים במהירות, מציג את "
 "הפריטים בשורת המשימות."
@@ -32,10 +33,12 @@ msgstr "רשימת מגש המערכת"
 msgid "Icons on the System Tray:"
 msgstr "אייקונים במגש המערכת"
 
-msgid "Task Bar List"
+#, fuzzy
+msgid "Taskbar List"
 msgstr "רשימת משימות"
 
-msgid "Icons of running applications in the task bar"
+#, fuzzy
+msgid "Icons of running applications on the taskbar:"
 msgstr "אייקונים של יישומים אשר פועלים ברשימת המשימות"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
@@ -51,6 +54,7 @@ msgid "&Right Click"
 msgstr "לחצן ימני"
 
 #. Translators: The text of the dialog shown during add-on installation.
+#, python-brace-format
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -63,6 +67,7 @@ msgstr ""
 "תרצה לתרום כעת?  (הינך תועבר לpaypal לביצוע תרומה)."
 
 #. Translators: The title of the dialog shown during add-on installation.
+#, python-brace-format
 msgid "Request for Contributions to {name}"
 msgstr "בקשת תרומות {name}"
 

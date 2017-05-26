@@ -14,35 +14,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
+#. Translators: Input help mode message for system tray list command.
+#, fuzzy
+msgid ""
+"Shows the list of buttons on the System Tray. If pressed twice quickly, "
+"shows the items on the taskbar."
+msgstr ""
+"थाली प्रणालिमा भएका सुचीहरूलाई देखाउने छ ।  यदि दुई पटक दबाएमा कार्य पट्टीमा भएका "
+"सामाग्रीहरूलाई देखाउने छ ।"
+
 msgid "System Tray List"
 msgstr "प्रणाली थाली सुची"
 
 msgid "Icons on the System Tray:"
 msgstr "प्रणाली थाली प्रतिमा"
 
-msgid "Task Bar List"
+#, fuzzy
+msgid "Taskbar List"
 msgstr "कार्य पट्टी सुची"
 
-msgid "Icons of running applications in the task bar"
+#, fuzzy
+msgid "Icons of running applications on the taskbar:"
 msgstr "कार्य पट्टीमा अङ्कित चालू अनुप्रयोगको प्रतिमा"
 
-#. Documentation
-msgid ""
-"Shows the list of buttons on the System Tray. If pressed twice quickly, "
-"shows the items on the task bar."
-msgstr ""
-"थाली प्रणालिमा भएका सुचीहरूलाई देखाउने छ ।  यदि दुई पटक दबाएमा कार्य पट्टीमा भएका "
-"सामाग्रीहरूलाई देखाउने छ ।"
-
+#. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
 msgstr "&देब्रे टाँक किटिक्क"
 
+#. Translators: A button in the system tray list dialog to perform left double mouse click.
 msgid "Left &Double Click"
 msgstr "देब्रे टाँक &दुई पटक किटिक्क"
 
+#. Translators: A button in the system tray list dialog to perform right mouse click.
 msgid "&Right Click"
 msgstr "&दाहिने टाँक किटिक्क"
 
+#. Translators: The text of the dialog shown during add-on installation.
+#, python-brace-format
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -54,16 +62,18 @@ msgstr ""
 "चन्दा दान गर्न सक्नु हुन्छ । \n"
 "के तपाइ अहिले नै केही दिन चाहनु हुन्छ ? तपाइलाई पेपाल वेभ साईट तर्फ पठाइने छ ।"
 
+#. Translators: The title of the dialog shown during add-on installation.
+#, python-brace-format
 msgid "Request for Contributions to {name}"
 msgstr " {name} को योगदानका लागि अनुरोध गरिन्छ ।"
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "sysTrayList - list sys tray and task bar elements"
 msgstr "प्रणाली थाली सुची- प्रणाली थालिमा र कार्य पट्टिमा भएका एकाईहरूलाई देखाउने छ ।"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."

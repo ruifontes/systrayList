@@ -1,9 +1,8 @@
 # systrayList #
 
-*   Autori: Rui Fontes <rui.fontes arond tiflotecnia.com>, Rui Batista
-    <ruiandrebatista arond gmail.com>, contribuitorii comunității NVDA
+*   Autori: Rui Fontes, Rui Batista, Joseph Lee și alți membri din
+    comunitatea NVDA
 *   Descărcați [versiunea stabilă][1]
-
 
 Acest supliment vă permite să citiți și să activați iconițe în bara de
 sistem sau bara de activități, într-o listă de casete pentru un acces și o
@@ -17,11 +16,16 @@ ecran folosind comanda rapidă windows+b, și bara de activități apăsând tab
 după butonul start. Acest supliment este util doar pentru a face trecerea de
 la JAWS pentru Windows lin și pentru a evita unele tipuri de unelte .
 
+## Modificări aduse în versiunea 2.0, 20 mai 2017 ##
 
-## Modificări aduse în versiunea 1.5, 2 februarie 2015 ##
+* Dialogul Systray/bara de activități este acum centrat pe ecran.
+* Au fost reparate diferite erori ale interfeței utilizatorului.
+* Traduceri noi și actualizate.
+
+## Modificări aduse în versiunea 1.5 2015-mm-dd ##
 
 * A fost corectată acțiunea click stânga/dreapta.
-* Ajutorul add-on-ului este disponibil în managerul de add-on-uri.
+* Ajutorul suplimentului este disponibil în managerul de suplimente.
 * Actualizări la traduceri.
 
 ## Modificări aduse în versiunea 1.4, 19 ianuarie 2013. ##
@@ -53,7 +57,6 @@ la JAWS pentru Windows lin și pentru a evita unele tipuri de unelte .
 
 * Versiunea inițială
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st

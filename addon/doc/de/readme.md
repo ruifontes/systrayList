@@ -1,17 +1,14 @@
 # Infobereichsliste #
 
-*   Authoren: Rui Fontes <rui.fontes at tiflotecnia.com>, Rui Batista
-    <ruiandrebatista at gmail.com>, NVDA-Community-Entwickler
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
 *   Download [stable version][1]
 
-
-Diese Erweiterung ermöglicht Ihnen  die Symbole des Infobereichs und der
-Taskleiste zu lesen und zu aktivieren. Somit haben Sie einen einfacheren
-Zugriffauf die Einträge und können so mit ihnen interagieren. Bei
-installierter Erweiterung drücken Sie NVDA+F11, um den Dialog mit den
-Einträgen des Infobereiches zu öffnen. Bei zweimaligem betätigen der
-Tastenkombination öffnet sich der Dialog mit den Einträgen der
-Taskleiste. Dies sind die derzeit geöffneten Programme.
+This add-on allows you to read and activate icons on the system tray or the
+task bar, within a list box, for easy access and interaction to those
+items. With the add-on installed, press NVDA+f11 once for this dialog to
+pop-up with system tray elements, and press twice to display task bar
+elements, which are the currently running applications.
 
 Bitte beachten Sie, dass Sie in jedem Screenreader mittels der
 Tastenkombination Windows+B auf den Infobereich zugreifen können. Ferner
@@ -20,12 +17,16 @@ dazu gedacht, den Wechsel von JAWS für Windows einfacher zu gestalten und um
 einigen Hilfe-Sprechblasen aus dem Weg zu gehen, die möglicherweise
 erscheinen, wenn mittels der Tastatur durch den Infobereich navigiert wird.
 
+## Changes for 2.0 2017-05-20 ##
 
-## Änderungen bis 1.5 02.01.2015 ##
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
+
+## Changes for 1.5 2015-mm-dd ##
 
 * Funktion für Links- bzw. Rechtsklick korrigiert.
-* Hilfe zur Erweiterung ist nun über den Dialog Erweiterungen verwalten
-  verfügbar.
+* Add-on help is now available from add-ons manger.
 * aktualisierte Übersetzungen
 
 ## Änderungen in 1.4 - 19.01.2013 ##
@@ -57,7 +58,6 @@ erscheinen, wenn mittels der Tastatur durch den Infobereich navigiert wird.
 
 * Ehrstveröffentlichung
 
-
 [[!tag stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=st
+[1]: https://addons.nvda-project.org/files/get.php?file=st
