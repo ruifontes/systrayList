@@ -8,17 +8,16 @@ msgstr ""
 "Project-Id-Version: systraylist\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2016-02-26 02:47-0800\n"
+"PO-Revision-Date: 2017-05-26 20:04+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: Tamil <td.dinkar@gmail.com>\n"
 "Language: ta_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: Input help mode message for system tray list command.
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -32,11 +31,9 @@ msgstr "கணினித் தட்டுப் பட்டியல்"
 msgid "Icons on the System Tray:"
 msgstr "கணினித் தட்டில் இருக்கும் படவுருக்கள்"
 
-#, fuzzy
 msgid "Taskbar List"
 msgstr "பணிப்பட்டை பட்டியல்"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
 msgstr "பணிப்பட்டையில் ஓடிக் கொண்டிருக்கும் பயன்பாடுகளின் படவுருக்கள்"
 
@@ -53,7 +50,6 @@ msgid "&Right Click"
 msgstr "வலது சொடுக்கு (&R)"
 
 #. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -67,7 +63,6 @@ msgstr ""
 "செல்லப்படுவீர்கள்)."
 
 #. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
 msgid "Request for Contributions to {name}"
 msgstr "{name} கூட்டுறுப்பிற்கு பங்களிக்க வேண்டுகோள்"
 
