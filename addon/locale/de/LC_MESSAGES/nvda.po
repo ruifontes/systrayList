@@ -7,53 +7,50 @@ msgstr ""
 "Project-Id-Version: Systraylist 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2016-02-25 23:33-0800\n"
-"Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
+"PO-Revision-Date: 2017-07-02 20:33+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: German <bernd_dorer@yahoo.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 2.0.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: C:\\Dokumente und Einstellungen\\Berned"
-"\\Anwendungsdaten\\nvda\\addons\\systrayList\\globalPlugins\\systrayList\n"
+"X-Poedit-SearchPath-0: C:/Dokumente und Einstellungen/Berned/Anwendungsdaten/"
+"nvda/addons/systrayList/globalPlugins/systrayList\n"
 
 #. Translators: Input help mode message for system tray list command.
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"zeigt die Liste der Symbole im Infobereich. Bei zweimaligem Drücken wird  "
+"Zeigt die Liste der Symbole im Infobereich an. Bei zweimaligem Drücken wird "
 "die Liste der Taskleiste angezeigt."
 
 msgid "System Tray List"
-msgstr "Liste des Infobereiches"
+msgstr "Liste des Infobereichs"
 
 msgid "Icons on the System Tray:"
-msgstr "Symbole des Infobereichs:"
+msgstr "Symbole im Infobereich:"
 
-#, fuzzy
 msgid "Taskbar List"
 msgstr "Liste der Taskleiste"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
-msgstr "Symbole von laufenden Anwendungen in der Taskleiste"
+msgstr "Symbole in der Taskleiste:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
-msgstr "&links klicken"
+msgstr "&Linksklick"
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
 msgid "Left &Double Click"
-msgstr "links &doppelt klicken"
+msgstr "Linker &Doppelklick"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
 msgid "&Right Click"
-msgstr "&rechts klicken"
+msgstr "&Rechtsklick"
 
 #. Translators: The text of the dialog shown during add-on installation.
 #, python-brace-format

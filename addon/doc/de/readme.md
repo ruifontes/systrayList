@@ -26,7 +26,8 @@ erscheinen, wenn mittels der Tastatur durch den Infobereich navigiert wird.
 ## Changes for 1.5 2015-mm-dd ##
 
 * Funktion für Links- bzw. Rechtsklick korrigiert.
-* Add-on help is now available from add-ons manger.
+* Hilfe zur Erweiterung ist nun über den Dialog Erweiterungen verwalten
+  verfügbar.
 * aktualisierte Übersetzungen
 
 ## Änderungen in 1.4 - 19.01.2013 ##
