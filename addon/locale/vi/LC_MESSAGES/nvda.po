@@ -8,23 +8,22 @@ msgstr ""
 "Project-Id-Version: systrayList 1.8\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2017-02-03 19:05+1000\n"
-"PO-Revision-Date: 2017-03-07 16:33+0700\n"
+"PO-Revision-Date: 2017-06-26 23:47+0700\n"
 "Last-Translator: Dang Hoai Phuc <danghoaiphuc@gmail.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. Translators: Input help mode message for system tray list command.
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"Liệt kê các biểu tượng trên khay hệ thống trong một danh sách. Nhấn nhanh "
-"hai lần để liệt kê các biểu tượng trên thanh tác vụ."
+"Liệt kê các biểu tượng trên khay hệ thống. Nhấn nhanh hai lần để liệt kê các "
+"biểu tượng trên thanh tác vụ."
 
 msgid "System Tray List"
 msgstr "Danh Sách Khay Hệ Thống"
@@ -32,13 +31,11 @@ msgstr "Danh Sách Khay Hệ Thống"
 msgid "Icons on the System Tray:"
 msgstr "Biểu tượng trên khay hệ thống:"
 
-#, fuzzy
 msgid "Taskbar List"
-msgstr "Danh Sách Thanh Tác Vụ"
+msgstr "Danh sách thanh tác vụ"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
-msgstr "Biểu tượng các chương trình đang chạy trên thanh tác vụ"
+msgstr "Biểu tượng các ứng dụng đang chạy trên thanh tác vụ:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
