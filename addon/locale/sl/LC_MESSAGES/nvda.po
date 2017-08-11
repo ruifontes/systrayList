@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2016-05-26 07:57+0100\n"
+"PO-Revision-Date: 2017-08-05 01:39+0100\n"
 "Last-Translator: Jožef Gregorc <jozko.gregorc@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sl\n"
@@ -18,7 +18,6 @@ msgstr ""
 "X-Generator: Poedit 1.5.7\n"
 
 #. Translators: Input help mode message for system tray list command.
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -32,13 +31,11 @@ msgstr "Seznam v območju za obvestila"
 msgid "Icons on the System Tray:"
 msgstr "Ikone v območju za obvestila"
 
-#, fuzzy
 msgid "Taskbar List"
 msgstr "Seznam v opravilni vrstici"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
-msgstr "Ikone programov v teku v opravilni vrstici"
+msgstr "Ikone programov v teku v opravilni vrstici:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
@@ -53,7 +50,6 @@ msgid "&Right Click"
 msgstr "&Desni klik"
 
 #. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
 msgid ""
 " {name} is a free add-on for NVDA.\n"
 "You can make a donation to its author to support further developments of "
@@ -66,7 +62,6 @@ msgstr ""
 "Želite prispevati sedaj? (Preusmerili vas bomo na spletno mesto Paypal-a)."
 
 #. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
 msgid "Request for Contributions to {name}"
 msgstr "Prošnja za sodelovanje pri {name}"
 
