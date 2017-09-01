@@ -1,14 +1,15 @@
 # systrayList (systembakke som liste) #
 
-*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
-    contributors
+*   Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    bidragydere
 *   download [stabil version][1]
 
-This add-on allows you to read and activate icons on the system tray or the
-task bar, within a list box, for easy access and interaction to those
-items. With the add-on installed, press NVDA+f11 once for this dialog to
-pop-up with system tray elements, and press twice to display task bar
-elements, which are the currently running applications.
+Med dette tilføjelsesprogram kan du læse og aktivere ikoner i systembakken
+og på joblinjen i en listeboks, så du nemt kan få adgang til og gøre brug af
+disse emner. Når tilføjelsesprogrammet er installeret, kan du trykke
+NVDA+F11 en gang for at se denne dialog med elementer fra systembakken. Tryk
+to gange for at se elementer på joblinjen, der består af de aktuelt kørende
+applikationer.
 
 Bemærk at du kan få adgang til systembakken med ethvert skærmlæserprogram
 ved hjælp af genvejstasten Windows+d og til joblinjen ved at trykke Tab fra
@@ -16,13 +17,13 @@ Start-knappen. Dette tilføjelsesprogram kan kun bruges til at gøre
 overgangen fra JAWS for Windows glattere og til at undgå nogle værktøjstips,
 som kan poppe op, når man går gennem systembakken med Windows-tastaturet.
 
-## Changes for 2.0 2017-05-20 ##
+## Ændringer i 2.0 2017-05-20 ##
 
-* Systray/taskbar dialog is now centered on screen.
-* Fixed various user interface issues.
-* New and updated translations.
+* Dialogen Systembakke/joblinje er nu centreret på skærmen
+* Rettede diverse brugergrænsefladeproblemer
+* Nye og opdaterede oversættelser
 
-## Changes for 1.5 2015-mm-dd ##
+## Ændringer i 1.5 2015-mm-dd ##
 
 * Korrigeret handling ved venstre/højre klik.
 * Add-on help is now available from add-ons manger.
