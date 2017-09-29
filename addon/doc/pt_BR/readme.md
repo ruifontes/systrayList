@@ -1,14 +1,15 @@
 # Lista da área de notificação #
 
-*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
-    contributors
+*   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da
+    comunidade do NVDA
 *   Baixe a [versão estável][1]
 
-This add-on allows you to read and activate icons on the system tray or the
-task bar, within a list box, for easy access and interaction to those
-items. With the add-on installed, press NVDA+f11 once for this dialog to
-pop-up with system tray elements, and press twice to display task bar
-elements, which are the currently running applications.
+Este complemento possibilita ler e ativar ícones da área de notificação ou
+da barra de tarefas, numa caixa de lista para um fácil acesso e interação
+com tais itens. Com o plug-in instalado,  pressione NVDA+f11 uma vez para
+que apareça o diálogo com os elementos da área de notificação e pressione
+duas vezes para mostrar os elementos da barra de tarefas, que são os
+aplicativos em execução no momento.
 
 Note que você pode acessar a área de notificação do Windows com qualquer
 leitor de telas usando a tecla windows+b e a barra de tarefas pressionando
@@ -16,16 +17,17 @@ tab a partir do botão iniciar. Este plug-in só é útil para facilitar a
 migração do JAWS for Windows e para fugir de dicas de ferramentas que possam
 surgir ao percorrer a área de notificação com a tecla nativa do Windows.
 
-## Changes for 2.0 2017-05-20 ##
+## Mudanças na 2.0 2017-05-20 ##
 
-* Systray/taskbar dialog is now centered on screen.
-* Fixed various user interface issues.
-* New and updated translations.
+* Diálogo da área de notificação/barra de tarefas agora é centrado na tela.
+* Corrigidos diversos problemas de interface com o usuário.
+* Traduções novas e atualizadas.
 
-## Changes for 1.5 2015-mm-dd ##
+## Mudanças na 1.5 2015-mm-dd ##
 
 * Corrigida ação de clique esquerdo/direito.
-* Add-on help is now available from add-ons manger.
+* A ajuda do complemento agora está disponível a partir do gestor de
+  complementos.
 * Atualizadas traduções.
 
 ## Mudanças na 1.4 - 19/01/2013 ##
