@@ -8,17 +8,16 @@ msgstr ""
 "Project-Id-Version: systrayList 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-03-13 14:03+0100\n"
-"PO-Revision-Date: 2013-03-13 21:24+0100\n"
+"PO-Revision-Date: 2017-11-05 13:39+0100\n"
 "Last-Translator: Hrvoje Katić <hrvojekatic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. Translators: Input help mode message for system tray list command.
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -32,13 +31,11 @@ msgstr "Popis platforme sustava"
 msgid "Icons on the System Tray:"
 msgstr "Ikone na platformi sustava:"
 
-#, fuzzy
 msgid "Taskbar List"
 msgstr "Popis trake zadataka"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
-msgstr "Ikone pokrenutih aplikacija na traci zadataka"
+msgstr "Ikone pokrenutih aplikacija na traci zadataka:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
