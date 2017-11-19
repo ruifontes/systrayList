@@ -6,6 +6,7 @@
 # Masamitsu Misono <misono@nvsupport.org>
 # Joseph Lee <joseph.lee22590@gmail.com>
 # Shortcut: NVDA+f11
+# Copyright 2013-2017, released under GPL.
 
 import os.path
 import wx
