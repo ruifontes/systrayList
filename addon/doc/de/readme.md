@@ -10,12 +10,11 @@ items. With the add-on installed, press NVDA+f11 once for this dialog to
 pop-up with system tray elements, and press twice to display task bar
 elements, which are the currently running applications.
 
-Bitte beachten Sie, dass Sie in jedem Screenreader mittels der
-Tastenkombination Windows+B auf den Infobereich zugreifen können. Ferner
-können Sie vom Schalter Start zur Taskleiste gelangen. Diese Erweiterung ist
-dazu gedacht, den Wechsel von JAWS für Windows einfacher zu gestalten und um
-einigen Hilfe-Sprechblasen aus dem Weg zu gehen, die möglicherweise
-erscheinen, wenn mittels der Tastatur durch den Infobereich navigiert wird.
+Note that you can access the windows system tray in any screenreader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
 
 ## Changes for 2.0 2017-05-20 ##
 

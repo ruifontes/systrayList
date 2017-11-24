@@ -13,11 +13,11 @@ notification, et appuyer deux fois pour afficher les éléments de la barre
 des tâches qui sont les applications en cours d'exécution.
 
 Notez que vous pouvez accéder à la zone de notification avec n'importequel
-lecteur d'écran en appuyant sur windows+b, et à la barre des tâches avec une
-fois Tab depuis le bouton Démarrer. Ce module complémentaire est uniquement
-utile pour la transition depuis JAWS pour Windows et pour éviter sertaines
+lecteur d'écran en utilisant Windows+B, et à la barre des tâches en appuyant
+sur Windows+T. Ce module complémentaire est uniquement utile pour rendre la
+transition depuis JAWS pour Windows plus fluide et pour éviter sertaines
 bules d'aides qui s'affichent lorsqu'on parcourt la zone de notification au
-clavier.
+moyen du clavier Windows.
 
 ## Changements pour la version 2.0 - 20/05/2017 ##
 

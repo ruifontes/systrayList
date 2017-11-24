@@ -10,12 +10,11 @@ items. With the add-on installed, press NVDA+f11 once for this dialog to
 pop-up with system tray elements, and press twice to display task bar
 elements, which are the currently running applications.
 
-Kullandığınız ekran okuyuculardan bağımsız olarak sistem tepsisine ulaşmak
-için Windows+B, görev çubuğundaki simgeler için Windows+T tuşlarını
-kullanabileceğinizi hatırlatmak isteriz. Bu eklenti, başka ekran
-okuyuculardan NVDA'ya geçiş yapan arkadaşların işini kolaylaştırmak ve
-sistem tepsisinde normal yollarla dolaşırken açılabilecek ipucu iletişim
-kutularıyla karşılaşılmaması için geliştirilmiştir.
+Note that you can access the windows system tray in any screenreader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
 
 ## Changes for 2.0 2017-05-20 ##
 

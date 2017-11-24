@@ -11,11 +11,11 @@ NVDA+F11 en gang for at se denne dialog med elementer fra systembakken. Tryk
 to gange for at se elementer på joblinjen, der består af de aktuelt kørende
 applikationer.
 
-Bemærk at du kan få adgang til systembakken med ethvert skærmlæserprogram
-ved hjælp af genvejstasten Windows+d og til joblinjen ved at trykke Tab fra
-Start-knappen. Dette tilføjelsesprogram kan kun bruges til at gøre
-overgangen fra JAWS for Windows glattere og til at undgå nogle værktøjstips,
-som kan poppe op, når man går gennem systembakken med Windows-tastaturet.
+Note that you can access the windows system tray in any screenreader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
 
 ## Ændringer i 2.0 2017-05-20 ##
 

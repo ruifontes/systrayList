@@ -10,12 +10,11 @@ ilmoitusalueen painikkeet näyttävään valintaikkunaan painamalla kerran
 NVDA+F11 ja tehtäväpalkin kuvakkeisiin, jotka ovat käynnissä olevia
 sovelluksia, painamalla kahdesti samaa komentoa.
 
-Huom: Windowsin ilmoitusalueelle pääsee mitä tahansa ruudunlukuohjelmaa
-käytettäessä Windows+B-näppäinkomennolla ja tehtäväpalkkiin painamalla
-Käynnistä-valikon kohdalla oltaessa sarkain-näppäintä. Tästä lisäosasta on
-hyötyä vain JAWSista NVDA:han siirtyneille sekä joidenkin työkaluvihjeiden
-välttämisessä, joita saattaa ponnahdella näkyviin liikuttaessa
-ilmoitusalueella nuolinäppäinten avulla.
+Note that you can access the windows system tray in any screenreader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
 
 ## Muutokset versiossa 2.0, 20.5.2017 ##
 

@@ -11,12 +11,11 @@ pulsa NVDA+f11 una vez para desplegar este diálogo con los elementos de la
 bandeja del sistema, y pulsa dos veces para mostrar los elementos de la
 barra de tareas, que son las actuales aplicaciones en ejecución.
 
-Ten en cuenta que se puede acceder a la bandeja de sistema de Windows con
-cualquier software de lector de pantalla con la tecla de atajo Windows+b, y
-a la barra de tareas pulsando tab desde el botón de inicio. Este plugin sólo
-es útil para hacer la transición desde JAWS para Windows más suave y para
-evitar algunas etiquetas que pueden desplegarse cuando se navega por la
-bandeja del sistema con las teclas de windows.
+Note that you can access the windows system tray in any screenreader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
 
 ## Cambios para 2.0 2017-05-20 ##
 

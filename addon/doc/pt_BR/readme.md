@@ -11,11 +11,11 @@ que apareça o diálogo com os elementos da área de notificação e pressione
 duas vezes para mostrar os elementos da barra de tarefas, que são os
 aplicativos em execução no momento.
 
-Note que você pode acessar a área de notificação do Windows com qualquer
-leitor de telas usando a tecla windows+b e a barra de tarefas pressionando
-tab a partir do botão iniciar. Este plug-in só é útil para facilitar a
-migração do JAWS for Windows e para fugir de dicas de ferramentas que possam
-surgir ao percorrer a área de notificação com a tecla nativa do Windows.
+Note that you can access the windows system tray in any screenreader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
 
 ## Mudanças na 2.0 2017-05-20 ##
 

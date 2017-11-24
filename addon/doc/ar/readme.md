@@ -10,11 +10,11 @@ items. With the add-on installed, press NVDA+f11 once for this dialog to
 pop-up with system tray elements, and press twice to display task bar
 elements, which are the currently running applications.
 
-يرجى الملاحظة بأنه يمكنك الوصول إلى صينية النظام بالضغط على windos+B مع أي
-برنامج قارئ شاشة, كما يمكنك الوصول إلى شريط المهام بالضغط على مفتاح Tab بعد
-الوصول إلى زر Start.  تفيد هذه الإضافة البرمجية فقط في الانتقال السهل من
-برنامج جوز كما تفيد في تجنب الرسائل التي يمكن أن تظهر أثناء الحركة على صينية
-النظامباستخدام الاختصار المقدم من نظام التشغيل ويندوز.
+Note that you can access the windows system tray in any screenreader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
 
 ## Changes for 2.0 2017-05-20 ##
 

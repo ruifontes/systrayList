@@ -8,10 +8,11 @@ trake iz liste, za lakše upravljanje. Kada je dodatak instaliran, pritisnite
 NVDA+f11 da prikažete ikone sistemske trake, pritisnite komandu dva puta za
 ikone programske trake što uključuje trenutno aktivne aplikacije.
 
-Napomena da sistemskoj traci možete pristupiti u svakom čitaču ekrana
-komandom Windows+b, a programskoj traci pritiskanjem tastera Tab kada ste na
-start dugmetu. Ovaj dodatak je napravljen kako bi prelazak sa čitača ekrana
-Jaws bio lakši.
+Note that you can access the windows system tray in any screenreader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
 
 ## Promene u 2.0 2017-05-20 ##
 
