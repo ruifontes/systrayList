@@ -11,29 +11,29 @@ apăsațiNVDA+f11 o dată pentru acest dialog pentru a citi elementele barei de
 sistem,apoi apăsați de două ori pentru a afișa elementele barei de
 activități, în care sunt aplicațiile curente care rulează.
 
-Note that you can access the windows system tray in any screenreader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Notați că puteți accesa bara de sistem a Windows-ului cu orice cititor de
+ecran folosind comanda rapidă windows+b, și bara de activități apăsând tab
+după butonul start. Acest supliment este util doar pentru a face trecerea de
+la JAWS pentru Windows lin și pentru a evita unele tipuri de unelte .
 
 ## Modificări aduse în versiunea 2.0, 20 mai 2017 ##
 
-* Dialogul Systray/bara de activități este acum centrat pe ecran.
-* Au fost reparate diferite erori ale interfeței utilizatorului.
+* Dialogul Systray sau al barei de activități este acum în centrul
+  ecranului.
+* S-au rezolvat diferite probleme ale interfeței utilizatorului.
 * Traduceri noi și actualizate.
 
 ## Modificări aduse în versiunea 1.5 2015-mm-dd ##
 
-* A fost corectată acțiunea click stânga/dreapta.
+* S-a corectat acțiunea click stânga/dreapta.
 * Ajutorul suplimentului este disponibil în managerul de suplimente.
 * Actualizări la traduceri.
 
 ## Modificări aduse în versiunea 1.4, 19 ianuarie 2013. ##
 
 * Este cerută versiunea NVDA 2012.3beta2 sau mai vechi.
-* A fost adăugată donația care este solicitată la procedura de instalare
-* A fost implementat suportul barei de activități
+* S-a adăugat donația care este solicitată la procedura de instalare
+* S-a implementat suportul barei de activități
 * Traduceri noi: Arabă, Bulgară, Olandeză, Finlandeză, Galiciană, Greacă,
   Maghiară, Italiană, Japoneză, Coreeană, Nepaleză, Norvegiană, Poloneză,
   Portugheză Braziliană, Rusă, Slovacă, Tamilă, Chineză Tradițională Hong
@@ -41,7 +41,7 @@ tray with the windows keyboard means.
 
 ## Modificări aduse în versiunea 1.3, 25 mai 2012 ##
 
-* Convertit într-un pachet add-on
+* S-a convertit într-un pachet add-on
 * Traduceri în Franceză și Turcă.
 
 ## Modificări aduse în versiunea 1.2, 25 aprilie 2012 ##
@@ -51,8 +51,8 @@ tray with the windows keyboard means.
 
 ## Modificări aduse în versiunea 1.1, 20 martie 2012 ##
 
-* A fost corectată o eroare care făcea imposibilă utilizarea suplimentului
-  când o traducere gettext era indisponibilă
+* S-a corectat o eroare care făcea imposibilă utilizarea suplimentului când
+  o traducere gettext era indisponibilă
 
 ## Modificări aduse în versiunea 1.0, 19 martie 2012 ##
 

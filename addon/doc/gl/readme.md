@@ -11,11 +11,12 @@ vez para despregar este diálogo cos elementos da bandexa do sistema, e preme
 dúas veces para despregar cos elementos da barra de tarefas, que son as
 aplicacións actualmente en execución.
 
-Note that you can access the windows system tray in any screenreader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Ten en conta que podes acesar a bandexa do sistema no windows en calquer
+programa lector de pantalla utilizando o atallo de teclado windows+b, e á
+barra de tarefas premendo Windows+t. Este plugin só é útil para facer a
+transición máis sinxela dende JAWS for Windows e evitar algúns consellos que
+poderán despregarse cando se percorre pola bandexa do sistema co teclado de
+Windows.
 
 ## Cambios para 2.0 2017-05-20 ##
 

@@ -1,28 +1,30 @@
 # Infobereichsliste #
 
-*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
-    contributors
+*   Authoren: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    Contributors
 *   Download [stable version][1]
 
-This add-on allows you to read and activate icons on the system tray or the
-task bar, within a list box, for easy access and interaction to those
-items. With the add-on installed, press NVDA+f11 once for this dialog to
-pop-up with system tray elements, and press twice to display task bar
-elements, which are the currently running applications.
+Mit diesem Add-On können Sie Symbole im Infobereich oder in der Taskleiste
+bequem aus einer generierten Liste lesen und aktivieren. Der Zugriff und die
+Interaktion mit diesen Elementen ist dadurch sehr einfach. Wenn das Add-On
+installiert ist, drücken Sie einmal NVDA+f11, um im aktiven Dialogfeld ein
+Pop-Up-Fenster mit Elementen aus dem Infobereich zu öffnen, und zweimal, um
+Elemente aus der Taskleiste anzuzeigen. Die Taskleiste enthält die aktuell
+laufenden Programme.
 
-Note that you can access the windows system tray in any screenreader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Beachten Sie, dass Sie in jeder Bildschirmlesesoftware mit Windows+B auf dem
+Infobereich und mit Windows+T auf die Taskleiste zugreifen können. Dieses
+Plugin ist nur nützlich, um den Übergang von JAWS für Windows reibungsloser
+zu gestalten und um Tooltips zu vermeiden, die beim Durchlaufen der
+Taskleiste mit der Windows-Tastatur erscheinen können.
 
-## Changes for 2.0 2017-05-20 ##
+## Änderungen in 2.0 (20.05.2017) ##
 
-* Systray/taskbar dialog is now centered on screen.
-* Fixed various user interface issues.
-* New and updated translations.
+* Der Dialog Infobereich/Taskleiste ist nun auf dem Bildschirm zentriert.
+* Verschiedene Probleme mit der Benutzeroberfläche wurden behoben.
+* Neue und aktualisierte Übersetzungen.
 
-## Changes for 1.5 2015-mm-dd ##
+## Änderungen in 1.5 (2015) ##
 
 * Funktion für Links- bzw. Rechtsklick korrigiert.
 * Hilfe zur Erweiterung ist nun über den Dialog Erweiterungen verwalten
