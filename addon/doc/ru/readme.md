@@ -9,11 +9,11 @@
 вызова окна со списком значков области уведомлений или дважды быстро для
 вызова списка значков панели задач с запущенными приложениями.
 
-Note that you can access the windows system tray in any screenreader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Обратите внимание, что вы можете получить доступ к области уведомлений
+Windows с любой программой экранного доступа используя комбинацию клавиш
+windows+b и к панели задач, нажав комбинацию windows+tab. Это дополнение
+полезно для гладкого перехода с JAWS for Windows и избавляет от навигации
+клавишами Windows по всплывающим подсказкам в области уведомлений.
 
 ## Изменения в версии 2.0 2017-05-20 ##
 
