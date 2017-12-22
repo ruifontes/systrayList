@@ -26,7 +26,7 @@ Taskleiste mit der Windows-Tastatur erscheinen können.
 
 ## Änderungen in 1.5 (2015) ##
 
-* Funktion für Links- bzw. Rechtsklick korrigiert.
+* Funktion für Links- bzw. Rechtsklick wurde korrigiert.
 * Hilfe zur Erweiterung ist nun über den Dialog Erweiterungen verwalten
   verfügbar.
 * aktualisierte Übersetzungen
@@ -43,7 +43,7 @@ Taskleiste mit der Windows-Tastatur erscheinen können.
 
 ## Änderungen in 1.3 - 5-25.05.2012 ##
 
-* In ein Erweiterungspaket konvertiert.
+* Es wurde In ein Erweiterungspaket konvertiert.
 * Übersetzungen für Türkisch und Französisch.
 
 ## Änderungen in 1.2 - 25.04.2012 ##
