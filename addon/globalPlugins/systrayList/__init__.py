@@ -47,7 +47,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		try:
 			if not self._systrayListDialog:
 				self._systrayListDialog.Destroy()
-		except AttributeError:
+		except (AttributeError, RuntimeError):
 			pass
 
 	def _findAccessibleLeafsFromWindowClassPath(self, windowClassPath):
