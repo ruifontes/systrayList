@@ -1,4 +1,4 @@
-# systrayList #
+# systrayList托盘图标插件 #
 
 *   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
     contributors
