@@ -113,21 +113,21 @@ class SystrayListDialog(wx.Dialog):
 		# Label is above the list view.
 		self.tasksLabel = wx.StaticText(self, -1)
 		tasksSizer.Add(self.tasksLabel)
-		self.listBox = wx.ListBox(self, wx.NewId(), style=wx.LB_SINGLE, size=(550, 250))
+		self.listBox = wx.ListBox(self, wx.NewIdRef() if wx.version().startswith("4") else wx.NewId(), style=wx.LB_SINGLE, size=(550, 250))
 		tasksSizer.Add(self.listBox, proportion=8)
 		mainSizer.Add(tasksSizer)
 		# Create buttons.
 		# Buttons are in a horizontal row
 		buttonsSizer = wx.BoxSizer(wx.HORIZONTAL)
-		leftClickButtonID = wx.NewId()
+		leftClickButtonID = wx.NewIdRef() if wx.version().startswith("4") else wx.NewId()
 		# Translators: A button on the system tray list dialog to perform left mouse click.
 		leftClickButton = wx.Button(self, leftClickButtonID, _("&Left Click"))
 		buttonsSizer.Add(leftClickButton)
-		leftDoubleClickButtonID = wx.NewId()
+		leftDoubleClickButtonID = wx.NewIdRef() if wx.version().startswith("4") else wx.NewId()
 		# Translators: A button in the system tray list dialog to perform left double mouse click.
 		leftDoubleClickButton = wx.Button(self, leftDoubleClickButtonID, _("Left &Double Click"))
 		buttonsSizer.Add(leftDoubleClickButton)
-		rightClickButtonID = wx.NewId()
+		rightClickButtonID = wx.NewIdRef() if wx.version().startswith("4") else wx.NewId()
 		# Translators: A button in the system tray list dialog to perform right mouse click.
 		rightClickButton = wx.Button(self, rightClickButtonID, _("&Right Click"))
 		buttonsSizer.Add(rightClickButton)
