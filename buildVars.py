@@ -19,7 +19,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("""Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."""),
 	# version
-	"addon_version" : "2.3",
+	"addon_version" : "2.4",
 	# Author(s)
 	"addon_author" : u"Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, Joseph Lee <joseph.lee22590@gmail.com>, NVDA Community Contributors",
 	# URL for the add-on documentation support
