@@ -1,4 +1,4 @@
-# Lista ikon zasobnika systemowego / systrayList #
+# systrayList #
 
 *   Autorzy: Rui Fontes, Rui Batista, Joseph Lee, współtwórcy zespołu NVDA
 *   Pobierz [wersja stabilna][1]
