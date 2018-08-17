@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: systrayList 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2014-03-17 18:29+0800\n"
-"Last-Translator: 雪岭冰龙 <vgjh2005@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-08-15 06:44+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 2.1.1\n"
+"Language-Team: \n"
 
 #. Translators: Input help mode message for system tray list command.
 #, fuzzy
@@ -34,9 +34,8 @@ msgstr "系统托盘的图标："
 msgid "Taskbar List"
 msgstr "任务栏列表"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
-msgstr "正在运行程序的任务栏图标"
+msgstr "正在运行程序的任务栏图标:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
@@ -70,7 +69,7 @@ msgstr "请求为 {name} 提供帮助"
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "系统托盘列表，显示系统托盘和任务栏的元素。"
+msgstr "系统托盘列表，显示系统托盘和任务栏的元素"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
