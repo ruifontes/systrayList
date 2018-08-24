@@ -6,51 +6,48 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: systrayList 2.0-dev\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-07-14 19:27+0200\n"
-"PO-Revision-Date: 2016-01-27 07:41+0100\n"
-"Last-Translator: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2018-08-23 16:08+0330\n"
+"Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
+"Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. Translators: Input help mode message for system tray list command.
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"فهرست دکمه‌هایی که در هشدارگاه سامانه است را نشان می‌دهد. اگر دو بار تند فشار "
-"داده شود٬ نشان‌های روی نوار وظیفه را نشان می‌دهد."
+"فهرستِ دکمه‌های موجود در محدوده‌ی اعلان‌ها را نشان میدهد. اگر دو بار پشتِ سرِ هم "
+"فشرده شود، مواردِ موجود در نوارِ وظیفه را نشان میدهد."
 
 msgid "System Tray List"
-msgstr "فهرست تکه‌ها در هشدارگاه سامانه"
+msgstr "فهرستِ محدوده‌ی اعلان‌های سیستم"
 
 msgid "Icons on the System Tray:"
-msgstr "نشان‌ها در هشدارگاه سامانه"
+msgstr "شکلک‌های روی محدوده‌ی اعلان‌های سیستم:"
 
-#, fuzzy
 msgid "Taskbar List"
-msgstr "فهرست نوار وظیفه"
+msgstr "فهرستِ نوارِ وظیفه"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
-msgstr "نشان‌های برنامه‌های در کار بر روی نوار وظیفه"
+msgstr "شکلک‌های برنامه‌های درحالِ اجرا روی نوارِ وظیفه:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
-msgstr "چپ‌کلیک"
+msgstr "&چپ‌کلیک"
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
 msgid "Left &Double Click"
-msgstr "دوچپ‌کلیک"
+msgstr "&دو‌چپ‌کلیک"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
 msgid "&Right Click"
-msgstr "راست‌کلیک"
+msgstr "&راست‌کلیک"
 
 #. Translators: The text of the dialog shown during add-on installation.
 #, python-brace-format
@@ -60,20 +57,22 @@ msgid ""
 "this add-on and other free software products.\n"
 "Do you want to donate now? (you will be redirected to the Paypal website)."
 msgstr ""
-" {name} افزونه‌ای آزاد برای ان‌وی‌دی‌ای می‌باشد.\n"
-"شما می‌توانید کمک پولی به نویسنده‌ی این افزونه کنید تا در گسترش آن و هم‌چنین "
-"دیگر نرم‌افزارهایی که وی شاید بر آن‌ها دست یازیده باشد٬ پشتیبانی کنید.\n"
-"آیا اکنون می‌خواهید کمک کنید؟ (شما به تارنمای Paypal فرستاده خواهید شد."
+" {name} افزونه‌ای رایگان برای NVDA است.\n"
+"میتوانید برای پشتیبانی از توسعه‌ی بیشترِ این افزونه و دیگر محصولاتِ نرم‌افزاریِ "
+"رایگان، کمکِ مالی به نویسنده‌ی آن کنید.\n"
+"میخواهید حالا کمک کنید؟ چنانچه پاسختان مثبت باشد، به سایتِ Paypal خواهید رفت."
 
 #. Translators: The title of the dialog shown during add-on installation.
 #, python-brace-format
 msgid "Request for Contributions to {name}"
-msgstr "درخواست کمک برای {name}"
+msgstr "درخواستِ کمک به {name}"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "sysTrayList - list sys tray and task bar elements"
+msgstr ""
+"افزونه‌ی محدوده‌ی اعلان‌های سیستم، مواردِ موجود روی محدوده‌ی اعلان‌ها و نوارِ وظیفه "
+"را فهرست میکند"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -81,5 +80,5 @@ msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
-"فهرست دکمه‌های هشدارگاه سامانه را با فشرده شدن NVDA+F11 نشان می‌دهد. با دو بار "
-"فشار دادن٬ فهرست دکمه‌های روی نوار وظیفه را نشان می‌دهد."
+"با یک بار فِشُردنِ NVDA+F11، فهرستِ دکمه‌های روی محدوده‌ی اعلان‌های سیستم را نشان "
+"میدهد. با دو بار فشردن، فهرستی از مواردِ موجود در نوارِ وظیفه را نشان میدهد."
