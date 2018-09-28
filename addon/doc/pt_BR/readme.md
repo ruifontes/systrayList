@@ -11,11 +11,12 @@ que apareça o diálogo com os elementos da área de notificação e pressione
 duas vezes para mostrar os elementos da barra de tarefas, que são os
 aplicativos em execução no momento.
 
-Note that you can access the windows system tray in any screenreader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Note que você pode acessar a bandeja do sistema — área de notificação — do
+Windows em qualquer software de leitor de tela usando o Windows+B e a barra
+de tarefas pressionando Windows+T. Este plug-in é útil apenas para fazer a
+transição do JAWS para Windows mais suave e para evitar algumas dicas de
+ferramentas que podem aparecer ao percorrer a bandeja do sistema do Windows
+por meio do teclado.
 
 ## Mudanças na 2.0 2017-05-20 ##
 
@@ -37,7 +38,7 @@ tray with the windows keyboard means.
 * Implementado suporte à barra de tarefas
 * Novas traduções: Árabe, Búlgaro, Chinês Tradicional de Hong Kong, Coreano,
   Eslovaco, Holandês, Finlandês, Galego, Grego, Húngaro, Italiano, Japonês,
-  Nepalês, Norueguês, Polonês, Português do Brasil, Russo, Tâmil.
+  Nepalês, Norueguês, Polonês, Português Brasileiro, Russo, Tâmil.
 
 ## Mudanças na 1.3 - 25/05/2012 ##
 
