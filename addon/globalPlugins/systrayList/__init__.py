@@ -52,9 +52,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def _findAccessibleLeafsFromWindowClassPath(self, windowClassPath):
 		# Create a list of (obj.name, obj.location)
-		h,FindWindowExA =0,winUser.user32.FindWindowExA
+		h, FindWindowEx =0, winUser.user32.FindWindowExW
 		for element in windowClassPath:
-			h = FindWindowExA(h,0,element,0)
+			h = FindWindowEx(h,0,element,0)
 		l = []
 		o = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,1)
 		# When o.next is None it means that there is no more objects on the systray.
@@ -72,15 +72,15 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the taskbar.")
 
 	def _createSystrayList(self):
-		path = ("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
+		path = (u"shell_TrayWnd", u"TrayNotifyWnd", u"SysPager", u"ToolbarWindow32")
 		objects = self._findAccessibleLeafsFromWindowClassPath(path)
 		self._createObjectsWindow(objects, _("System Tray List"), _("Icons on the System Tray:"))
 
 	def _createTaskList(self):
-		objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","MSTaskListWClass") ,)
+		objects = self._findAccessibleLeafsFromWindowClassPath((u"Shell_TrayWnd", u"RebarWindow32", u"MSTaskSwWClass", u"MSTaskListWClass") ,)
 		if not objects:
 			# Probably on XP; try this instead:
-			objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd","RebarWindow32","MSTaskSwWClass","ToolbarWindow32"),)
+			objects = self._findAccessibleLeafsFromWindowClassPath((u"Shell_TrayWnd", u"RebarWindow32", u"MSTaskSwWClass", u"ToolbarWindow32"),)
 		self._createObjectsWindow(objects, _("Taskbar List"), _("Icons of running applications on the taskbar:"))
 
 	def _createObjectsWindow(self, objects, title, label):
