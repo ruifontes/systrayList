@@ -10,7 +10,7 @@ Note that you can access the windows system tray in any screen reader software u
 
 ## Changes for 3.0 2018-10-25 ##
 
-Support for Windows releases earlier than Windows 7 Service Pack 1 will end on December 31, 2018 with version 3.1.
+Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.
 
 * Add-on is Python 3 compatible.
 
