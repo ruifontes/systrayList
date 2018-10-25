@@ -6,7 +6,7 @@
 # Masamitsu Misono <misono@nvsupport.org>
 # Joseph Lee <joseph.lee22590@gmail.com>
 # Shortcut: NVDA+f11
-# Copyright 2013-2017, released under GPL.
+# Copyright 2013-2018, released under GPL.
 
 import sys
 import os.path
@@ -139,7 +139,7 @@ class SystrayListDialog(wx.Dialog):
 		# Bind the buttons to perform mouse clicks
 		# The `makeBindingClicFunction just returns a function
 		# that performs the passed events. Functional programming at its best.
-		# Except for Cancel button that should destory this dialog.
+		# Except for Cancel button that should destroy this dialog.
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP), id=leftClickButtonID)
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP, winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP), id=leftDoubleClickButtonID)
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_RIGHTDOWN, winUser.MOUSEEVENTF_RIGHTUP), id=rightClickButtonID)
