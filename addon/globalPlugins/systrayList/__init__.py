@@ -8,6 +8,7 @@
 # Shortcut: NVDA+f11
 # Copyright 2013-2017, released under GPL.
 
+import sys
 import os.path
 import wx
 import globalPluginHandler
@@ -17,7 +18,9 @@ import NVDAObjects
 import winUser
 import gui
 import addonHandler
-_addonDir = os.path.join(os.path.dirname(__file__), "..", "..").decode("mbcs")
+_addonDir = os.path.join(os.path.dirname(__file__), "..", "..")
+if sys.version_info.major == 2:
+	_addonDir = _addonDir.decode("mbcs")
 _curAddon = addonHandler.Addon(_addonDir)
 _addonSummary = _curAddon.manifest['summary']
 addonHandler.initTranslation()
