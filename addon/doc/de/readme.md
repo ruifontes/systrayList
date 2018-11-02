@@ -3,6 +3,7 @@
 *   Authoren: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
     Contributors
 *   Download [stable version][1]
+*   Download [development version][2]
 
 Mit diesem Add-On können Sie Symbole im Infobereich oder in der Taskleiste
 bequem aus einer generierten Liste lesen und aktivieren. Der Zugriff und die
@@ -12,11 +13,18 @@ Pop-Up-Fenster mit Elementen aus dem Infobereich zu öffnen, und zweimal, um
 Elemente aus der Taskleiste anzuzeigen. Die Taskleiste enthält die aktuell
 laufenden Programme.
 
-Beachten Sie, dass Sie in jeder Bildschirmlesesoftware mit Windows+B auf dem
-Infobereich und mit Windows+T auf die Taskleiste zugreifen können. Dieses
-Plugin ist nur nützlich, um den Übergang von JAWS für Windows reibungsloser
-zu gestalten und um Tooltips zu vermeiden, die beim Durchlaufen der
-Taskleiste mit der Windows-Tastatur erscheinen können.
+Note that you can access the windows system tray in any screen reader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
+
+## Changes for 3.0 2018-10-27 ##
+
+Support for Windows releases earlier than Windows 7 Service Pack 1 will end
+in 2019.
+
+* Add-on is Python 3 compatible.
 
 ## Änderungen in 2.0 (20.05.2017) ##
 

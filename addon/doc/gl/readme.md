@@ -3,6 +3,7 @@
 *   Autores: Rui Fontes, Rui Batista , Joseph Lee, Colaboradores da
     Comunidade de NVDA
 *   Descargar [versión estable][1]
+*   Descargar [versión de desenvolvemento][2]
 
 Este complemento permíteche ler e activar iconas na bandexa do sistema ou na
 barra de tarefas, dentro dunha caixa de lista, para un acceso e interacción
@@ -17,6 +18,13 @@ barra de tarefas premendo Windows+t. Este plugin só é útil para facer a
 transición máis sinxela dende JAWS for Windows e evitar algúns consellos que
 poderán despregarse cando se percorre pola bandexa do sistema co teclado de
 Windows.
+
+## Cambios para 3.0 2018-10-27 ##
+
+O soporte para versións de Windows anteriores a Windows 7 Service Pack 1
+rematará en 2019.
+
+* O complemento é compatible con Python 3.
 
 ## Cambios para 2.0 2017-05-20 ##
 

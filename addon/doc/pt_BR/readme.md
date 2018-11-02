@@ -3,6 +3,7 @@
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da
     comunidade do NVDA
 *   Baixe a [versão estável][1]
+*   Baixe a [versão em desenvolvimento][2]
 
 Este complemento possibilita ler e ativar ícones da área de notificação ou
 da barra de tarefas, numa caixa de lista para um fácil acesso e interação
@@ -12,11 +13,18 @@ duas vezes para mostrar os elementos da barra de tarefas, que são os
 aplicativos em execução no momento.
 
 Note que você pode acessar a bandeja do sistema — área de notificação — do
-Windows em qualquer software de leitor de tela usando o Windows+B e a barra
+Windows em qualquer software de leitor de tela usando o Windows+B, e a barra
 de tarefas pressionando Windows+T. Este plug-in é útil apenas para fazer a
 transição do JAWS para Windows mais suave e para evitar algumas dicas de
 ferramentas que podem aparecer ao percorrer a bandeja do sistema do Windows
 por meio do teclado.
+
+## Mudanças na 3.0 2018-10-27 ##
+
+O suporte para versões do Windows anteriores ao Windows 7 Service Pack 1
+terminará em 2019.
+
+* Complemento é compatível com o Python 3.
 
 ## Mudanças na 2.0 2017-05-20 ##
 

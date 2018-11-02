@@ -3,6 +3,7 @@
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
     contributors
 *   Baixar [versão estável][1]
+*   Baixar [versão de desenvolvimento][2]
 
 Este extra permite que leia e active os ícones existentes na barra do
 sistema ou na barra de tarefas, dentro de uma caixa de listagem, para
@@ -12,8 +13,15 @@ os elementos da barra do sistema e pressione duas vezes para mostrar os
 elementos da barra de tarefas, que são as aplicações actualmente em
 execução.
 
-Observe que pode aceder à barra do sistema do Windows em qualquer software,
+Observe que pode aceder à barra do sistema do Windows, em qualquer software,
 usando o Windows+B e ir para a barra de tarefas pressionando Windows+T.
+
+## Mudanças para 3.0 2018-10-27 ##
+
+O suporte para as versões antriors ao windows7, service pack 1, termina em
+2019.
+
+* O extra é compatível com Python 3.
 
 ## Mudanças para 2.0 2017-05-20 ##
 

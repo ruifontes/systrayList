@@ -3,6 +3,7 @@
 *   Tekijät: Rui Fontes, Rui Batista, Joseph Lee ja muut NVDA-yhteisön
     jäsenet
 *   Lataa [vakaa versio][1]
+*   Lataa [kehitysversio][2]
 
 Tämän lisäosan avulla on mahdollista lukea ja aktivoida ilmoitusalueen ja
 tehtäväpalkin kuvakkeita helppokäyttöisestä luetteloruudusta. Pääset
@@ -10,11 +11,17 @@ ilmoitusalueen painikkeet näyttävään valintaikkunaan painamalla kerran
 NVDA+F11 ja tehtäväpalkin kuvakkeisiin, jotka ovat käynnissä olevia
 sovelluksia, painamalla kahdesti samaa komentoa.
 
-Huom: Windowsin ilmoitusalueelle pääsee mitä tahansa ruudunlukuohjelmaa
+Huom: Windowsin ilmoitusalueelle pääsee mitä tahansa ruudunlukijaa
 käytettäessä painamalla Windows+B ja tehtäväpalkkiin painamalla
 Windows+T. Tästä lisäosasta on hyötyä vain JAWSista NVDA:han siirtyneille
 sekä joidenkin työkaluvihjeiden välttämisessä, joita saattaa ponnahdella
 näkyviin liikuttaessa ilmoitusalueella nuolinäppäinten avulla.
+
+## Muutokset versiossa 3.0 - 27.10.2018 ##
+
+Tuki Windows 7 Service Pack 1:tä vanhemmille versioille päättyy vuonna 2019.
+
+* Lisäosa on Python 3 -yhteensopiva.
 
 ## Muutokset versiossa 2.0, 20.5.2017 ##
 

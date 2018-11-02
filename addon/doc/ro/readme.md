@@ -3,6 +3,7 @@
 *   Autori: Rui Fontes, Rui Batista, Joseph Lee și alți membri din
     comunitatea NVDA
 *   Descărcați [versiunea stabilă][1]
+*   Download [development version][2]
 
 Acest supliment vă permite să citiți și să activați iconițe în bara de
 sistem sau bara de activități, într-o listă de casete pentru un acces și o
@@ -11,10 +12,18 @@ apăsațiNVDA+f11 o dată pentru acest dialog pentru a citi elementele barei de
 sistem,apoi apăsați de două ori pentru a afișa elementele barei de
 activități, în care sunt aplicațiile curente care rulează.
 
-Notați că puteți accesa bara de sistem a Windows-ului cu orice cititor de
-ecran folosind comanda rapidă windows+b, și bara de activități apăsând tab
-după butonul start. Acest supliment este util doar pentru a face trecerea de
-la JAWS pentru Windows lin și pentru a evita unele tipuri de unelte .
+Note that you can access the windows system tray in any screen reader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
+
+## Changes for 3.0 2018-10-27 ##
+
+Support for Windows releases earlier than Windows 7 Service Pack 1 will end
+in 2019.
+
+* Add-on is Python 3 compatible.
 
 ## Modificări aduse în versiunea 2.0, 20 mai 2017 ##
 

@@ -3,6 +3,7 @@
 *   Auteurs : Rui Fontes, Rui Batista, Joseph Lee, Contributeurs de la
     communauté de NVDA
 *   Télécharger [version stable][1]
+*   Télécharger [version de développement][2]
 
 Ce module complémentaire vous permet de lire et d'activer les icônes sur la
 zone de notification ou la barre des tâches dedans d'une zone de liste pour
@@ -12,12 +13,20 @@ fenêtre de la boîte de dialogue s'affiche avec les éléments de la zone de
 notification, et appuyer deux fois pour afficher les éléments de la barre
 des tâches qui sont les applications en cours d'exécution.
 
-Notez que vous pouvez accéder à la zone de notification avec n'importequel
-lecteur d'écran en utilisant Windows+B, et à la barre des tâches en appuyant
-sur Windows+T. Ce module complémentaire est uniquement utile pour rendre la
-transition depuis JAWS pour Windows plus fluide et pour éviter sertaines
-bules d'aides qui s'affichent lorsqu'on parcourt la zone de notification au
-moyen du clavier Windows.
+Notez que vous pouvez accéder à la zone de notification système Windows dans
+n'importe quel logiciel de lecteur d'écran en utilisant Windows+B, et à la
+barre des tâches système en appuyant sur Windows+T. Ce module complémentaire
+est uniquement utile pour rendre la transition depuis JAWS pour Windows plus
+fluide et pour éviter sertaines bules d'aides qui risquent de s’afficher
+lorsque vous parcourez la zone de notification système Windows en utilisant
+le clavier Windows.
+
+## Changements pour la version 3.0 - 27/10/2018 ##
+
+La prise en charge des versions de Windows antérieures à Windows 7 Service
+Pack 1 prendra fin en 2019.
+
+* Le module complémentaire est compatible Python 3.
 
 ## Changements pour la version 2.0 - 20/05/2017 ##
 

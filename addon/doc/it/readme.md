@@ -3,6 +3,7 @@
 *   Autori: Rui Fontes, Rui Batista, Joseph Lee, collaboratori della
     Comunità NVDA.
 *   Download [stable version][1]
+*   Download [development version][2]
 
 Questo componente aggiuntivo rende possibile la lettura e l'attivazione
 delle icone del System Tray o della barra delle applicazioni  tramite una
@@ -11,11 +12,18 @@ componente installato, premere NVDA+f11 per far apparire questa finestra di
 dialogo, o premere la stessa combinazione due volte per far apparire
 l'elenco dei programmi presenti nellabarra delle applicazioni. 
 
-Si noti che è possibile accedere al System Tray con qualsiasi Screen Reader
-premendo la combinazione di tasti Windows+b, o alla barra delle applicazioni
-premendo tab dal desktop. Questo componente aggiuntivo aiuta in particolare
-gli utenti che hanno utilizzato Jaws per molti anni, per rendere il processo
-di migrazione da uno screen reader all'altro il più semplice possibile.
+Note that you can access the windows system tray in any screen reader
+software using the Windows+B, and the task bar by pressing Windows+T. This
+plugin is only useful to make the transition from JAWS for Windows smoother
+and to avoid some tooltips that may pop-up when cycling through the system
+tray with the windows keyboard means.
+
+## Changes for 3.0 2018-10-27 ##
+
+Support for Windows releases earlier than Windows 7 Service Pack 1 will end
+in 2019.
+
+* Add-on is Python 3 compatible.
 
 ## Cambiamenti per la 2.0, 20/05/2017 ##
 

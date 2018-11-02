@@ -3,6 +3,7 @@
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores de la
     comunidad de NVDA
 *   Descargar [Versión estable][1]
+*   Descargar [Versión de desarrollo][2]
 
 Este complemento te permite leer y  activar iconos en la bandeja del sistema
 o en la barra de tareas, dentro de un cuadro de lista, para un acceso e
@@ -13,14 +14,21 @@ barra de tareas, que son las actuales aplicaciones en ejecución.
 
 Ten en cuenta que se puede acceder a la bandeja de sistema de Windows con
 cualquier software de lector de pantalla con la tecla de atajo Windows+b, y
-a la barra de tareas pulsando Windows+t. Este plugin sólo es útil para hacer
-la transición desde JAWS para Windows más suave y para evitar algunas
+a la barra de tareas pulsando Windows+t. Esta extensión sólo es útil para
+hacer la transición desde JAWS para Windows más suave y para evitar algunas
 etiquetas que pueden desplegarse cuando se navega por la bandeja del sistema
 con las teclas de windows.
 
+## Cambios para 3.0 2018-10-27 ##
+
+El soporte para versiones de Windows inferiores a Windows 7 con Service Pack
+1 finalizará en 2019.
+
+* El complemento es compatible con Python 3.
+
 ## Cambios para 2.0 2017-05-20 ##
 
-* el diálogo Bandeja de sistema/barra de tareas ahora se centra en la
+* El diálogo Bandeja de sistema/barra de tareas ahora se centra en la
   pantalla.
 * Corregidos varios problemas de la interfaz de usuario.
 * Traducciones nuevas y actualizadas.
@@ -36,7 +44,7 @@ con las teclas de windows.
 
 * Requiere de NVDA 2012.3beta2 o superior.
 * Añadida  petición de donaciones al procedimiento de instalación
-* implementado el soporte para la barra de tareas
+* Implementado el soporte para la barra de tareas
 * Nuevas traducciones: árabe, Búlgaro, Chino tradicional Hong Kong, Coreano,
   Eslovaco, Finlandés, Gallego, Griego, Holandés, Húngaro, Italiano,
   Japonés, Nepalí, Noruego, Polaco, Portugués del Brasil, Ruso, Tamil.

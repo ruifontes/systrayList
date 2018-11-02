@@ -1,53 +1,53 @@
 # systrayList托盘图标插件 #
 
-*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
-    contributors
-*   Download [stable version][1]
+*   作者: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
+*   下载 [稳定版][1]
+*   下载 [开发板][2]
 
-This add-on allows you to read and activate icons on the system tray or the
-task bar, within a list box, for easy access and interaction to those
-items. With the add-on installed, press NVDA+f11 once for this dialog to
-pop-up with system tray elements, and press twice to display task bar
-elements, which are the currently running applications.
+此插件允许您在列表框中读取和激活系统托盘或任务栏上的图标，以便于访问和浏览这些项目。安装了插件后，按NVDA +
+f11一次，此对话框弹出系统托盘窗口，然后按两次显示任务栏窗口。
 
-Note that you can access the windows system tray in any screenreader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+注意，您可以使用Windows + B访问任何屏幕阅读器软件中的Windows系统托盘，按Windows + T可以访问任务栏。此插件仅用于使从JAWS
+for Windows的过渡更顺畅，并避免在使用Windows键盘装置循环通过系统托盘时可能弹出的一些工具提示。
+
+## 版本 3.0 2018-10-27 ##
+
+早于Windows 7 Service Pack 1的Windows版本支持将于2019年结束。
+
+* 插件现在与Python 3兼容。
 
 ## 版本2.02017-05-20 ##
 
 * 系统托盘/任务栏对话框现在居中显示在屏幕上。
 * 修复了各种用户界面问题。
-* 更新新的翻译
+* 更新新的翻译。
 
 ## 版本1.5 2015-mm-dd ##
 
 * 更正了左/右点击动作。
 * 现在可以从附加组件管理器获得插件帮助。
-* 更新翻译
+* 更新翻译。
 
 ## 版本1.4 - 2013-01-19 ##
 
 * 要求 NVDA 2012.3 Beta1或更高。
-* Add donation request to installation procedure
-* Implemented taskbar support
+* 将捐赠请求添加到安装过程
+* 实现了任务栏支持
 * 新的语言支持:
   包括阿拉伯语、荷兰语、芬兰语、加利西亚与、希腊语、匈牙利语、意大利语、日本语、韩语、尼泊尔语、波兰语、八溪葡萄牙语、俄语、斯洛伐克语、坦尼耳语、繁体中文香港。
 
 ## 1.3的更新　- 2012-05-25 ##
 
-* 转换为一个　Add-On　插件包。
+* 转换为插件包
 * 法语和土耳其语的语言支持。
 
 ## 1.2的更新 - 2012-04.25 ##
 
-* Spanish and German translations. Thanks to all that contributed.
+* 西班牙语和德语更新。感谢所有贡献者。
 
 ## 1.1的更新 - 2012-03-20 ##
 
-* 修复：翻译不可用。
+* 修复了在gettext转换不可用时无法使用该插件的错误
 
 ## 1.0的更新 - 2012-03-19 ##
 
