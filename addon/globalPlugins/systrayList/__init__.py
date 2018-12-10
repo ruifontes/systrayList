@@ -36,7 +36,7 @@ def mouseEvents(location, *events):
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	scriptCategory = unicode(_addonSummary)
+	scriptCategory = unicode(_addonSummary) if sys.version_info.major == 2 else _addonSummary
 
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
