@@ -3,7 +3,8 @@
 *   Authoren: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
     Contributors
 *   Download [stable version][1]
-*   [Testversion herunterladen][2]
+*   Download [development version][2]
+*   NVDA compatibility: 2017.3 to 2019.1
 
 Mit diesem Add-On können Sie Symbole im Infobereich oder in der Taskleiste
 bequem aus einer generierten Liste lesen und aktivieren. Der Zugriff und die

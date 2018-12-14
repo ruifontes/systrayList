@@ -3,7 +3,8 @@
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da
     comunidade do NVDA
 *   Baixe a [versão estável][1]
-*   Baixe a [versão em desenvolvimento][2]
+*   Download [development version][2]
+*   NVDA compatibility: 2017.3 to 2019.1
 
 Este complemento possibilita ler e ativar ícones da área de notificação ou
 da barra de tarefas, numa caixa de lista para um fácil acesso e interação
