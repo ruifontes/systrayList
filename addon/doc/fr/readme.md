@@ -4,6 +4,7 @@
     communauté de NVDA
 *   Télécharger [version stable][1]
 *   Télécharger [version de développement][2]
+*   Compatibilité NVDA: 2017.3 à 2019.1
 
 Ce module complémentaire vous permet de lire et d'activer les icônes sur la
 zone de notification ou la barre des tâches dedans d'une zone de liste pour

@@ -4,6 +4,7 @@
     Comunità NVDA.
 *   Download [stable version][1]
 *   Download [development version][2]
+*   NVDA compatibility: 2017.3 to 2019.1
 
 Questo componente aggiuntivo rende possibile la lettura e l'attivazione
 delle icone del System Tray o della barra delle applicazioni  tramite una

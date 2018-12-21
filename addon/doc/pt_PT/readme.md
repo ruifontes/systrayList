@@ -3,7 +3,8 @@
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
     contributors
 *   Baixar [versão estável][1]
-*   Baixar [versão de desenvolvimento][2]
+*   Baixar [Versão de desenvolvimento][2]
+*   Compatibilidade com NVDA: 2017.3 a 2019.1
 
 Este extra permite que leia e active os ícones existentes na barra do
 sistema ou na barra de tarefas, dentro de uma caixa de listagem, para

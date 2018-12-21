@@ -4,6 +4,7 @@
     bidragydere
 *   download [stabil version][1]
 *   Download [development version][2]
+*   NVDA compatibility: 2017.3 to 2019.1
 
 Med dette tilføjelsesprogram kan du læse og aktivere ikoner i systembakken
 og på joblinjen i en listeboks, så du nemt kan få adgang til og gøre brug af
