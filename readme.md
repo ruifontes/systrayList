@@ -9,6 +9,10 @@ This add-on allows you to read and activate icons on the system tray or the task
 
 Note that you can access the windows system tray in any screen reader software using the Windows+B, and the task bar by pressing Windows+T. This plugin is only useful to make the transition from JAWS for Windows smoother and to avoid some tooltips that may pop-up when cycling through the system tray with the windows keyboard means.
 
+## Changes for 3.2 2018-12-24 ##
+
+* More code changes to support Python 3.
+
 ## Changes for 3.1 2018-11-24 ##
 
 * Internal changes to support future NVDA releases.
