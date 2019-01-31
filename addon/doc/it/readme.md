@@ -2,9 +2,9 @@
 
 *   Autori: Rui Fontes, Rui Batista, Joseph Lee, collaboratori della
     Comunità NVDA.
-*   Download [stable version][1]
-*   Download [development version][2]
-*   NVDA compatibility: 2017.3 to 2019.1
+*   Scarica la [versione stabile][1]
+*   Scarica la [versione in sviluppo][2]
+*   Compatibilità con NVDA: dalla 2017.3 alla 2019.1
 
 Questo componente aggiuntivo rende possibile la lettura e l'attivazione
 delle icone del System Tray o della barra delle applicazioni  tramite una
@@ -13,18 +13,19 @@ componente installato, premere NVDA+f11 per far apparire questa finestra di
 dialogo, o premere la stessa combinazione due volte per far apparire
 l'elenco dei programmi presenti nellabarra delle applicazioni. 
 
-Note that you can access the windows system tray in any screen reader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Si noti che è possibile accedere alla barra delle notifiche di windows
+utilizzando il comando Windows+B, e alla barra delle applicazioni premendo
+Windows+T, con qualsiasi Screen Reader. Questo Componente aggiuntivo è utile
+solo a semplificare la transizione da JAWS per Windows, oltre a permettere
+di evitare i suggerimenti che appaiono quando si naviga nelle barre di
+sistema di Windos.
 
 ## Changes for 3.0 2018-10-27 ##
 
-Support for Windows releases earlier than Windows 7 Service Pack 1 will end
-in 2019.
+Il supporto per le versioni di Windows precedenti a Windows 7 Service Pack 1
+si concluderà nel 2019. 
 
-* Add-on is Python 3 compatible.
+* Compatibilità con Python 3.
 
 ## Cambiamenti per la 2.0, 20/05/2017 ##
 
