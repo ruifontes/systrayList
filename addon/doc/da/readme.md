@@ -1,10 +1,10 @@
-# systrayList (systembakke som liste) #
+# Systembakkeliste #
 
-*   Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
-    bidragydere
+*   Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA-bidragydere fra
+    fællesskabet
 *   download [stabil version][1]
-*   Download [development version][2]
-*   NVDA compatibility: 2017.3 to 2019.1
+*   Download [udviklingsversion][2]
+*   NVDA-kompatibilitet: 2017.3 til 2019.1
 
 Med dette tilføjelsesprogram kan du læse og aktivere ikoner i systembakken
 og på joblinjen i en listeboks, så du nemt kan få adgang til og gøre brug af
@@ -13,18 +13,18 @@ NVDA+F11 en gang for at se denne dialog med elementer fra systembakken. Tryk
 to gange for at se elementer på joblinjen, der består af de aktuelt kørende
 applikationer.
 
-Note that you can access the windows system tray in any screen reader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Bemærk at du kan få adgang til systembakken med ethvert skærmlæserprogram
+ved hjælp af genvejstasten Windows+d og til joblinjen ved at trykke
+Windows+T. Dette tilføjelsesprogram benyttes blot for at gøre overgangen fra
+JAWS for Windows nemmere og til at undgå nogle værktøjstips, som kan poppe
+op, når man går gennem systembakken med Windows-tastaturgenveje.
 
-## Changes for 3.0 2018-10-27 ##
+## Ændringer for 3.0 2018-10-27 ##
 
-Support for Windows releases earlier than Windows 7 Service Pack 1 will end
-in 2019.
+Understøttelse for Windows-udgivelser tidligere end Windows 7 Service Pack 1
+slutter i 2019.
 
-* Add-on is Python 3 compatible.
+* Tilføjelsen er Python 3 kompatibel.
 
 ## Ændringer i 2.0 2017-05-20 ##
 
@@ -35,7 +35,8 @@ in 2019.
 ## Ændringer i 1.5 2015-mm-dd ##
 
 * Korrigeret handling ved venstre/højre klik.
-* Add-on help is now available from add-ons manger.
+* Hjælp til tilføjelsesprogrammet er nu til rådighed fra dialogen Styring af
+  tilføjelsesprogrammer.
 * Opdateringer til oversættelse.
 
 ## Ændringer i 1.4 - 2013-01-19 ##
