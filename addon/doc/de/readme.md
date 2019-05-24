@@ -2,8 +2,8 @@
 
 *   Authoren: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
     Contributors
-*   Download [stable version][1]
-*   [Entwicklerversion][2] herunterladen
+*   [Stabile Version herunterladen][1]
+*   [Entwicklerversion herunterladen][2]
 *   NVDA-Kompatibilität: 2017.3 bis 2019.1
 
 Mit diesem Add-On können Sie Symbole im Infobereich oder in der Taskleiste
