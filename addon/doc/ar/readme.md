@@ -4,7 +4,7 @@
     contributors
 *   تحميل [الإصدار النهائي][1]
 *   Download [development version][2]
-*   NVDA compatibility: 2017.3 to 2019.1
+*   NVDA compatibility: 2017.3 to 2019.2
 
 This add-on allows you to read and activate icons on the system tray or the
 task bar, within a list box, for easy access and interaction to those

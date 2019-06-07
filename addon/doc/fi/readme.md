@@ -4,7 +4,7 @@
     jäsenet
 *   Lataa [vakaa versio][1]
 *   Lataa [kehitysversio][2]
-*   NVDA-yhteensopivuus: 2017.3-2019.1
+*   NVDA compatibility: 2017.3 to 2019.2
 
 Tämän lisäosan avulla on mahdollista lukea ja aktivoida ilmoitusalueen ja
 tehtäväpalkin kuvakkeita helppokäyttöisestä luetteloruudusta. Pääset

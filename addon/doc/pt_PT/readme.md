@@ -4,7 +4,7 @@
     contributors
 *   Baixar [versão estável][1]
 *   Baixar [Versão de desenvolvimento][2]
-*   Compatibilidade com NVDA: 2017.3 a 2019.1
+*   NVDA compatibility: 2017.3 to 2019.2
 
 Este extra permite que leia e active os ícones existentes na barra do
 sistema ou na barra de tarefas, dentro de uma caixa de listagem, para

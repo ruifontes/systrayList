@@ -4,7 +4,7 @@
     comunitatea NVDA
 *   Descărcați [versiunea stabilă][1]
 *   Descărcați [versiunea în dezvoltare][2]
-*   Compatibilitate NVDA: 2017.3 - 2019.1
+*   NVDA compatibility: 2017.3 to 2019.2
 
 Acest supliment vă permite să citiți și să activați iconițe în bara de
 sistem sau bara de activități, într-o listă de casete pentru un acces și o
