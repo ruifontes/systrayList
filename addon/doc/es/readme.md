@@ -4,7 +4,7 @@
     comunidad de NVDA
 *   Descargar [Versión estable][1]
 *   Descargar [Versión de desarrollo][2]
-*   NVDA compatibility: 2017.3 to 2019.2
+*   Compatibilidad con NVDA: de 2017.3 a 2019.2
 
 Este complemento te permite leer y  activar iconos en la bandeja del sistema
 o en la barra de tareas, dentro de un cuadro de lista, para un acceso e
