@@ -4,7 +4,7 @@
     đồng NVDA
 *   Tải về [phiên bản chính thức][1]
 *   Tải về [phiên bản thử nghiệm][2]
-*   NVDA compatibility: 2017.3 to 2019.2
+*   NVDA tương thích: 2017.3 đến 2019.2
 
 Add-on này cho phép bạn xem và kích hoạt các biểu tượng trên khay hệ thống
 (system tray) hay thanh tác vụ (task bar), trong một danh sách, giúp dễ dàng
