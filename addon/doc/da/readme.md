@@ -4,7 +4,7 @@
     fællesskabet
 *   download [stabil version][1]
 *   Download [udviklingsversion][2]
-*   NVDA compatibility: 2017.3 to 2019.2
+*   NVDA-kompatibilitet: 2017.3 til 2019.2
 
 Med dette tilføjelsesprogram kan du læse og aktivere ikoner i systembakken
 og på joblinjen i en listeboks, så du nemt kan få adgang til og gøre brug af
@@ -14,9 +14,9 @@ to gange for at se elementer på joblinjen, der består af de aktuelt kørende
 applikationer.
 
 Bemærk at du kan få adgang til systembakken med ethvert skærmlæserprogram
-ved hjælp af genvejstasten Windows+d og til joblinjen ved at trykke
+ved hjælp af genvejstasten Windows+B og til joblinjen ved at trykke
 Windows+T. Dette tilføjelsesprogram benyttes blot for at gøre overgangen fra
-JAWS for Windows nemmere og til at undgå nogle værktøjstips, som kan poppe
+JAWS for Windows nemmere og for at undgå nogle værktøjstips, som kan poppe
 op, når man går gennem systembakken med Windows-tastaturgenveje.
 
 ## Ændringer for 3.0 2018-10-27 ##
