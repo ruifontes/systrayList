@@ -3,7 +3,6 @@
 *   Auteurs : Rui Fontes, Rui Batista, Joseph Lee, Contributeurs de la
     communauté de NVDA
 *   Télécharger [version stable][1]
-*   Télécharger [version de développement][2]
 *   NVDA compatibility: 2017.3 to 2019.2
 
 Cette extension vous permet de lire et d'activer les icônes sur la zone de

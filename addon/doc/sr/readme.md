@@ -2,7 +2,6 @@
 
 *   Autori: Rui Fontes, Rui Batista, Joseph Lee, saradnici NVDA zajednice
 *   Preuzmi [stabilnu verziju][1]
-*   Download [development version][2]
 *   NVDA compatibility: 2017.3 to 2019.2
 
 Ovaj dodatak dozvoljava da aktivirate ikone sistemske trake ili programske

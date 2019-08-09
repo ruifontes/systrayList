@@ -3,7 +3,6 @@
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
     contributors
 *   Baixar [versão estável][1]
-*   Baixar [Versão de desenvolvimento][2]
 *   NVDA compatibility: 2017.3 to 2019.2
 
 Este extra permite que leia e active os ícones existentes na barra do

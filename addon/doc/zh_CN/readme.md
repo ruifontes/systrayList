@@ -2,7 +2,6 @@
 
 *   作者: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
 *   下载 [稳定版][1]
-*   下载 [开发板][2]
 *   NVDA兼容版本：2017.3至2019.2
 
 此插件允许您在列表框中读取和激活系统托盘或任务栏上的图标，以便于访问和浏览这些项目。安装了插件后，按NVDA +

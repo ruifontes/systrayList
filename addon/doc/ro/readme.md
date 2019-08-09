@@ -3,7 +3,6 @@
 *   Autori: Rui Fontes, Rui Batista, Joseph Lee și alți membri din
     comunitatea NVDA
 *   Descărcați [versiunea stabilă][1]
-*   Descărcați [versiunea în dezvoltare][2]
 *   NVDA compatibility: 2017.3 to 2019.2
 
 Acest supliment vă permite să citiți și să activați iconițe în bara de

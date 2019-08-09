@@ -3,30 +3,29 @@
 *   Authoren: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
     Contributors
 *   [Stabile Version herunterladen][1]
-*   [Entwicklerversion herunterladen][2]
 *   NVDA-Kompatibilität: 2017.3 bis 2019.2
 
-Mit diesem Add-On können Sie Symbole im Infobereich oder in der Taskleiste
-bequem aus einer generierten Liste lesen und aktivieren. Der Zugriff und die
-Interaktion mit diesen Elementen ist dadurch sehr einfach. Wenn das Add-On
-installiert ist, drücken Sie einmal NVDA+f11, um im aktiven Dialogfeld ein
-Pop-Up-Fenster mit Elementen aus dem Infobereich zu öffnen, und zweimal, um
-Elemente aus der Taskleiste anzuzeigen. Die Taskleiste enthält die aktuell
-laufenden Programme.
+Mit dieser Erweiterung können Sie Symbole im Infobereich oder in der
+Taskleiste bequem aus einer generierten Liste lesen und aktivieren. Der
+Zugriff und die Interaktion mit diesen Elementen ist dadurch sehr
+einfach. Wenn die Erweiterung installiert ist, drücken Sie einmal NVDA+F11,
+um im aktiven Dialogfeld ein Fenster mit Elementen aus dem Infobereich zu
+öffnen, und zweimal, um Elemente aus der Taskleiste anzuzeigen. Die
+Taskleiste enthält die aktuell laufenden Programme.
 
-Beachten Sie, dass Sie in jeder Screenreader-Software mit Windows+B auf die
-Windows-Systemablage und die Taskleiste zugreifen können, indem Sie
-Windows+T drücken. Diese Erweiterung ist nur nützlich, um den Übergang von
-JAWS für Windows reibungsloser zu gestalten und um einige QuickInfos zu
-vermeiden, die beim Blättern durch die Taskleiste mit den
-Windows-Tastaturmitteln erscheinen können.
+Beachten Sie, dass Sie in jeder Screenreader-Software mit Windows+B auf den
+Infobereich und die Taskleiste zugreifen können, indem Sie Windows+T
+drücken. Dieses Plugin ist nur nützlich, um den Übergang von JAWS für
+Windows reibungsloser zu gestalten und um einige QuickInfos zu vermeiden,
+die beim Blättern durch die Taskleiste mit den Windows-Tastaturmitteln
+erscheinen können.
 
 ## Änderungen in 3.0 (27.10.2018) ##
 
 Die Unterstützung für Windows-Versionen vor Windows 7 Service Pack 1 endet
 2019.
 
-* Die Erweiterung ist kompatibel für Python 3.
+* Die Erweiterung ist kompatibel mit Python 3.
 
 ## Änderungen in 2.0 (20.05.2017) ##
 
@@ -39,7 +38,7 @@ Die Unterstützung für Windows-Versionen vor Windows 7 Service Pack 1 endet
 * Funktion für Links- bzw. Rechtsklick wurde korrigiert.
 * Hilfe zur Erweiterung ist nun über den Dialog Erweiterungen verwalten
   verfügbar.
-* aktualisierte Übersetzungen
+* Aktualisierung der Übersetzungen
 
 ## Änderungen in 1.4 - 19.01.2013 ##
 

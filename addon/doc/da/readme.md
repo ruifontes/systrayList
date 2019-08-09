@@ -3,7 +3,6 @@
 *   Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA-bidragydere fra
     fællesskabet
 *   download [stabil version][1]
-*   Download [udviklingsversion][2]
 *   NVDA-kompatibilitet: 2017.3 til 2019.2
 
 Med dette tilføjelsesprogram kan du læse og aktivere ikoner i systembakken
