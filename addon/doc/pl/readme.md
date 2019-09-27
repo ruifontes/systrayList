@@ -2,7 +2,7 @@
 
 *   Autorzy: Rui Fontes, Rui Batista, Joseph Lee, współtwórcy zespołu NVDA
 *   Pobierz [wersja stabilna][1]
-*   NVDA compatibility: 2017.3 to 2019.2
+*   Zgodność z wersjami NVDA: 2017.3 do 2019.2
 
 Ta wtyczka umożliwia odczyt i aktywowanie ikon w zasobniku systemowym lub na
 pasku zadań, wybieranych z listy, dla łatwego dostępu do tych elementów i
@@ -11,18 +11,17 @@ uzyskania listy elementów zasobnika systemowego, naciśnij dwukrotnie dla
 wyświetlenia zawartości paska zadań, czyli listy aktualnie uruchomionych
 aplikacji.
 
-Note that you can access the windows system tray in any screen reader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Trzeba mieć na uwadzę, że do zasobnika systemowego można się dostać używając
+polecenia Windows+B, a do paska zadań  Windows+T. Ten dodatek służy do
+ułatwiania przejścia z jawsa do NVDA i a także żeby zapobiec niektóre dymki
+które widzimy z poziomu nawigacji za pomocą klawiatury.
 
-## Changes for 3.0 2018-10-27 ##
+## Zmiany dla wersji 3.0 2018-10-27 ##
 
-Support for Windows releases earlier than Windows 7 Service Pack 1 will end
-in 2019.
+Wsparcie dla wersji Windowsa wczeszniejszych niż Windows 7 Service Pack 1
+skończy się w roku 2019.
 
-* Add-on is Python 3 compatible.
+* Dodatek jest zgodny z Pythonem 3.
 
 ## Zmiany dla wersji 2.0 2017-05-20 ##
 
