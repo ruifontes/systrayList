@@ -3,23 +3,22 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2016-02-25 23:59-0800\n"
-"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
+"PO-Revision-Date: 2019-10-15 03:07-0500\n"
+"Last-Translator: Slann Tonic <reydelasmaquinas@outlook.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. Translators: Input help mode message for system tray list command.
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"Muestra la lista de botones en la Bandeja del Sistema. Si se pulsó dos veces "
-"rápidamente, muestra los elementos en la barra de tareas."
+"Muestra la lista de botones en la Bandeja del Sistema. Si se presiona dos "
+"veces rápidamente, muestra los elementos en la barra de tareas."
 
 msgid "System Tray List"
 msgstr "Lista de la Bandeja del Sistema"
@@ -27,11 +26,9 @@ msgstr "Lista de la Bandeja del Sistema"
 msgid "Icons on the System Tray:"
 msgstr "Iconos en la Bandeja del Sistema:"
 
-#, fuzzy
 msgid "Taskbar List"
 msgstr "Lista de Barra de Tareas"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
 msgstr "Iconos de aplicaciones en ejecución en la Barra de Tareas"
 
