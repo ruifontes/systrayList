@@ -2,7 +2,6 @@
 
 *   Авторы: Rui Fontes, Rui Batista, Joseph Lee, Участники сообщества NVDA
 *   Загрузить [стабильную версию][1]
-*   Download [development version][2]
 *   NVDA compatibility: 2017.3 to 2019.2
 
 Это дополнение позволит читать и активировать значки области уведомлений или

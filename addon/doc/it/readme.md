@@ -3,7 +3,6 @@
 *   Autori: Rui Fontes, Rui Batista, Joseph Lee, collaboratori della
     Comunità NVDA.
 *   Scarica la [versione stabile][1]
-*   Scarica la [versione in sviluppo][2]
 *   NVDA compatibility: 2017.3 to 2019.2
 
 Questo componente aggiuntivo rende possibile la lettura e l'attivazione

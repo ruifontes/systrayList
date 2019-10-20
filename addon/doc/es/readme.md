@@ -3,7 +3,6 @@
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores de la
     comunidad de NVDA
 *   Descargar [Versión estable][1]
-*   Descargar [Versión de desarrollo][2]
 *   Compatibilidad con NVDA: de 2017.3 a 2019.2
 
 Este complemento te permite leer y  activar iconos en la bandeja del sistema
