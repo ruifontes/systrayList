@@ -71,15 +71,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the taskbar.")
 
 	def _createSystrayList(self):
-		path = (u"shell_TrayWnd", u"TrayNotifyWnd", u"SysPager", u"ToolbarWindow32")
+		path = ("shell_TrayWnd", "TrayNotifyWnd", "SysPager", "ToolbarWindow32")
 		objects = self._findAccessibleLeafsFromWindowClassPath(path)
 		self._createObjectsWindow(objects, _("System Tray List"), _("Icons on the System Tray:"))
 
 	def _createTaskList(self):
-		objects = self._findAccessibleLeafsFromWindowClassPath((u"Shell_TrayWnd", u"RebarWindow32", u"MSTaskSwWClass", u"MSTaskListWClass") ,)
-		if not objects:
-			# Probably on XP; try this instead:
-			objects = self._findAccessibleLeafsFromWindowClassPath((u"Shell_TrayWnd", u"RebarWindow32", u"MSTaskSwWClass", u"ToolbarWindow32"),)
+		objects = self._findAccessibleLeafsFromWindowClassPath(("Shell_TrayWnd", "RebarWindow32", "MSTaskSwWClass", "MSTaskListWClass") ,)
 		self._createObjectsWindow(objects, _("Taskbar List"), _("Icons of running applications on the taskbar:"))
 
 	def _createObjectsWindow(self, objects, title, label):
