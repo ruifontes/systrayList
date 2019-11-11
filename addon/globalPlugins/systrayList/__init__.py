@@ -8,7 +8,6 @@
 # Shortcut: NVDA+f11
 # Copyright 2013-2019, released under GPL.
 
-import sys
 import os.path
 import wx
 import globalPluginHandler
@@ -19,12 +18,9 @@ import winUser
 import gui
 import addonHandler
 _addonDir = os.path.join(os.path.dirname(__file__), "..", "..")
-if sys.version_info.major == 2:
-	_addonDir = _addonDir.decode("mbcs")
 _curAddon = addonHandler.Addon(_addonDir)
 _addonSummary = _curAddon.manifest['summary']
 addonHandler.initTranslation()
-CENTER_ON_SCREEN = wx.CENTER_ON_SCREEN if hasattr(wx,"CENTER_ON_SCREEN") else 2
 
 def mouseEvents(location, *events):
 	x,y = int (location[0]+location[2]/2), int (location[1]+location[3]/2)
