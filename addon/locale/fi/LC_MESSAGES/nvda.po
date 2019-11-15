@@ -49,30 +49,11 @@ msgstr "Vasen &kaksoisnapsautus"
 msgid "&Right Click"
 msgstr "&Oikea napsautus"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} on ilmainen NVDA:n lisäosa.\n"
-"Voit tehdä tekijälle lahjoituksen tukeaksesi tämän lisäosan ja muiden "
-"ilmaisten ohjelmistojen kehitystä.\n"
-"Haluatko lahjoittaa nyt? (Paypalin verkkosivusto avataan)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Lahjoituspyyntö lisäosaa {name} varten"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr ""
-"Ilmaisinalueen kuvakkeet - näyttää listan ilmaisinalueen ja tehtäväpalkin "
-"kohteista"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Ilmaisinalue"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -83,3 +64,22 @@ msgstr ""
 "Näyttää näppäinkomentoa NVDA+F11 kerran painettaessa luettelon "
 "ilmaisinalueella olevista painikkeista ja kahdesti painettaessa käynnissä "
 "olevista sovelluksista."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} on ilmainen NVDA:n lisäosa.\n"
+#~ "Voit tehdä tekijälle lahjoituksen tukeaksesi tämän lisäosan ja muiden "
+#~ "ilmaisten ohjelmistojen kehitystä.\n"
+#~ "Haluatko lahjoittaa nyt? (Paypalin verkkosivusto avataan)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Lahjoituspyyntö lisäosaa {name} varten"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "Ilmaisinalueen kuvakkeet - näyttää listan ilmaisinalueen ja tehtäväpalkin "
+#~ "kohteista"

@@ -49,28 +49,11 @@ msgstr "Dvojni levi &klik"
 msgid "&Right Click"
 msgstr "&Desni klik"
 
-#. Translators: The text of the dialog shown during add-on installation.
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} je brezplačen dodatek za NVDA.\n"
-"Če želite, lahko donirate avtorjem, da s tem podprete nadaljni razvoj tega "
-"dodatka in ostalih \"prostih\" programov.\n"
-"Želite prispevati sedaj? (Preusmerili vas bomo na spletno mesto Paypal-a)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-msgid "Request for Contributions to {name}"
-msgstr "Prošnja za sodelovanje pri {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr ""
-"seznam območja za obvestila - razvršča elemente območja za obvestila in "
-"elemente opravilne vrstice"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Seznam v območju za obvestila"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -81,3 +64,22 @@ msgstr ""
 "S kombinacijo tipk NVDA+F11 program pokaže seznam gumbov v območju za "
 "obvestila. Če pritisnite dvakrat zapored v hitrem zaporedju, pokaže seznam "
 "postavk v opravilni vrstici."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} je brezplačen dodatek za NVDA.\n"
+#~ "Če želite, lahko donirate avtorjem, da s tem podprete nadaljni razvoj "
+#~ "tega dodatka in ostalih \"prostih\" programov.\n"
+#~ "Želite prispevati sedaj? (Preusmerili vas bomo na spletno mesto Paypal-a)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Prošnja za sodelovanje pri {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "seznam območja za obvestila - razvršča elemente območja za obvestila in "
+#~ "elemente opravilne vrstice"

@@ -52,29 +52,11 @@ msgstr "Linker &Doppelklick"
 msgid "&Right Click"
 msgstr "&Rechtsklick"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} ist eine kostenlose Erweiterung für NVDA.\n"
-"Sie können an den Author spenden, um die Weiterentwicklung der Erweiterung "
-"und andere kostenlose Projekte zu unterstützen\n"
-"Möchten Sie jetzt spenden? (Sie werden zum Internetauftritt von Paypal "
-"weitergeleitet.)"
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Bitte spenden Sie für {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "SysTrayList - Liste der Elemente im Infobereich und der Taskleiste"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Liste des Infobereichs"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -85,3 +67,21 @@ msgstr ""
 "Zeigt eine Liste der Schalter im Infobereich an, wenn Sie NVDA+F11 drücken. "
 "Drücken Sie diese Tastenkombination zweimal schnell hintereinander, um die "
 "Liste der laufenden Anwendungen anzuzeigen."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} ist eine kostenlose Erweiterung für NVDA.\n"
+#~ "Sie können an den Author spenden, um die Weiterentwicklung der "
+#~ "Erweiterung und andere kostenlose Projekte zu unterstützen\n"
+#~ "Möchten Sie jetzt spenden? (Sie werden zum Internetauftritt von Paypal "
+#~ "weitergeleitet.)"
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Bitte spenden Sie für {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "SysTrayList - Liste der Elemente im Infobereich und der Taskleiste"

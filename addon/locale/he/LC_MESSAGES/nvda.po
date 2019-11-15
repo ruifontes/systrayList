@@ -50,28 +50,11 @@ msgstr "&לחיצה שמאלית כפולה"
 msgid "&Right Click"
 msgstr "לחצן ימני"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-"{name} הינו הרחבה חינמית עבור NVDA \n"
-"הינך יכול לתרום למפתח כדי לתרום בפיתוחים הבאים של הרחבה זאת והרחבות חינמיות "
-"נוספות.\n"
-"תרצה לתרום כעת?  (הינך תועבר לpaypal לביצוע תרומה)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "בקשת תרומות {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "sysTrayList - רשימה sys ואלמנטים בשורת המשימות"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "רשימת מגש המערכת"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -81,3 +64,20 @@ msgid ""
 msgstr ""
 "מציג את רשימת הכפתורים על מגש המערכת עם NVDA + F11 לחיצה בודדת, ועבור לחיצה "
 "כפולה מציג רשימת משימות פועלות."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ "{name} הינו הרחבה חינמית עבור NVDA \n"
+#~ "הינך יכול לתרום למפתח כדי לתרום בפיתוחים הבאים של הרחבה זאת והרחבות "
+#~ "חינמיות נוספות.\n"
+#~ "תרצה לתרום כעת?  (הינך תועבר לpaypal לביצוע תרומה)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "בקשת תרומות {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "sysTrayList - רשימה sys ואלמנטים בשורת המשימות"

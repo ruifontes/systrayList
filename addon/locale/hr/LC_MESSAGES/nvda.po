@@ -49,28 +49,11 @@ msgstr "Lijevi d&vostruki klik"
 msgid "&Right Click"
 msgstr "&Desni klik"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} je besplatan dodatak za NVDA čitač ekrana.\n"
-"Možete donirati autoru ovog dodatka da biste podržali daljnji razvoj ovog "
-"dodatka i ostalih besplatnih softverskih proizvoda.\n"
-"Želite li donirati sada? (bit ćete preusmjereni na Paypal web stranicu)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Zahtjev za doprinos na {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "sysTrayList - izlistaj elemente na platformi sustava i traci zadataka"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Popis platforme sustava"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -81,3 +64,21 @@ msgstr ""
 "Pokazuje popis gumba na platformi sustava pomoću jednostrukog pritiska na "
 "tipkovni prečac NVDA+F11, a dvostrukim pritiskom pokazuje popis pokrenutih "
 "zadataka."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} je besplatan dodatak za NVDA čitač ekrana.\n"
+#~ "Možete donirati autoru ovog dodatka da biste podržali daljnji razvoj ovog "
+#~ "dodatka i ostalih besplatnih softverskih proizvoda.\n"
+#~ "Želite li donirati sada? (bit ćete preusmjereni na Paypal web stranicu)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Zahtjev za doprinos na {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "sysTrayList - izlistaj elemente na platformi sustava i traci zadataka"

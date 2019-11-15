@@ -10,13 +10,13 @@ msgstr ""
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
 "PO-Revision-Date: 2019-04-04 12:42+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
+"2010-2019>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
-"Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
-"2010-2019>\n"
 
 #. Translators: Input help mode message for system tray list command.
 msgid ""
@@ -48,27 +48,11 @@ msgstr "左键双击"
 msgid "&Right Click"
 msgstr "右键单击"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name}是一个用于 nvda 的免费插件。\n"
-"您可以给此插件的作者捐款，用以支持此插件其后的开发和其他免费软件工程。\n"
-"您现在希望捐款吗？ (您将被转到 Paypal 主页)。"
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "请求为 {name} 提供帮助"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "系统托盘列表，显示系统托盘和任务栏的元素"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "系统托盘列表"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -76,3 +60,19 @@ msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr "用“NVDA+F11”显示系统托盘按钮的列表；连按两次，显示正在运行任务的列表。"
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name}是一个用于 nvda 的免费插件。\n"
+#~ "您可以给此插件的作者捐款，用以支持此插件其后的开发和其他免费软件工程。\n"
+#~ "您现在希望捐款吗？ (您将被转到 Paypal 主页)。"
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "请求为 {name} 提供帮助"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "系统托盘列表，显示系统托盘和任务栏的元素"

@@ -49,27 +49,11 @@ msgstr "இடது இரட்டை சொடுக்கு (&D)"
 msgid "&Right Click"
 msgstr "வலது சொடுக்கு (&R)"
 
-#. Translators: The text of the dialog shown during add-on installation.
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-"{name}, என்விடிஏவிற்கான இலவச கூட்டுறுப்பாகும்.\n"
-"இந்தக் கூட்டுறுப்பையும், பிற மென்பொருட்களையும் உருவாக்க, படைப்பாளருக்கு "
-"நன்கொடையளிக்கலாம்.\n"
-"இப்பொழுது நன்கொடை அளிக்க விரும்புகிறீர்களா? (பே பால் இணையதளத்திற்கு தாங்கள் இட்டுச் "
-"செல்லப்படுவீர்கள்)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-msgid "Request for Contributions to {name}"
-msgstr "{name} கூட்டுறுப்பிற்கு பங்களிக்க வேண்டுகோள்"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "கணினித் தட்டு/பணிப்பட்டை  உருப்படிகளின் பட்டியல்"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "கணினித் தட்டுப் பட்டியல்"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -80,3 +64,21 @@ msgstr ""
 "என்விடிஏ+f11 விசையை ஒரு முறை அழுத்தினால், கணினித் தட்டில் இருக்கும் பொத்தான்களின் "
 "பட்டியலை காண்பிக்கும். இரு முறை அழுத்தினால், பணிப்பட்டையில் ஓடிக் கொண்டிருக்கும் "
 "பயன்பாடுகளின் உருவங்களின் பட்டியலைக் காண்பிக்கும்."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ "{name}, என்விடிஏவிற்கான இலவச கூட்டுறுப்பாகும்.\n"
+#~ "இந்தக் கூட்டுறுப்பையும், பிற மென்பொருட்களையும் உருவாக்க, படைப்பாளருக்கு "
+#~ "நன்கொடையளிக்கலாம்.\n"
+#~ "இப்பொழுது நன்கொடை அளிக்க விரும்புகிறீர்களா? (பே பால் இணையதளத்திற்கு தாங்கள் இட்டுச் "
+#~ "செல்லப்படுவீர்கள்)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "{name} கூட்டுறுப்பிற்கு பங்களிக்க வேண்டுகோள்"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "கணினித் தட்டு/பணிப்பட்டை  உருப்படிகளின் பட்டியல்"

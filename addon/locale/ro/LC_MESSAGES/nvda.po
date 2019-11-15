@@ -10,12 +10,12 @@ msgstr ""
 "POT-Creation-Date: 2016-02-12 19:05+1000\n"
 "PO-Revision-Date: 2017-05-26 20:10+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.9\n"
-"Language-Team: \n"
 
 #. Translators: Input help mode message for system tray list command.
 msgid ""
@@ -49,31 +49,11 @@ msgstr "&Dublu clic stânga"
 msgid "&Right Click"
 msgstr "Clic &dreapta"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} este un supliment gratuit pentru NVDA.\n"
-"Puteți face donații către autorul lui pentru a susține dezvoltări ulterioare "
-"ale acestui supliment și a altor produse software gratuite.\n"
-"Doriți să faceți o donație acum? (veți fi redirecționat către website-ul "
-"Paypal)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Solicitare contribuție pentru {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr ""
-"sysTrayList - listare a elementelor din zona de notificare și a barei  de "
-"activități"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Lista zonei de notificare"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -83,3 +63,23 @@ msgid ""
 msgstr ""
 "Arată lista butoanelor din Zona de notificare cu NVDA+F11; apăsat de două "
 "ori arată listele sarcinilor în rulare."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} este un supliment gratuit pentru NVDA.\n"
+#~ "Puteți face donații către autorul lui pentru a susține dezvoltări "
+#~ "ulterioare ale acestui supliment și a altor produse software gratuite.\n"
+#~ "Doriți să faceți o donație acum? (veți fi redirecționat către website-ul "
+#~ "Paypal)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Solicitare contribuție pentru {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "sysTrayList - listare a elementelor din zona de notificare și a barei  de "
+#~ "activități"

@@ -49,28 +49,11 @@ msgstr "Ľavý &dvojklik"
 msgid "&Right Click"
 msgstr "P&ravý klik"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-"Doplnok  {name} Je zdarma.\n"
-"Môžete finančne podporiť autora, aby ste pomohli pri ďalšom vývoji doplnku a "
-"iných bezplatných programov.\n"
-"Chcete prispieť teraz? (Budete presmerovaný na stránku Paypal)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Žiadosť o príspevok pre {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "sysTrayList - zobrazí položky na systémovej lište a panely úloh"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Systémový panel"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -80,3 +63,20 @@ msgid ""
 msgstr ""
 "Skratkou NVDA+F11 zobrazíte v dialógu ikony na systémovom panely. Stlačené "
 "dvakrát zobrazíte položky na panely úloh."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ "Doplnok  {name} Je zdarma.\n"
+#~ "Môžete finančne podporiť autora, aby ste pomohli pri ďalšom vývoji "
+#~ "doplnku a iných bezplatných programov.\n"
+#~ "Chcete prispieť teraz? (Budete presmerovaný na stránku Paypal)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Žiadosť o príspevok pre {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "sysTrayList - zobrazí položky na systémovej lište a panely úloh"

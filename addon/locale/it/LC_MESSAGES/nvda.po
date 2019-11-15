@@ -49,29 +49,11 @@ msgstr "&Doppio click sinistro"
 msgid "&Right Click"
 msgstr "Click dest&ro"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} è un componente gratuito per NVDA.\n"
-"è possibile effettuare una donazione all'autore per supportarne lo sviluppo "
-"e altri prodotti gratuiti in futuro.\n"
-"Desideri donare adesso? Verrai rediretto alla pagina di pagamento Paypal."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Richiesta contributi per {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr ""
-"sysTrayList -Elenco degli elementi del System Tray e delle applicazioni"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Elenco System Tray"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -81,3 +63,21 @@ msgid ""
 msgstr ""
 "Visualizza l'elenco dei pulsanti nel system tray. Se premuto due volte, "
 "visualizza l'elenco delle applicazioni in esecuzione."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} è un componente gratuito per NVDA.\n"
+#~ "è possibile effettuare una donazione all'autore per supportarne lo "
+#~ "sviluppo e altri prodotti gratuiti in futuro.\n"
+#~ "Desideri donare adesso? Verrai rediretto alla pagina di pagamento Paypal."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Richiesta contributi per {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "sysTrayList -Elenco degli elementi del System Tray e delle applicazioni"

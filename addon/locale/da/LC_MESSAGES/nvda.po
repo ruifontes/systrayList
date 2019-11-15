@@ -49,28 +49,11 @@ msgstr "Venstre &dobbeltklik"
 msgid "&Right Click"
 msgstr "&Højreklik"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-"{name} er et gratis tilføjelsesprogram til NVDA.\n"
-"Du kan give en donation til forfatteren for at understøtte videre udvikling "
-"af dette program og andre gratis programmer.\n"
-"Vil du give en donation nu? (Du bliver viderestillet til Paypals hjemmeside)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Forespørgsel om bidrag til {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "Systembakkeliste - viser elementer i systembakken og på joblinjen"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Systembakke"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -80,3 +63,21 @@ msgid ""
 msgstr ""
 "Tryk NVDA+F11 en gang for at se en liste over knapper i systembakken. Tryk "
 "to gange for at vise listen over kørende programmer."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ "{name} er et gratis tilføjelsesprogram til NVDA.\n"
+#~ "Du kan give en donation til forfatteren for at understøtte videre "
+#~ "udvikling af dette program og andre gratis programmer.\n"
+#~ "Vil du give en donation nu? (Du bliver viderestillet til Paypals "
+#~ "hjemmeside)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Forespørgsel om bidrag til {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "Systembakkeliste - viser elementer i systembakken og på joblinjen"

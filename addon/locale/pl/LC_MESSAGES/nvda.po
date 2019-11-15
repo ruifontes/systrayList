@@ -49,28 +49,11 @@ msgstr "Lewy Po&dwujny klik"
 msgid "&Right Click"
 msgstr "&Prawy klik"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} jest darmowym dodatkiem dla NVDA.\n"
-"Możesz wesprzeć finansowo twórcę tego dodatku.\n"
-"Czy chcesz zrobić to teraz? (zostaniesz przekierowany na stronę paypal)?"
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Prośba o wsparcie {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr ""
-"sysTrayList - wyświetla listę  elementów obszaru powiadomień i paska zadań"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "lista obszaru powiadomień"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -80,3 +63,20 @@ msgid ""
 msgstr ""
 "Skrót nvda+f11 pokazuje listę ikon w zasobniku systemowym. Dwukrotne "
 "wciśnięcie pokazuje listę dla paska zadań."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} jest darmowym dodatkiem dla NVDA.\n"
+#~ "Możesz wesprzeć finansowo twórcę tego dodatku.\n"
+#~ "Czy chcesz zrobić to teraz? (zostaniesz przekierowany na stronę paypal)?"
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Prośba o wsparcie {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "sysTrayList - wyświetla listę  elementów obszaru powiadomień i paska zadań"

@@ -49,28 +49,11 @@ msgstr "Kích trái &hai lần"
 msgid "&Right Click"
 msgstr "Kích &phải"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} là add-on miễn phí cho NVDA.\n"
-"Bạn có thể tài trợ cho tác giả của add-on này để cải thiện tính năng thêm.\n"
-"Bạn có muốn tài trợ bây giờ không? (Bạn sẽ được đưa đến trang thanh toán của "
-"PayPal.)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Yêu cầu đóng góp cho {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "Danh sách các biểu tượng trên khay hệ thống và thanh tác vụ"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Danh Sách Khay Hệ Thống"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -80,3 +63,21 @@ msgid ""
 msgstr ""
 "Nhấn NVDA+f11 để mở danh sách các biểu tượng trên khay hệ thống; nhấn nhanh "
 "hai lần để mở danh sách các biểu tượng trên thanh tác vụ."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} là add-on miễn phí cho NVDA.\n"
+#~ "Bạn có thể tài trợ cho tác giả của add-on này để cải thiện tính năng "
+#~ "thêm.\n"
+#~ "Bạn có muốn tài trợ bây giờ không? (Bạn sẽ được đưa đến trang thanh toán "
+#~ "của PayPal.)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Yêu cầu đóng góp cho {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "Danh sách các biểu tượng trên khay hệ thống và thanh tác vụ"

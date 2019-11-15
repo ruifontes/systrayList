@@ -49,29 +49,11 @@ msgstr "Bal &Kétszeres egérkattintás"
 msgid "&Right Click"
 msgstr "&Jobb egérkattintás"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} egy ingyenes kiegészítő az NVDA-hoz.\n"
-"Lehetősége van támogatni a fejlesztőt az alkalmazás továbbfejlesztésében, "
-"vagy egyéb ingyenes kiegészítők elkészítésében.\n"
-"Szeretné ezt megtenni most? (Át lesz irányítva a Paypal oldalára)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "A fejlesztés támogatásának kérése {name} részére."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr ""
-"Rendszertálca-kilistázó - A tálcán és a rendszertálcán lévő ikonok listája"
+#, fuzzy
+msgid "SysTrayList"
+msgstr "Rendszertálca lista"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -81,3 +63,21 @@ msgid ""
 msgstr ""
 "Kilistázza a rendszertálca gombjait az NVDA+F11 lenyomásával. Kétszeri "
 "megnyomásra a futó folyamatokat."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} egy ingyenes kiegészítő az NVDA-hoz.\n"
+#~ "Lehetősége van támogatni a fejlesztőt az alkalmazás továbbfejlesztésében, "
+#~ "vagy egyéb ingyenes kiegészítők elkészítésében.\n"
+#~ "Szeretné ezt megtenni most? (Át lesz irányítva a Paypal oldalára)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "A fejlesztés támogatásának kérése {name} részére."
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "Rendszertálca-kilistázó - A tálcán és a rendszertálcán lévő ikonok listája"
