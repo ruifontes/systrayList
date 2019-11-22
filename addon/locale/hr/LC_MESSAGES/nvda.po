@@ -1,35 +1,38 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Hrvoje Katić <hrvojekatic@gmail.com>, 2017.
+# Milo Ivir <mail@milotype.de>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: systrayList 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-03-13 14:03+0100\n"
-"PO-Revision-Date: 2017-11-05 13:39+0100\n"
-"Last-Translator: Hrvoje Katić <hrvojekatic@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-11-19 18:48+0100\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #. Translators: Input help mode message for system tray list command.
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"Pokazuje popis gumba na platformi sustava. Ukoliko se pritisne dvaput brzo, "
+"Pokazuje popis gumba na programskoj traci. Ukoliko se pritisne dvaput brzo, "
 "pokazuje stavke na traci zadataka."
 
 msgid "System Tray List"
-msgstr "Popis platforme sustava"
+msgstr "Popis programske trake"
 
 msgid "Icons on the System Tray:"
-msgstr "Ikone na platformi sustava:"
+msgstr "Ikone na programskoj traci:"
 
 msgid "Taskbar List"
 msgstr "Popis trake zadataka"
@@ -53,7 +56,7 @@ msgstr "&Desni klik"
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 #, fuzzy
 msgid "SysTrayList"
-msgstr "Popis platforme sustava"
+msgstr "Popis programske trake"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -61,9 +64,9 @@ msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
-"Pokazuje popis gumba na platformi sustava pomoću jednostrukog pritiska na "
-"tipkovni prečac NVDA+F11, a dvostrukim pritiskom pokazuje popis pokrenutih "
-"zadataka."
+"Pokazuje popis gumba na programskoj traci pomoću jednostrukog pritiska na "
+"tipkovnički prečac NVDA+F11, a dvostrukim pritiskom pokazuje popis "
+"pokrenutih zadataka."
 
 #~ msgid ""
 #~ " {name} is a free add-on for NVDA.\n"
@@ -77,8 +80,9 @@ msgstr ""
 #~ "Želite li donirati sada? (bit ćete preusmjereni na Paypal web stranicu)."
 
 #~ msgid "Request for Contributions to {name}"
-#~ msgstr "Zahtjev za doprinos na {name}"
+#~ msgstr "Zahtjev za donaciju na {name}"
 
 #~ msgid "sysTrayList - list sys tray and task bar elements"
 #~ msgstr ""
-#~ "sysTrayList - izlistaj elemente na platformi sustava i traci zadataka"
+#~ "Popis programske trake – prikaži popis elemenata na programskoj traci i "
+#~ "traci zadataka"

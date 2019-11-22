@@ -1,45 +1,47 @@
 # systrayList #
 
-*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
-    contributors
-*   Download [stable version][1]
-*   NVDA compatibility: 2017.3 to 2019.2
+*   Автори: Rui Fontes, Rui Batista, Joseph Lee та учасники спільноти NVDA
+*   Завантажити [стабільну версію][1]
+*   Сумісність із NVDA: від 2017.3 до 2019.2
 
-This add-on allows you to read and activate icons on the system tray or the
-task bar, within a list box, for easy access and interaction to those
-items. With the add-on installed, press NVDA+f11 once for this dialog to
-pop-up with system tray elements, and press twice to display task bar
-elements, which are the currently running applications.
+Цей додаток робить можливими читання та активацію іконок на системній панелі
+та на панелі завдань, які представлені у вигляді списку, для легкого доступу
+до цих елементів та інтерактивної взаємодії з ними. Якщо додаток
+встановлено, натисніть nvda+f11 один раз, щоб відкрити діалог зі списком
+елементів системної панелі, або ж двічі, щоб відкрити діалог зі списком
+елементів панелі завдань, де представлені програми, запущені станом на
+поточний момент.
 
-Note that you can access the windows system tray in any screen reader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Зауважте, що ви можете отримати доступ до системної панелі Windows,
+використовуючи будь-яку програму екранного доступу, за допомогою
+клавіатурної комбінації Windows+B, а до панелі завдань — за допомогою клавіш
+Windows+T. Цей додаток корисний лише для того, щоб зробити плавнішим перехід
+з JAWS та уникнути деяких підказок, які можуть спливати під час переміщення
+системною панеллю за допомогою клавіатури.
 
-## Changes for 3.0 2018-10-27 ##
+## Зміни у версії 3.0 2018-10-27 ##
 
-Support for Windows releases earlier than Windows 7 Service Pack 1 will end
-in 2019.
+Підтримка версій Windows, старіших за Windows 7 Service Pack 1, завершится у
+2019 році
 
-* Add-on is Python 3 compatible.
+* Додаток став сумісним з Python 3.
 
-## Changes for 2.0 2017-05-20 ##
+## Зміни у версії 2.0 2017-05-20 ##
 
-* Systray/taskbar dialog is now centered on screen.
-* Fixed various user interface issues.
-* New and updated translations.
+* Діалог системної панелі чи панелі завдань тепер відцентровано на екрані.
+* Виправлено низку інших проблем у інтерфейсі.
+* Нові й оновлені переклади.
 
-## Changes for 1.5 2015-mm-dd ##
+## Зміни у версії 1.5 2015-mm-dd ##
 
 * Скоректовано дію лівого/правого кліка.
-* Add-on help is now available from add-ons manger.
-* Translation updates.
+* Довідка додатка тепер доступна у менеджері додатків.
+* Оновлено переклади.
 
 ## Зміни у версії 1.4 - 2013-01-19 ##
 
 * Необхідна версія NVDA 2012.3 Beta2 або новіша.
-* До процедури встановлення додано запит про благодійний внесок.
+* До процедури встановлення додано запит про благодійний внесок
 * Реалізовано підтримку панелі завдань
 * Нові переклади: арабський, болгарський,  галісійський, грецький,
   італійський, корейський, непальський, нідерландський, норвезький,
@@ -48,18 +50,18 @@ in 2019.
 
 ## Зміни у версії 1.3 - 2012-05-25 ##
 
-* Сконвертовано в додаток.
+* Сконвертовано в додаток
 * Додано турецьку та французьку мови.
 
 ## Зміни у версії 1.2 - 2012-04.25 ##
 
 * Додаток перекладено іспанською та німецькою мовами. Дякуємо усім, хто
-  допоміг!
+  допоміг.
 
 ## Зміни у версії 1.1 - 2012-03-20 ##
 
 * Виправлено помилку, яка унеможливлювала використання плагіна, якщо
-  переклад gettext був недоступний.
+  переклад gettext був недоступний
 
 ## Зміни у версії 1.0 - 2012-03-19 ##
 

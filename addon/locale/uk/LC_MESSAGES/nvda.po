@@ -8,23 +8,22 @@ msgstr ""
 "Project-Id-Version: systrayList 2.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-07-14 19:27+0200\n"
-"PO-Revision-Date: 2016-01-27 07:42+0100\n"
-"Last-Translator: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-11-21 09:33-0800\n"
+"Last-Translator: Volodymyr Pyrih <vp88.mobile@gmail.com>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.9\n"
+"Language-Team: \n"
 
 #. Translators: Input help mode message for system tray list command.
-#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
 "Показує список кнопок на системній панелі. При швидкому подвійному "
-"натисненні показує елементи панелі завдань"
+"натисненні показує елементи панелі завдань."
 
 msgid "System Tray List"
 msgstr "Список системної панелі"
@@ -32,13 +31,11 @@ msgstr "Список системної панелі"
 msgid "Icons on the System Tray:"
 msgstr "Іконки на системній панелі:"
 
-#, fuzzy
 msgid "Taskbar List"
 msgstr "Список панелі завдань"
 
-#, fuzzy
 msgid "Icons of running applications on the taskbar:"
-msgstr "Список запущених програм на панелі завдань"
+msgstr "Список запущених програм на панелі завдань:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
@@ -52,29 +49,10 @@ msgstr "Подвійний &лівий клік"
 msgid "&Right Click"
 msgstr "&Правий клік"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} - це безкоштовний додаток для NVDA.\n"
-"Ви можете внести свій благодійний внесок для подальшої розробки цього "
-"додатка та іншого вільного ПЗ.\n"
-"Хочете внести свій благодійний внесок зараз? (Вас буде скеровано на сайт "
-"Paypal)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Request for Contributions to {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "sysTrayList - список системної панелі та елементів панелі завдань"
+msgid "SysTrayList"
+msgstr "Список системної панелі"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -82,6 +60,6 @@ msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
-"Показує список кнопок системної панелі при одноразовому натисненні "
-"клавіатурної комбінації NVDA+F11. При швидкому подвійному натисненні показує "
+"Показує список кнопок системної панелі при одноразовому натисканні "
+"клавіатурної комбінації NVDA+F11. При швидкому подвійному натисканні показує "
 "список запущених завдань."
