@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: systrayList 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-03-13 14:03+0100\n"
-"PO-Revision-Date: 2019-11-19 18:48+0100\n"
+"PO-Revision-Date: 2019-11-22 13:31+0100\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: \n"
 "Language: hr\n"
@@ -54,7 +54,6 @@ msgstr "&Desni klik"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-#, fuzzy
 msgid "SysTrayList"
 msgstr "Popis programske trake"
 
@@ -67,22 +66,3 @@ msgstr ""
 "Pokazuje popis gumba na programskoj traci pomoću jednostrukog pritiska na "
 "tipkovnički prečac NVDA+F11, a dvostrukim pritiskom pokazuje popis "
 "pokrenutih zadataka."
-
-#~ msgid ""
-#~ " {name} is a free add-on for NVDA.\n"
-#~ "You can make a donation to its author to support further developments of "
-#~ "this add-on and other free software products.\n"
-#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
-#~ msgstr ""
-#~ " {name} je besplatan dodatak za NVDA čitač ekrana.\n"
-#~ "Možete donirati autoru ovog dodatka da biste podržali daljnji razvoj ovog "
-#~ "dodatka i ostalih besplatnih softverskih proizvoda.\n"
-#~ "Želite li donirati sada? (bit ćete preusmjereni na Paypal web stranicu)."
-
-#~ msgid "Request for Contributions to {name}"
-#~ msgstr "Zahtjev za donaciju na {name}"
-
-#~ msgid "sysTrayList - list sys tray and task bar elements"
-#~ msgstr ""
-#~ "Popis programske trake – prikaži popis elemenata na programskoj traci i "
-#~ "traci zadataka"
