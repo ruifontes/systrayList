@@ -2,7 +2,7 @@
 
 *   Autorzy: Rui Fontes, Rui Batista, Joseph Lee, współtwórcy zespołu NVDA
 *   Pobierz [wersja stabilna][1]
-*   Zgodność z wersjami NVDA: 2017.3 do 2019.2
+*   NVDA compatibility: 2017.3 to 2019.3
 
 Ta wtyczka umożliwia odczyt i aktywowanie ikon w zasobniku systemowym lub na
 pasku zadań, wybieranych z listy, dla łatwego dostępu do tych elementów i

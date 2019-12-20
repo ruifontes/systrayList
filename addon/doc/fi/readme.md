@@ -3,7 +3,7 @@
 *   Tekijät: Rui Fontes, Rui Batista, Joseph Lee ja muut NVDA-yhteisön
     jäsenet
 *   Lataa [vakaa versio][1]
-*   Yhteensopivuus: NVDA 2017.3-2019.2
+*   NVDA compatibility: 2017.3 to 2019.3
 
 Tämän lisäosan avulla voit lukea ja aktivoida ilmoitusalueen ja
 tehtäväpalkin kuvakkeita helppokäyttöisestä luetteloruudusta. Pääset

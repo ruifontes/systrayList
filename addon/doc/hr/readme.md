@@ -2,7 +2,7 @@
 
 *   Autori: Rui Fontes, Rui Batista, suradnici NVDA zajednice
 *   Preuzmi [stabilnu verziju][1]
-*   NVDA kompatibilnost: 2017.3 do 2019.2
+*   NVDA compatibility: 2017.3 to 2019.3
 
 Dodatak omogućuje čitanje i aktiviranje ikona na traci sustava ili na
 programskoj traci, unutar popisnog okvira, te olakšava pristup i interakciju
