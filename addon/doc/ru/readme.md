@@ -1,8 +1,9 @@
 # systrayList #
 
 *   Авторы: Rui Fontes, Rui Batista, Joseph Lee, Участники сообщества NVDA
-*   Загрузить [стабильную версию][1]
-*   NVDA compatibility: 2017.3 to 2019.3
+*   Download [stable version][1]
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Это дополнение позволит читать и активировать значки области уведомлений или
 панели задач, предоставляя их список для удобного с ними
@@ -16,7 +17,24 @@ plugin is only useful to make the transition from JAWS for Windows smoother
 and to avoid some tooltips that may pop-up when cycling through the system
 tray with the windows keyboard means.
 
-## Changes for 3.0 2018-10-27 ##
+## Changes for 4.0 2020-01-03 ##
+
+* Requires NVDA 2019.3 or later.
+* No more support for Windows versions earlier than Windows 7 Service Pack
+  1.
+* Add-on has been renamed to "SysTrayList".
+* Donation request dialog will no longer appear when installing or updating
+  the add-on.
+
+## Changes for 3.2 2018-12-24 ##
+
+* More code changes to support Python 3.
+
+## Changes for 3.1 2018-11-24 ##
+
+* Internal changes to support future NVDA releases.
+
+## Changes for 3.0 2018-10-25 ##
 
 Support for Windows releases earlier than Windows 7 Service Pack 1 will end
 in 2019.
@@ -66,3 +84,5 @@ in 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
+
+[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

@@ -2,8 +2,9 @@
 
 *   Autori: Rui Fontes, Rui Batista, Joseph Lee și alți membri din
     comunitatea NVDA
-*   Descărcați [versiunea stabilă][1]
-*   NVDA compatibility: 2017.3 to 2019.3
+*   Download [stable version][1]
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Acest supliment vă permite să citiți și să activați iconițe în bara de
 sistem sau bara de activități, într-o listă de casete pentru un acces și o
@@ -17,7 +18,24 @@ ecran folosind comanda rapidă windows+b, și bara de activități apăsând tab
 după butonul start. Acest supliment este util doar pentru a face trecerea de
 la JAWS pentru Windows lin și pentru a evita unele tipuri de unelte .
 
-## Modificări aduse în versiunea 3.0, 27 octombrie 2018 ##
+## Changes for 4.0 2020-01-03 ##
+
+* Requires NVDA 2019.3 or later.
+* No more support for Windows versions earlier than Windows 7 Service Pack
+  1.
+* Add-on has been renamed to "SysTrayList".
+* Donation request dialog will no longer appear when installing or updating
+  the add-on.
+
+## Changes for 3.2 2018-12-24 ##
+
+* More code changes to support Python 3.
+
+## Changes for 3.1 2018-11-24 ##
+
+* Internal changes to support future NVDA releases.
+
+## Changes for 3.0 2018-10-25 ##
 
 Suportul pentru versiunile de Windows mai vechi decât Windows 7 Service Pack
 1 va lua sfârșit în 2019.
@@ -69,3 +87,5 @@ Suportul pentru versiunile de Windows mai vechi decât Windows 7 Service Pack
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
+
+[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

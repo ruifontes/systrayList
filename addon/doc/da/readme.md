@@ -2,8 +2,9 @@
 
 *   Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA-bidragydere fra
     fællesskabet
-*   download [stabil version][1]
-*   NVDA compatibility: 2017.3 to 2019.3
+*   Download [stable version][1]
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Med dette tilføjelsesprogram kan du læse og aktivere ikoner i systembakken
 og på joblinjen i en listeboks, så du nemt kan få adgang til og gøre brug af
@@ -18,7 +19,24 @@ Windows+T. Dette tilføjelsesprogram benyttes blot for at gøre overgangen fra
 JAWS for Windows nemmere og for at undgå nogle værktøjstips, som kan poppe
 op, når man går gennem systembakken med Windows-tastaturgenveje.
 
-## Ændringer for 3.0 2018-10-27 ##
+## Changes for 4.0 2020-01-03 ##
+
+* Requires NVDA 2019.3 or later.
+* No more support for Windows versions earlier than Windows 7 Service Pack
+  1.
+* Add-on has been renamed to "SysTrayList".
+* Donation request dialog will no longer appear when installing or updating
+  the add-on.
+
+## Changes for 3.2 2018-12-24 ##
+
+* More code changes to support Python 3.
+
+## Changes for 3.1 2018-11-24 ##
+
+* Internal changes to support future NVDA releases.
+
+## Changes for 3.0 2018-10-25 ##
 
 Understøttelse for Windows-udgivelser tidligere end Windows 7 Service Pack 1
 slutter i 2019.
@@ -69,3 +87,5 @@ slutter i 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
+
+[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

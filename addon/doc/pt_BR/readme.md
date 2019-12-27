@@ -2,8 +2,9 @@
 
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da
     comunidade do NVDA
-*   Baixe a [versão estável][1]
-*   NVDA compatibility: 2017.3 to 2019.3
+*   Download [stable version][1]
+* NVDA compatibility: 2019.3 and beyond
+* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Este complemento possibilita ler e ativar ícones da área de notificação ou
 da barra de tarefas, numa caixa de lista para um fácil acesso e interação
@@ -19,7 +20,24 @@ transição do JAWS para Windows mais suave e para evitar algumas dicas de
 ferramentas que podem aparecer ao percorrer a bandeja do sistema do Windows
 por meio do teclado.
 
-## Mudanças na 3.0 2018-10-27 ##
+## Changes for 4.0 2020-01-03 ##
+
+* Requires NVDA 2019.3 or later.
+* No more support for Windows versions earlier than Windows 7 Service Pack
+  1.
+* Add-on has been renamed to "SysTrayList".
+* Donation request dialog will no longer appear when installing or updating
+  the add-on.
+
+## Changes for 3.2 2018-12-24 ##
+
+* More code changes to support Python 3.
+
+## Changes for 3.1 2018-11-24 ##
+
+* Internal changes to support future NVDA releases.
+
+## Changes for 3.0 2018-10-25 ##
 
 O suporte para versões do Windows anteriores ao Windows 7 Service Pack 1
 terminará em 2019.
@@ -69,3 +87,5 @@ terminará em 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
+
+[2]: https://addons.nvda-project.org/files/get.php?file=st-2019
