@@ -1,10 +1,9 @@
 # Infobereichsliste #
 
-*   Authoren: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
-    Contributors
-*   Download [stable version][1]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
+* Authoren: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community Contributors
+* [Stabile Version herunterladen][1]
+* NVDA-Kompatibilität: 2019.3 und neuer
+* [Ältere Version herunterladen (kompatibel mit NVDA 2019.2.1 und älter)][2]
 
 Mit dieser Erweiterung können Sie Symbole im Infobereich oder in der
 Taskleiste bequem aus einer generierten Liste lesen und aktivieren. Der
@@ -21,24 +20,24 @@ Windows reibungsloser zu gestalten und um einige QuickInfos zu vermeiden,
 die beim Blättern durch die Taskleiste mit den Windows-Tastaturmitteln
 erscheinen können.
 
-## Changes for 4.0 2020-01-03 ##
+## Änderungen in 4.0 (03.01.2020) ##
 
-* Requires NVDA 2019.3 or later.
-* No more support for Windows versions earlier than Windows 7 Service Pack
-  1.
-* Add-on has been renamed to "SysTrayList".
-* Donation request dialog will no longer appear when installing or updating
-  the add-on.
+* Benötigt NVDA 2019.3 oder neuer.
+* Keine Unterstützung mehr für ältere Windows-Versionen (Windows 7 Service
+  Pack 1).
+* Erweiterung wurde in "SysTrayList" umbenannt.
+* Das Dialogfeld für die Spendenaufforderung wird nicht mehr angezeigt, wenn
+  die Erweiterung installiert oder aktualisiert wird.
 
-## Changes for 3.2 2018-12-24 ##
+## Änderungen in 3.2 (24.12.2018) ##
 
-* More code changes to support Python 3.
+* Weitere Code-Anpassungen zur Unterstützung von Python 3.
 
-## Changes for 3.1 2018-11-24 ##
+## Änderungen in 3.1 (24.11.2018) ##
 
-* Internal changes to support future NVDA releases.
+* Interne Änderungen zur Unterstützung zukünftiger NVDA-Releases.
 
-## Changes for 3.0 2018-10-25 ##
+## Änderungen in 3.0 (25.10.2018) ##
 
 Die Unterstützung für Windows-Versionen vor Windows 7 Service Pack 1 endet
 2019.

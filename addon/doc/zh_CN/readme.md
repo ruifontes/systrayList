@@ -1,7 +1,7 @@
 # systrayList托盘图标插件 #
 
-*   作者: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
-*   Download [stable version][1]
+* 作者: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
+* 下载 [稳定版][1]
 * NVDA compatibility: 2019.3 and beyond
 * Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 

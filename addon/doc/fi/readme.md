@@ -1,10 +1,10 @@
 # Ilmaisinalueen kuvakkeet #
 
-*   Tekijät: Rui Fontes, Rui Batista, Joseph Lee ja muut NVDA-yhteisön
-    jäsenet
-*   Download [stable version][1]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
+* Tekijät: Rui Fontes, Rui Batista, Joseph Lee ja muut NVDA-yhteisön jäsenet
+* Lataa [vakaa versio][1]
+* Yhteensopivuus: NVDA 2019.3 ja uudemmat
+* Lataa [vanhempi versio,][2] joka on yhteensopiva NVDA 2019.2.1:n ja sitä
+  vanhempien kanssa
 
 Tämän lisäosan avulla voit lukea ja aktivoida ilmoitusalueen ja
 tehtäväpalkin kuvakkeita helppokäyttöisestä luetteloruudusta. Pääset
@@ -18,24 +18,23 @@ Windows+T. Tästä lisäosasta on hyötyä vain JAWSista NVDA:han siirtyneille
 sekä joidenkin työkaluvihjeiden välttämisessä, joita saattaa ponnahdella
 näkyviin liikuttaessa ilmaisinalueella nuolinäppäinten avulla.
 
-## Changes for 4.0 2020-01-03 ##
+## Muutokset versiossa 4.0 - 3.1.2020 ##
 
-* Requires NVDA 2019.3 or later.
-* No more support for Windows versions earlier than Windows 7 Service Pack
-  1.
-* Add-on has been renamed to "SysTrayList".
-* Donation request dialog will no longer appear when installing or updating
-  the add-on.
+* Vaatii NVDA 2019.3:n tai uudemman.
+* Windows 7 Service Pack 1:tä vanhempaa Windows-versiota ei enää tueta.
+* Lisäosan uusi, englanninkielinen nimi on "SysTrayList".
+* Lahjoitusta pyytävä valintaikkuna ei enää tule näkyviin lisäosaa
+  asennettaessa tai päivitettäessä.
 
-## Changes for 3.2 2018-12-24 ##
+## Muutokset versiossa 3.2 - 24.12.2018 ##
 
-* More code changes to support Python 3.
+* Lisää koodimuutoksia Python 3:n tukemiseksi.
 
-## Changes for 3.1 2018-11-24 ##
+## Muutokset versiossa 3.1 - 24.11.2018 ##
 
-* Internal changes to support future NVDA releases.
+* Sisäisiä muutoksia tulevien NVDA-versioiden tukemiseksi.
 
-## Changes for 3.0 2018-10-25 ##
+## Muutokset versiossa 3.0 - 25.10.2018 ##
 
 Tuki Windows 7 Service Pack 1:tä vanhemmille versioille päättyy vuonna 2019.
 

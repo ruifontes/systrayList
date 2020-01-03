@@ -1,8 +1,8 @@
 # Lista da área de notificação #
 
-*   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da
-    comunidade do NVDA
-*   Download [stable version][1]
+* Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da comunidade
+  do NVDA
+* Baixe a [versão estável][1]
 * NVDA compatibility: 2019.3 and beyond
 * Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 

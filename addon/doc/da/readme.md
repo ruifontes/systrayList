@@ -1,8 +1,8 @@
 # Systembakkeliste #
 
-*   Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA-bidragydere fra
-    fællesskabet
-*   Download [stable version][1]
+* Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA-bidragydere fra
+  fællesskabet
+* download [stabil version][1]
 * NVDA compatibility: 2019.3 and beyond
 * Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
