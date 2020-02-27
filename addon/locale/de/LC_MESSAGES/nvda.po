@@ -25,7 +25,7 @@ msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"Zeigt die Liste der Symbole im Infobereich an. Bei zweimaligem Drücken wird "
+"Zeigt die Liste der Symbole im Infobereich an. Bei zweimal Drücken wird "
 "die Liste der Taskleiste angezeigt."
 
 msgid "System Tray List"
