@@ -4,8 +4,6 @@
   comunidad de NVDA
 * Descargar [Versión estable][1]
 * Compatibilidad con NVDA: 2019.3 y versiones posteriores
-* Descargar [versión más antigua][2] compatible con NVDA 2019.2.1 y
-  versiones anteriores
 
 Este complemento te permite leer y  activar iconos en la bandeja del sistema
 o en la barra de tareas, dentro de un cuadro de lista, para un acceso e
@@ -88,5 +86,3 @@ El soporte para versiones de Windows inferiores a Windows 7 con Service Pack
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

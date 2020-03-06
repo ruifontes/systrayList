@@ -4,7 +4,6 @@
   đồng NVDA
 * Tải về [phiên bản chính thức][1]
 * NVDA tương thích: 2019.3 trở lên
-* Tải về [phiên bản cũ hơn][2] tương thích với NVDA 2019.2.1 về trước
 
 Add-on này cho phép bạn xem và kích hoạt các biểu tượng trên khay hệ thống
 (system tray) hay thanh tác vụ (task bar), trong một danh sách, giúp dễ dàng
@@ -85,5 +84,3 @@ Sẽ ngưng hỗ trợ các bản Windows cũ hơn Windows 7 Service Pack 1 vào
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

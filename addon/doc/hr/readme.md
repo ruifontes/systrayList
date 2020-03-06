@@ -3,7 +3,6 @@
 * Autori: Rui Fontes, Rui Batista, suradnici NVDA zajednice
 * Preuzmi [stabilnu verziju][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Dodatak omogućuje čitanje i aktiviranje ikona na traci sustava ili na
 programskoj traci, unutar popisnog okvira, te olakšava pristup i interakciju
@@ -85,5 +84,3 @@ Podrška za Windows izdanja prije Windows 7 Service Pack 1 završit će krajem
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

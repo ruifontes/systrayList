@@ -4,7 +4,6 @@
   NVDA.
 * Scarica la [versione stabile][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Questo componente aggiuntivo rende possibile la lettura e l'attivazione
 delle icone del System Tray o della barra delle applicazioni  tramite una
@@ -88,5 +87,3 @@ si concluderà nel 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

@@ -3,7 +3,6 @@
 * Autores: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
 * Baixar [versão estável][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Este extra permite que leia e active os ícones existentes na barra do
 sistema ou na barra de tarefas, dentro de uma caixa de listagem, para
@@ -83,5 +82,3 @@ O suporte para as versões antriors ao windows7, service pack 1, termina em
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

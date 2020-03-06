@@ -3,7 +3,6 @@
 * 作者: Rui Fontes, Rui Batista, Joseph Lee, NVDAコミュニティの貢献者
 * ダウンロード [安定版][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 このアドオンにより、システムトレイまたはタスクバー上のアイコンについて、リストボックスの形式で、かんたんにアクセスしたり、項目の移動をしながら、読み上げやアクティベートが出来ます。アドオンをインストールしたら、NVDA+f11を一回押してシステムトレイ要素、二回押してタスクバー要素の表示されたダイアログを表示します。これらは現在実行されているアプリケーションです。
 
@@ -72,5 +71,3 @@ Windows7サービスパック1より前のWindowsのリリースについての�
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

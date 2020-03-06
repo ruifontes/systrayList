@@ -1,43 +1,43 @@
-# Lista da área de notificação #
+# Lista da área de notificação (systrayList) #
 
 * Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da comunidade
   do NVDA
 * Baixe a [versão estável][1]
-* NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
+* Compatibilidade com NVDA: 2019.3 e além
 
-Este complemento possibilita ler e ativar ícones da área de notificação ou
-da barra de tarefas, numa caixa de lista para um fácil acesso e interação
-com tais itens. Com o plug-in instalado,  pressione NVDA+f11 uma vez para
-que apareça o diálogo com os elementos da área de notificação e pressione
-duas vezes para mostrar os elementos da barra de tarefas, que são os
-aplicativos em execução no momento.
+Este complemento possibilita ler e ativar ícones da área de notificação —
+bandeja do sistema — ou da barra de tarefas, numa caixa de lista para um
+fácil acesso e interação com tais itens. Com o plug-in instalado,  pressione
+NVDA+f11 uma vez para que apareça o diálogo com os elementos da área de
+notificação (bandeja do sistema) e pressione duas vezes para mostrar os
+elementos da barra de tarefas, que são os aplicativos em execução no
+momento.
 
-Note que você pode acessar a bandeja do sistema — área de notificação — do
+Note que você pode acessar a área de notificação (bandeja do sistema) do
 Windows em qualquer software de leitor de tela usando o Windows+B, e a barra
 de tarefas pressionando Windows+T. Este plug-in é útil apenas para fazer a
 transição do JAWS para Windows mais suave e para evitar algumas dicas de
-ferramentas que podem aparecer ao percorrer a bandeja do sistema do Windows
+ferramentas que podem aparecer ao percorrer a área de notificação do Windows
 por meio do teclado.
 
-## Changes for 4.0 2020-01-03 ##
+## Mudanças na 4.0 2020-01-03 ##
 
-* Requires NVDA 2019.3 or later.
-* No more support for Windows versions earlier than Windows 7 Service Pack
-  1.
-* Add-on has been renamed to "SysTrayList".
-* Donation request dialog will no longer appear when installing or updating
-  the add-on.
+* Requer NVDA 2019.3 ou superior.
+* Não há mais suporte para versões do Windows anteriores ao Windows 7
+  Service Pack 1.
+* O complemento foi renomeado para "SysTrayList".
+* O diálogo de solicitação de doação não aparecerá mais ao instalar ou
+  atualizar o complemento.
 
-## Changes for 3.2 2018-12-24 ##
+## Mudanças na 3.2 2018-12-24 ##
 
-* More code changes to support Python 3.
+* Mais alterações de código para dar suporte ao Python 3.
 
-## Changes for 3.1 2018-11-24 ##
+## Mudanças na 3.1 2018-11-24 ##
 
-* Internal changes to support future NVDA releases.
+* Alterações internas para dar suporte a versões futuras do NVDA.
 
-## Changes for 3.0 2018-10-25 ##
+## Mudanças na 3.0 2018-10-25 ##
 
 O suporte para versões do Windows anteriores ao Windows 7 Service Pack 1
 terminará em 2019.
@@ -46,14 +46,15 @@ terminará em 2019.
 
 ## Mudanças na 2.0 2017-05-20 ##
 
-* Diálogo da área de notificação/barra de tarefas agora é centrado na tela.
+* Diálogo da área de notificação/barra de tarefas agora é centralizado na
+  tela.
 * Corrigidos diversos problemas de interface com o usuário.
 * Traduções novas e atualizadas.
 
 ## Mudanças na 1.5 2015-mm-dd ##
 
 * Corrigida ação de clique esquerdo/direito.
-* A ajuda do complemento agora está disponível a partir do gestor de
+* A ajuda do complemento agora está disponível a partir do gerenciador de
   complementos.
 * Atualizadas traduções.
 
@@ -87,5 +88,3 @@ terminará em 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

@@ -3,7 +3,6 @@
 * Authoren: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community Contributors
 * [Stabile Version herunterladen][1]
 * NVDA-Kompatibilität: 2019.3 und neuer
-* [Ältere Version herunterladen (kompatibel mit NVDA 2019.2.1 und älter)][2]
 
 Mit dieser Erweiterung können Sie Symbole im Infobereich oder in der
 Taskleiste bequem aus einer generierten Liste lesen und aktivieren. Der
@@ -89,5 +88,3 @@ Die Unterstützung für Windows-Versionen vor Windows 7 Service Pack 1 endet
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

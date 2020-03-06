@@ -4,7 +4,6 @@
   communauté de NVDA
 * Télécharger [version stable][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Cette extension vous permet de lire et d'activer les icônes sur la zone de
 notification ou la barre des tâches dans une liste déroulante pour faciliter
@@ -91,5 +90,3 @@ Pack 1 prendra fin en 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

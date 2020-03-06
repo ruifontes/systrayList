@@ -3,7 +3,6 @@
 * Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
 * تحميل [الإصدار النهائي][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 This add-on allows you to read and activate icons on the system tray or the
 task bar, within a list box, for easy access and interaction to those
@@ -84,5 +83,3 @@ in 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

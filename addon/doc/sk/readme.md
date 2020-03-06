@@ -3,7 +3,6 @@
 * Autori: Rui Fontes, Rui Batista, Joseph Lee a ďalší
 * Stiahnuť [stabilnú verziu][1]
 * Funguje s NVDA od verzie 2019.3
-* Stiahnuť [Staršiu verziu][2] pre NVDA do verzie 2019.2.1.
 
 Môžete zobraziť položky na systémovej lište a na panely úloh v jednoduchom
 dialógu. V zozname potom môžete položku aktivovať. Skratkou NVDA+F11
@@ -79,5 +78,3 @@ Podpora pre staršie systémy Windows bude ukončená  v roku 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

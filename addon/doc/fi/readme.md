@@ -3,8 +3,6 @@
 * Tekijät: Rui Fontes, Rui Batista, Joseph Lee ja muut NVDA-yhteisön jäsenet
 * Lataa [vakaa versio][1]
 * Yhteensopivuus: NVDA 2019.3 ja uudemmat
-* Lataa [vanhempi versio,][2] joka on yhteensopiva NVDA 2019.2.1:n ja sitä
-  vanhempien kanssa
 
 Tämän lisäosan avulla voit lukea ja aktivoida ilmoitusalueen ja
 tehtäväpalkin kuvakkeita helppokäyttöisestä luetteloruudusta. Pääset
@@ -82,5 +80,3 @@ Tuki Windows 7 Service Pack 1:tä vanhemmille versioille päättyy vuonna 2019.
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019

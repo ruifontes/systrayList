@@ -3,7 +3,6 @@
 * Автори: Rui Fontes, Rui Batista, Joseph Lee та учасники спільноти NVDA
 * Завантажити [стабільну версію][1]
 * NVDA compatibility: 2019.3 and beyond
-* Download [older version][2] compatible with NVDA 2019.2.1 and earlier
 
 Цей додаток робить можливими читання та активацію іконок на системній панелі
 та на панелі завдань, які представлені у вигляді списку, для легкого доступу
@@ -88,5 +87,3 @@ Windows+T. Цей додаток корисний лише для того, що
 [[!tag stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=st
-
-[2]: https://addons.nvda-project.org/files/get.php?file=st-2019
