@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2019-11-21 09:33-0800\n"
-"Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
+"PO-Revision-Date: 2020-08-22 08:24+0800\n"
+"Last-Translator: Kvark <kvark128@yandex.ru>\n"
 "Language-Team: Translators\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -27,13 +27,13 @@ msgstr ""
 "показывает элементы на панели задач."
 
 msgid "System Tray List"
-msgstr "Список системного трея"
+msgstr "Список элементов системного трея"
 
 msgid "Icons on the System Tray:"
-msgstr "Значки на системном трее"
+msgstr "Значки на системном трее:"
 
 msgid "Taskbar List"
-msgstr "Список значков на панели задач"
+msgstr "Список элементов панели задач"
 
 msgid "Icons of running applications on the taskbar:"
 msgstr "Значки запущенных приложений на панели задач:"
@@ -44,17 +44,16 @@ msgstr "&Левый клик"
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
 msgid "Left &Double Click"
-msgstr "&двойной левый клик"
+msgstr "&Двойной левый клик"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
 msgid "&Right Click"
-msgstr "&правый клик"
+msgstr "&Правый клик"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-#, fuzzy
 msgid "SysTrayList"
-msgstr "Список системного трея"
+msgstr "SysTrayList"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -62,5 +61,5 @@ msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
-"Показывает список значков на системном трее. Если нажать дважды быстро, "
-"показывает элементы на панели задач."
+"По NVDA+F11 показывает список значков системного трея. Если нажать дважды "
+"быстро, показывает элементы на панели задач."

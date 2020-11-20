@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: Systray List\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2019-11-21 09:26-0800\n"
+"PO-Revision-Date: 2020-05-08 17:05+0200\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
 "Language-Team: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 2.3\n"
 
 #. Translators: Input help mode message for system tray list command.
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"Visualizza l'elenco dei pulsanti nel system tray. Se premuto due volte, "
-"mostra  l'elenco delle applicazioni in esecuzione."
+"Mostra l'elenco dei pulsanti nel system tray. Se premuto due volte "
+"velocemente, mostra gli elementi della barra delle applicazioni."
 
 msgid "System Tray List"
 msgstr "Elenco System Tray"
@@ -35,7 +35,7 @@ msgid "Taskbar List"
 msgstr "Elenco barra delle applicazioni"
 
 msgid "Icons of running applications on the taskbar:"
-msgstr "Icone dei programmi in esecuzione nella barra delle applicazioni"
+msgstr "Icone dei programmi in esecuzione nella barra delle applicazioni:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
@@ -51,9 +51,8 @@ msgstr "Click dest&ro"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-#, fuzzy
 msgid "SysTrayList"
-msgstr "Elenco System Tray"
+msgstr "SysTrayList"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -61,5 +60,5 @@ msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
-"Visualizza l'elenco dei pulsanti nel system tray. Se premuto due volte, "
-"visualizza l'elenco delle applicazioni in esecuzione."
+"Mostra l'elenco dei pulsanti nel system tray se si preme una volta NVDA+F11. "
+"Se lo si preme due volte, mostra l'elenco delle applicazioni in esecuzione."

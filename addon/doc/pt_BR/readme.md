@@ -1,12 +1,12 @@
-# Lista da área de notificação (systrayList) #
+# Lista da Área de Notificação (SysTrayList) #
 
 * Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da comunidade
   do NVDA
 * Baixe a [versão estável][1]
 * Compatibilidade com NVDA: 2019.3 e além
 
-Este complemento possibilita ler e ativar ícones da área de notificação —
-bandeja do sistema — ou da barra de tarefas, numa caixa de lista para um
+Este complemento possibilita ler e ativar ícones da área de notificação
+(bandeja do sistema) ou da barra de tarefas, numa caixa de lista para um
 fácil acesso e interação com tais itens. Com o plug-in instalado,  pressione
 NVDA+f11 uma vez para que apareça o diálogo com os elementos da área de
 notificação (bandeja do sistema) e pressione duas vezes para mostrar os
@@ -54,7 +54,7 @@ terminará em 2019.
 ## Mudanças na 1.5 2015-mm-dd ##
 
 * Corrigida ação de clique esquerdo/direito.
-* A ajuda do complemento agora está disponível a partir do gerenciador de
+* A ajuda do complemento agora está disponível a partir do gestor de
   complementos.
 * Atualizadas traduções.
 

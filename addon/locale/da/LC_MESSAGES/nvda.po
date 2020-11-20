@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: systrayList 1.4\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-03-17 15:02-0700\n"
-"PO-Revision-Date: 2020-03-05 13:14+0100\n"
+"PO-Revision-Date: 2020-03-18 13:19+0100\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Dansk NVDA <dansk@nvda.dk>\n"
 "Language: da\n"
@@ -22,7 +22,7 @@ msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"Viser listen over knapper i systembakken. Tryk to gange hurtigt for at se "
+"Viser listen over ikoner i systembakken. Tryk to gange hurtigt for at se "
 "emnerne på joblinjen."
 
 msgid "System Tray List"
@@ -51,7 +51,6 @@ msgstr "&Højreklik"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-#, fuzzy
 msgid "SysTrayList"
 msgstr "Systembakke"
 
@@ -61,5 +60,5 @@ msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
-"Tryk NVDA+F11 en gang for at se en liste over knapper i systembakken. Tryk "
-"to gange for at vise listen over kørende programmer."
+"Tryk NVDA+F11 en gang for at se en liste over ikoner I systembakken. Tryk to "
+"gange for at vise listen over kørende programmer."
