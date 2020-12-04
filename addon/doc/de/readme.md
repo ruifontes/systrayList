@@ -54,13 +54,13 @@ Die Unterstützung für Windows-Versionen vor Windows 7 Service Pack 1 endet
 * Funktion für Links- bzw. Rechtsklick wurde korrigiert.
 * Hilfe zur Erweiterung ist nun über den Dialog Erweiterungen verwalten
   verfügbar.
-* Aktualisierung der Übersetzungen
+* Aktualisierung der Übersetzungen.
 
 ## Änderungen in 1.4 - 19.01.2013 ##
 
 * Benötigt NVDA 2012.3beta2 oder neuer.
 * Möglichkeit zum Spenden bei der Installation hinzugefügt
-* Unterstützung für die Taskleiste hinzugefügt.
+* Unterstützung für die Taskleiste hinzugefügt
 * Neue Übersetzungen: Arabisch, Bulgarisch, Niderländisch, Finnisch,
   Gälisch, Griechisch, Ungarisch, Italienisch, Japanisch, Koreanisch,
   Nepalesisch, Norwegisch, Polnisch, Portugiesisch (Brasilien), Russisch,
@@ -68,7 +68,7 @@ Die Unterstützung für Windows-Versionen vor Windows 7 Service Pack 1 endet
 
 ## Änderungen in 1.3 - 5-25.05.2012 ##
 
-* Es wurde In ein Erweiterungspaket konvertiert.
+* Es wurde In ein Erweiterungspaket konvertiert
 * Übersetzungen für Türkisch und Französisch.
 
 ## Änderungen in 1.2 - 25.04.2012 ##
@@ -79,7 +79,7 @@ Die Unterstützung für Windows-Versionen vor Windows 7 Service Pack 1 endet
 ## Änderungen in 1.1 - 20.03.2012 ##
 
 * Fehler behoben, bei der die Verwendung der Erweiterung verhindert wurde,
-  wenn die Übersetzung für eine Zeichenkette fehlte.
+  wenn die Übersetzung für eine Zeichenkette fehlte
 
 ## Änderungen in 1.0 - 19.03.2012 ##
 
