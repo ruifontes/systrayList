@@ -141,7 +141,7 @@ class SystrayListDialog(wx.Dialog):
 		mainSizer.Fit(self)
 		self.SetSizer(mainSizer)
 		rightClickButton.SetDefault()
-		self.Center(wx.BOTH | wx.CENTER_ON_SCREEN)
+		self.CenterOnScreen()
 
 	def onClose(self, evt):
 		self.Destroy()

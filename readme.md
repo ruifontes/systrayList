@@ -67,4 +67,3 @@ Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st
 
-[2]: http://addons.nvda-project.org/files/get.php?file=st-dev
