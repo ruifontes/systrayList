@@ -15,24 +15,24 @@ execução.
 Observe que pode aceder à barra do sistema do Windows, em qualquer software,
 usando o Windows+B e ir para a barra de tarefas pressionando Windows+T.
 
-## Changes for 4.0 2020-01-03 ##
+## Alterações para 4.0 2020-01-03 ##
 
-* Requires NVDA 2019.3 or later.
-* No more support for Windows versions earlier than Windows 7 Service Pack
-  1.
-* Add-on has been renamed to "SysTrayList".
-* Donation request dialog will no longer appear when installing or updating
-  the add-on.
+* Requer NVDA 2019.3 ou superiores.
+* Não há mais suporte para versões anteriores ao Service Pack 1 do Windows
+  7.
+* O extra foi renomeado para "SysTrayList".
+* O diálogo de pedido de doação deixará de aparecer aquando da instalação ou
+  actualização do extra.
 
-## Changes for 3.2 2018-12-24 ##
+## Alterações para 3.2 2018-12-24 ##
 
-* More code changes to support Python 3.
+* Mais alterações de código para suportar o Python 3.
 
-## Changes for 3.1 2018-11-24 ##
+## Alterações para 3.1 2018-11-24 ##
 
-* Internal changes to support future NVDA releases.
+* Alterações internas para suportar os futuros lançamentos do NVDA.
 
-## Changes for 3.0 2018-10-25 ##
+## Alterações para 3,0 2018-10-25 ##
 
 O suporte para as versões antriors ao windows7, service pack 1, termina em
 2019.
