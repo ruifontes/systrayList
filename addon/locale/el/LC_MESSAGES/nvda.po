@@ -9,69 +9,57 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SysTrayList\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2016-02-25 23:20-0800\n"
-"Last-Translator: Gerasimos Xydas <access@e-rhetor.com>\n"
+"PO-Revision-Date: 2020-10-05 13:17+0200\n"
+"Last-Translator: Irene Nakas <irnakas@gmail.com>\n"
 "Language-Team: Gerasimos Xydas <access@e-rhetor.com>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.10\n"
 
-msgid "System Tray List"
-msgstr "Λίστα Χώρου Ειδοποιήσεων"
-
-msgid "Icons on the System Tray:"
-msgstr "Εικονίδια στο Χώρο Ειδοποιήσεων"
-
-msgid "Task Bar List"
-msgstr "Λίστα Λωρίδας Διεργασιών"
-
-msgid "Icons of running applications in the task bar"
-msgstr "Εικονίδια εφαρμογών που εκτελούνται στη λωρίδα διεργασιών"
-
-#. Documentation
+#. Translators: Input help mode message for system tray list command.
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
-"shows the items on the task bar."
+"shows the items on the taskbar."
 msgstr ""
-"Εμφανίζει τη λίστα των κουμπιών στον χώρο ειδοποιήσεων. Αν πατηθεί γρήγορα "
-"δύο φορές, εμφανίζει στα στοιχεία στη λωρίδα εργασιών."
+"Εμφανίζει τη λίστα των κουμπιών στην περιοχή ειδοποιήσεων. Αν πατηθεί "
+"γρήγορα δύο φορές, εμφανίζει τα στοιχεία στη γραμμή εργασιών."
 
+msgid "System Tray List"
+msgstr "Λίστα Περιοχής Ειδοποιήσεων"
+
+msgid "Icons on the System Tray:"
+msgstr "Εικονίδια στην Περιοχή Ειδοποιήσεων:"
+
+msgid "Taskbar List"
+msgstr "Λίστα Γραμμής Εργασιών"
+
+msgid "Icons of running applications on the taskbar:"
+msgstr "Εικονίδια εφαρμογών που εκτελούνται στη γραμμή εργασιών:"
+
+#. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
 msgstr "&Αριστερό κλικ"
 
+#. Translators: A button in the system tray list dialog to perform left double mouse click.
 msgid "Left &Double Click"
 msgstr "&Διπλό Αριστερό κλικ"
 
+#. Translators: A button in the system tray list dialog to perform right mouse click.
 msgid "&Right Click"
 msgstr "&Δεξί κλικ"
 
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" Το {name} είναι ένα δωρεάν πρόσθετο για το NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-
-msgid "Request for Contributions to {name}"
-msgstr "Request for Contributions to {name}"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 #, fuzzy
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr ""
-"Εμφανίζει λίστα με τα στοιχεία στο Χώρο Ειδοποιήσεων και τη Λωρίδα Εργασιών."
+msgid "SysTrayList"
+msgstr "Λίστα Περιοχής Ειδοποιήσεων"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
@@ -79,3 +67,22 @@ msgstr ""
 "Εμφανίζει σε Λίστα Κουμπιών τα Αντικείμενα που υπάρχουν στον Χώρο "
 "Ειδοποιήσεων πατώντας τα πλήκτρα NVDA+F11 μία φορά. Πατώντας δύο φορές "
 "εμφανίζει τις τρέχουσες διεργασίες."
+
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " Το {name} είναι ένα δωρεάν πρόσθετο για το NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Request for Contributions to {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "Εμφανίζει λίστα με τα στοιχεία στην Περιοχή Ειδοποιήσεων και τη Γραμμή "
+#~ "Εργασιών."

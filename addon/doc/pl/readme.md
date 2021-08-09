@@ -1,8 +1,8 @@
 # systrayList #
 
-*   Autorzy: Rui Fontes, Rui Batista, Joseph Lee, współtwórcy zespołu NVDA
-*   Pobierz [wersja stabilna][1]
-*   NVDA compatibility: 2017.3 to 2019.3
+* Autorzy: Rui Fontes, Rui Batista, Joseph Lee, współtwórcy zespołu NVDA
+* Pobierz [wersja stabilna][1]
+* Zgodność dla wersji NVDA: 2019.3 i nowszych
 
 Ta wtyczka umożliwia odczyt i aktywowanie ikon w zasobniku systemowym lub na
 pasku zadań, wybieranych z listy, dla łatwego dostępu do tych elementów i
@@ -16,7 +16,24 @@ polecenia Windows+B, a do paska zadań  Windows+T. Ten dodatek służy do
 ułatwiania przejścia z jawsa do NVDA i a także żeby zapobiec niektóre dymki
 które widzimy z poziomu nawigacji za pomocą klawiatury.
 
-## Zmiany dla wersji 3.0 2018-10-27 ##
+## Zmiany dla wersji 4.0 2020-01-03 ##
+
+* Wymaga NVDA 2019.3 lub nowsze.
+* Wersje systemu Windows wcześniejsze niż Windows 7 Service Pack 1 już nie
+  są wspierane.
+* Nazwa dodatku została zmieniona na "SysTrayList".
+* W przypadku instalacji lub aktualizacji tego dodatku, okno dialogowe
+  wsparcia już nie będzie pokazywane.
+
+## Zmiany dla wersji 3.2 2018-12-24 ##
+
+* Większe zmiany w kodzie dla wsparcia Pythona 3.
+
+## Zmiany dla wersji 3.1 2018-11-24 ##
+
+* Zmiany wewnętrzne dla wsparcia nowych wersji NVDA.
+
+## Zmiany dla wersji 3.0 2018-10-25 ##
 
 Wsparcie dla wersji Windowsa wczeszniejszych niż Windows 7 Service Pack 1
 skończy się w roku 2019.

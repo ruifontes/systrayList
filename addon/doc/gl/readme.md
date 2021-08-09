@@ -1,9 +1,9 @@
 # systrayList #
 
-*   Autores: Rui Fontes, Rui Batista , Joseph Lee, Colaboradores da
-    Comunidade de NVDA
-*   Descargar [versión estable][1]
-*   NVDA compatibility: 2017.3 to 2019.3
+* Autores: Rui Fontes, Rui Batista , Joseph Lee, Colaboradores da Comunidade
+  de NVDA
+* Descargar [versión estable][1]
+* Compatibilidade con NVDA: 2019.3 en diante
 
 Este complemento permíteche ler e activar iconas na bandexa do sistema ou na
 barra de tarefas, dentro dunha caixa de lista, para un acceso e interacción
@@ -19,7 +19,24 @@ transición máis sinxela dende JAWS for Windows e evitar algúns consellos que
 poderán despregarse cando se percorre pola bandexa do sistema co teclado de
 Windows.
 
-## Cambios para 3.0 2018-10-27 ##
+## Cambios para 4.0 2020-01-03 ##
+
+* Require NVDA 2019.3 ou posterior.
+* Xa non se soportan versións de windows anteriores a Windows 7 Service Pack
+  1.
+* O complemento renomeouse a "SysTrayList".
+* O diálogo de solicitude de donación xa non aparecerá ao instalar ou
+  actualizar o complemento.
+
+## Cambios para 3.2 2018-12-24 ##
+
+* Máis trocos de código para soportar Python 3.
+
+## Cambios para 3.1 2018-11-24 ##
+
+* Trocos internos para soportar versións futuras de NVDA.
+
+## Cambios para 3.0 2018-10-25 ##
 
 O soporte para versións de Windows anteriores a Windows 7 Service Pack 1
 rematará en 2019.
@@ -38,13 +55,13 @@ rematará en 2019.
 * Correxida a acción do clic exquerdo e dereito.
 * A axuda do complemento está dispoñible dende o Administrador de
   complementos.
-* Actualizacións das traduccións
+* Actualizacións das traduccións.
 
 ## Cambios para 1.4 - 2013-01-19 ##
 
 * Require NVDA 2012.3beta2 ou superior.
 * Engádese unha petición de doazóns ó procedemento de instalación
-* implementado o soporte de Barras de tarefas
+* Implementado o soporte de Barras de tarefas
 * Novas traduccións: Árabe, Búlgaro, Holandés, Finlandés, Galego, Grego,
   Húngaro, Italiano, Xaponés, Coreano, Nepalí, Noruego, Polaco, Portugués do
   Brasil, Ruso, Eslovaco, Tamil, Chino Tradicional Hong Kong.
