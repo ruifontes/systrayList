@@ -1,39 +1,51 @@
-# systrayList #
+# Systémový panel #
 
-*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
-    contributors
-*   Stiahnuť [stabilnú verziu][1]
-*   NVDA compatibility: 2017.3 to 2019.3
+* Autori: Rui Fontes, Rui Batista, Joseph Lee a ďalší
+* Stiahnuť [stabilnú verziu][1]
+* Funguje s NVDA od verzie 2019.3
 
-This add-on allows you to read and activate icons on the system tray or the
-task bar, within a list box, for easy access and interaction to those
-items. With the add-on installed, press NVDA+f11 once for this dialog to
-pop-up with system tray elements, and press twice to display task bar
-elements, which are the currently running applications.
+Môžete zobraziť položky na systémovej lište a na panely úloh v jednoduchom
+dialógu. V zozname potom môžete položku aktivovať. Skratkou NVDA+F11
+zobrazíte položky na systémovej lište. Ak skratku stlačíte dvakrát za sebou,
+zobrazí sa panel bežiacich úloh.
 
-Note that you can access the windows system tray in any screen reader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Všimnite si, že na systémovú lištu sa dostanete aj štandardným príkazom
+Windows, skratkou Windows+b. Na panel úloh sa dostanete stlačením
+windows+t. Tento doplnok je užitočný najmä pre tých, ktorí doposiaľ
+používali JAWS a takisto na zabránenie zobrazenia bublín, ktoré vyskakujú
+pri použití štandardnej navigácie Windows.
 
-## Changes for 3.0 2018-10-27 ##
+## Verzia 4.0 2020-01-03 ##
 
-Support for Windows releases earlier than Windows 7 Service Pack 1 will end
-in 2019.
+* Vyžaduje NVDA od verzie 2019.3.
+* Podporuje len Windows od vezie 7 Servicepack 1.
+* Zmenený anglický názov doplnku.
+* Odstránená žiadosť o príspevok.
 
-* Add-on is Python 3 compatible.
+## Verzia 3.2 2018-12-24 ##
 
-## Changes for 2.0 2017-05-20 ##
+* Upravený kód pre podporu Python 3.
 
-* Systray/taskbar dialog is now centered on screen.
-* Fixed various user interface issues.
-* New and updated translations.
+## Verzia 3.1 2018-11-24 ##
 
-## Changes for 1.5 2015-mm-dd ##
+* Interné zmeny pre podporu budúcich vydaní NVDA.
+
+## Verzia 3.0 2018-10-25 ##
+
+Podpora pre staršie systémy Windows bude ukončená  v roku 2019.
+
+* Doplnok kompatibilný s prostredím Python 3.
+
+## Verzia 2.0 2017-05-20 ##
+
+* Dialógy sú zobrazené v strede obrazovky.
+* Opravené problémy s používateľským rozhraním.
+* Nové a aktualizované preklady.
+
+## Verzia 1.5 2015-mm-dd ##
 
 * opravené klikanie ľavým a pravým tlačidlom myši.
-* Add-on help is now available from add-ons manger.
+* Pomocník k doplnku je dostupný zo správcu doplnkov.
 * Aktualizované preklady.
 
 ## Zmeny vo verzii 1.4 - 19. 1. 2013 ##

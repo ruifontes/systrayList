@@ -1,26 +1,44 @@
 # systrayList #
 
-*   Autori: Rui Fontes, Rui Batista, Joseph Lee, saradnici NVDA zajednice
-*   Preuzmi [stabilnu verziju][1]
-*   NVDA compatibility: 2017.3 to 2019.3
+* Autori: Rui Fontes, Rui Batista, Joseph Lee, saradnici NVDA zajednice
+* Preuzmi [stabilnu verziju][1]
+* NVDA kompatibilnost: 2019.3 i noviji
 
 Ovaj dodatak dozvoljava da aktivirate ikone sistemske trake ili programske
 trake iz liste, za lakše upravljanje. Kada je dodatak instaliran, pritisnite
 NVDA+f11 da prikažete ikone sistemske trake, pritisnite komandu dva puta za
 ikone programske trake što uključuje trenutno aktivne aplikacije.
 
-Note that you can access the windows system tray in any screen reader
-software using the Windows+B, and the task bar by pressing Windows+T. This
-plugin is only useful to make the transition from JAWS for Windows smoother
-and to avoid some tooltips that may pop-up when cycling through the system
-tray with the windows keyboard means.
+Napomena da sistemskoj traci možete pristupiti u svakom čitaču ekrana
+komandom Windows+b, a programskoj traci pritiskanjem tastera Windows plus
+T. Ovaj dodatak je napravljen kako bi prelazak sa čitača ekrana Jaws bio
+lakši, kao i kako bi se izbeglo fokusiranje određenih opisa alata koji mogu
+da se pojave na kratak period kada se krećete tastaturom kroz sistemsku
+traku.
 
-## Changes for 3.0 2018-10-27 ##
+## Promene u 4.0 2020-01-03 ##
 
-Support for Windows releases earlier than Windows 7 Service Pack 1 will end
-in 2019.
+* Zahteva NVDA 2019.3 ili noviji.
+* Windows verzije starije od Windowsa 7 sa servisnim paketom 1 više nisu
+  podržane.
+* Dodatak je preimenovan u "SysTrayList".
+* Dijalog zahteva za donaciju se više neće pojavljivati kada instalirate ili
+  ažurirate dodatak.
 
-* Add-on is Python 3 compatible.
+## Promene u 3.2 2018-12-24 ##
+
+* Još promena u kodu za Python 3 podršku.
+
+## Promene u 3.1 2018-11-24 ##
+
+* Interne promene za podršku za buduće NVDA verzije.
+
+## Promene u 3.0 2018-10-25 ##
+
+Podrška za Windows verzije starije od Windows 7 servisnog paketa 1 će biti
+ukinuta 2019.
+
+* Dodatak je kompatibilan uz Python 3.
 
 ## Promene u 2.0 2017-05-20 ##
 
@@ -47,7 +65,7 @@ in 2019.
 ## Promene u 1.3 - 2012-05-25 ##
 
 * Pretvoren u datoteku dodatka
-* Francuski i Turski prevodi
+* Francuski i Turski prevodi.
 
 ## Promene u 1.2 - 2012-04.25 ##
 
@@ -55,8 +73,8 @@ in 2019.
 
 ## Promene u 1.1 - 2012-03-20 ##
 
-* Popravljena greška u kojoj dodatak nije mogao da se koristi kada nema
-  prevoda.
+* Popravljena greška u kojoj dodatak nije mogao da se koristi kada gettext
+  prevod nije dostupan.
 
 ## Promene u 1.0 - 2012-03-19 ##
 
