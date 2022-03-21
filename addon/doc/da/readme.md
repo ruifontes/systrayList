@@ -1,9 +1,10 @@
 # Systembakkeliste #
 
-* Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA-bidragydere fra
-  fællesskabet
-* Download [stabil version][1]
-* NVDA-kompatibilitet: 2019.3 og derefter
+*   Forfattere:  Rui Fontes, Rui Batista, Joseph Lee, NVDA-bidragydere fra
+    fællesskabet
+*   download [stabil version][1]
+*   NVDA compatibility: 2019.3 and beyond
+
 
 Med dette tilføjelsesprogram kan du læse og aktivere ikoner i systembakken
 og på joblinjen i en listeboks, så du nemt kan få adgang til og gøre brug af
@@ -18,25 +19,7 @@ Windows+T. Dette tilføjelsesprogram benyttes blot for at gøre overgangen fra
 JAWS for Windows nemmere og for at undgå nogle værktøjstips, som kan poppe
 op, når man går gennem systembakken med Windows-tastaturgenveje.
 
-## Ændringer for 4.0 2020-01-03 ##
-
-* Kræver NVDA 2019.3 eller nyere.
-* Der er ikke længere understøttelse af Windows-versioner, der er ældre end
-  Windows 7 Service Pack 1.
-* Tilføjelsesprogrammet er blevet omdøbt til "SysTrayList (Systembakke)".
-* Dialogboksen til anmodning om donation vises ikke længere, når du
-  installerer eller opdaterer tilføjelsesprogrammet.
-
-## Ændringer for 3.2 2018-12-24 ##
-
-* Flere kodeændringer, der understøtter Python 3.
-
-## Ændringer for 3.1 2018-11-24 ##
-
-* Interne ændringer for at bedre kunne understøtte fremtidige versioner af
-  NVDA.
-
-## Ændringer for 3.0 2018-10-25 ##
+## Ændringer for 3.0 2018-10-27 ##
 
 Understøttelse for Windows-udgivelser tidligere end Windows 7 Service Pack 1
 slutter i 2019.
@@ -45,9 +28,9 @@ slutter i 2019.
 
 ## Ændringer i 2.0 2017-05-20 ##
 
-* Dialogen Systembakke/joblinje er nu centreret på skærmen.
-* Rettede diverse brugergrænsefladeproblemer.
-* Nye og opdaterede oversættelser.
+* Dialogen Systembakke/joblinje er nu centreret på skærmen
+* Rettede diverse brugergrænsefladeproblemer
+* Nye og opdaterede oversættelser
 
 ## Ændringer i 1.5 2015-mm-dd ##
 

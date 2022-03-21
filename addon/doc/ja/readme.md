@@ -1,31 +1,15 @@
 # systrayList #
 
-* 作者: Rui Fontes, Rui Batista, Joseph Lee, NVDAコミュニティの貢献者
-* ダウンロード [安定版][1]
-* NVDA compatibility: 2019.3 and beyond
+*   作者: Rui Fontes, Rui Batista, Joseph Lee, NVDAコミュニティの貢献者
+*   ダウンロード [安定版][1]
+*   NVDA compatibility: 2019.3 and beyond
+
 
 このアドオンにより、システムトレイまたはタスクバー上のアイコンについて、リストボックスの形式で、かんたんにアクセスしたり、項目の移動をしながら、読み上げやアクティベートが出来ます。アドオンをインストールしたら、NVDA+f11を一回押してシステムトレイ要素、二回押してタスクバー要素の表示されたダイアログを表示します。これらは現在実行されているアプリケーションです。
 
 どのスクリーンリーダーソフトでも、WindowsのシステムトレイにはWindows+B、タスクバーにはWindows+Tでアクセス出来ます。このプラグインは、WindowsのJAWSからの切り替えを円滑にし、システムトレイをキーボード操作で回る場合にツールチップの表示を避けることのみに有用です。
 
-## Changes for 4.0 2020-01-03 ##
-
-* Requires NVDA 2019.3 or later.
-* No more support for Windows versions earlier than Windows 7 Service Pack
-  1.
-* Add-on has been renamed to "SysTrayList".
-* Donation request dialog will no longer appear when installing or updating
-  the add-on.
-
-## Changes for 3.2 2018-12-24 ##
-
-* More code changes to support Python 3.
-
-## Changes for 3.1 2018-11-24 ##
-
-* Internal changes to support future NVDA releases.
-
-## Changes for 3.0 2018-10-25 ##
+## 3.0での変更　- 2018-10-27 ##
 
 Windows7サービスパック1より前のWindowsのリリースについてのサポートが2019年中に終了します。
 

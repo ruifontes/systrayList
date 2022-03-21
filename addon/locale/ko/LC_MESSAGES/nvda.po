@@ -8,34 +8,36 @@ msgstr ""
 "Project-Id-Version: PACKAGE SysTray\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2020-03-05 22:12+0000\n"
-"Last-Translator: Stanley Chung <stanley@mail.com>\n"
+"PO-Revision-Date: 2013-03-30 14:50-0800\n"
+"Last-Translator: \n"
 "Language-Team: KO <joseph.lee22590@gmail.com>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Translators: Input help mode message for system tray list command.
+#, fuzzy
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
 msgstr ""
-"시스템 트레이에 표시된 버튼을 나열합니다. 두 번 빨리 누르면 작업 표시줄에 표"
-"시된 항목들을 나열합니다."
+"시스템 트레이 목록을 보여주고 두번 누르면 작업 표시줄 목록을 보여줍니다."
 
 msgid "System Tray List"
 msgstr "시스템 트레이 목록"
 
 msgid "Icons on the System Tray:"
-msgstr "시스템 트레이에 표시된 아이콘:"
+msgstr "시스템 트레이 아이콘 목록"
 
+#, fuzzy
 msgid "Taskbar List"
 msgstr "작업 표시줄 목록"
 
+#, fuzzy
 msgid "Icons of running applications on the taskbar:"
-msgstr "작업 표시줄에 표시된 실행중인 응용 프로그램 아이콘:"
+msgstr "실행중인 응용 프로그램 목록"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
 msgid "&Left Click"
@@ -49,10 +51,28 @@ msgstr "왼쪽 버튼 두번 클릭 (&D)"
 msgid "&Right Click"
 msgstr "오른쪽 버튼 클릭 (&R)"
 
+#. Translators: The text of the dialog shown during add-on installation.
+#, python-brace-format
+msgid ""
+" {name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further developments of "
+"this add-on and other free software products.\n"
+"Do you want to donate now? (you will be redirected to the Paypal website)."
+msgstr ""
+" {name} 은 NVDA용 무료 추가 기능입니다.\n"
+"지금 이와 같은 무료 추가 기능 및 기타 무료 소프트웨어 개발의 도움을 위해 저자"
+"에게 후원하실 수 있습니다.\n"
+"지금 PayPal로 가셔서 후원하시겠습니까?"
+
+#. Translators: The title of the dialog shown during add-on installation.
+#, python-brace-format
+msgid "Request for Contributions to {name}"
+msgstr "Request for Contributions to {name}"
+
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "SysTrayList"
-msgstr "시스템 트레이 목록"
+msgid "sysTrayList - list sys tray and task bar elements"
+msgstr "시스템 트레이 및 작업 표시줄 목록"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager

@@ -1,8 +1,9 @@
 # systrayList托盘图标插件 #
 
-* 作者: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
-* 下载 [稳定版][1]
-* NVDA兼容版本： 2019.3以上
+*   作者: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
+*   下载 [稳定版][1]
+*   NVDA兼容版本：2019.3 and beyond
+
 
 此插件允许您在列表框中读取和激活系统托盘或任务栏上的图标，以便于访问和浏览这些项目。安装了插件后，按NVDA +
 f11一次，此对话框弹出系统托盘窗口，然后按两次显示任务栏窗口。
@@ -10,22 +11,7 @@ f11一次，此对话框弹出系统托盘窗口，然后按两次显示任务�
 注意，您可以使用Windows + B访问任何屏幕阅读器软件中的Windows系统托盘，按Windows + T可以访问任务栏。此插件仅用于使从JAWS
 for Windows的过渡更顺畅，并避免在使用Windows键盘装置循环通过系统托盘时可能弹出的一些工具提示。
 
-## 版本4.0 2020-01-03 ##
-
-* 要求 NVDA 2019.3或更高。
-* 早于Windows 7 Service Pack 1的Windows版本支持现在已结束。
-* 插件已更名为“ SysTrayList”。
-* 安装或更新插件时，将不再显示“捐赠请求”对话框。
-
-## 版本3.2 2018-12-24 ##
-
-* 更多代码更改以支持Python 3。
-
-## 版本3.1 2018-11-24 ##
-
-* 当前，内部更改以支持以后的NVDA版本。
-
-## 版本 3.0 2018-10-25 ##
+## 版本 3.0 2018-10-27 ##
 
 早于Windows 7 Service Pack 1的Windows版本支持将于2019年结束。
 

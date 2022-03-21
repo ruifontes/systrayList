@@ -60,6 +60,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		while o is not None:
 			l.append((o.name, o.location))
 			o = o.next
+		"""
+		o = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,0)
+		# When o.next is None it means that there is no more objects on the systray.
+		while o is not None:
+			l.append((o.name, o.location))
+			o = o.next
+		"""
 		return l
 
 	def script_createList(self, gesture):
@@ -71,7 +78,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the taskbar.")
 
 	def _createSystrayList(self):
-		path = ("shell_TrayWnd", "TrayNotifyWnd", "SysPager", "ToolbarWindow32")
+		path = ("shell_TrayWnd", "TrayNotifyWnd", "SysPager", "ToolbarWindow32") #, "Windows.UI.Input.InputSite.WindowClass")
 		objects = self._findAccessibleLeafsFromWindowClassPath(path)
 		self._createObjectsWindow(objects, _("System Tray List"), _("Icons on the System Tray:"))
 

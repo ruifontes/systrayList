@@ -1,43 +1,26 @@
-# Lista da Área de Notificação (SysTrayList) #
+# Lista da área de notificação #
 
-* Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da comunidade
-  do NVDA
-* Baixe a [versão estável][1]
-* Compatibilidade com NVDA: 2019.3 e além
+*   Autores: Rui Fontes, Rui Batista, Joseph Lee, colaboradores da
+    comunidade do NVDA
+*   Baixe a [versão estável][1]
+*   NVDA compatibility: 2019.3 and beyond
 
-Este complemento possibilita ler e ativar ícones da área de notificação
-(bandeja do sistema) ou da barra de tarefas, numa caixa de lista para um
-fácil acesso e interação com tais itens. Com o plug-in instalado,  pressione
-NVDA+f11 uma vez para que apareça o diálogo com os elementos da área de
-notificação (bandeja do sistema) e pressione duas vezes para mostrar os
-elementos da barra de tarefas, que são os aplicativos em execução no
-momento.
 
-Note que você pode acessar a área de notificação (bandeja do sistema) do
+Este complemento possibilita ler e ativar ícones da área de notificação ou
+da barra de tarefas, numa caixa de lista para um fácil acesso e interação
+com tais itens. Com o plug-in instalado,  pressione NVDA+f11 uma vez para
+que apareça o diálogo com os elementos da área de notificação e pressione
+duas vezes para mostrar os elementos da barra de tarefas, que são os
+aplicativos em execução no momento.
+
+Note que você pode acessar a bandeja do sistema — área de notificação — do
 Windows em qualquer software de leitor de tela usando o Windows+B, e a barra
 de tarefas pressionando Windows+T. Este plug-in é útil apenas para fazer a
 transição do JAWS para Windows mais suave e para evitar algumas dicas de
-ferramentas que podem aparecer ao percorrer a área de notificação do Windows
+ferramentas que podem aparecer ao percorrer a bandeja do sistema do Windows
 por meio do teclado.
 
-## Mudanças na 4.0 2020-01-03 ##
-
-* Requer NVDA 2019.3 ou superior.
-* Não há mais suporte para versões do Windows anteriores ao Windows 7
-  Service Pack 1.
-* O complemento foi renomeado para "SysTrayList".
-* O diálogo de solicitação de doação não aparecerá mais ao instalar ou
-  atualizar o complemento.
-
-## Mudanças na 3.2 2018-12-24 ##
-
-* Mais alterações de código para dar suporte ao Python 3.
-
-## Mudanças na 3.1 2018-11-24 ##
-
-* Alterações internas para dar suporte a versões futuras do NVDA.
-
-## Mudanças na 3.0 2018-10-25 ##
+## Mudanças na 3.0 2018-10-27 ##
 
 O suporte para versões do Windows anteriores ao Windows 7 Service Pack 1
 terminará em 2019.
@@ -46,8 +29,7 @@ terminará em 2019.
 
 ## Mudanças na 2.0 2017-05-20 ##
 
-* Diálogo da área de notificação/barra de tarefas agora é centralizado na
-  tela.
+* Diálogo da área de notificação/barra de tarefas agora é centrado na tela.
 * Corrigidos diversos problemas de interface com o usuário.
 * Traduções novas e atualizadas.
 

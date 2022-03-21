@@ -1,8 +1,9 @@
 # systrayList #
 
-* Автори: Rui Fontes, Rui Batista, Joseph Lee та учасники спільноти NVDA
-* Завантажити [стабільну версію][1]
-* NVDA compatibility: 2019.3 and beyond
+*   Автори: Rui Fontes, Rui Batista, Joseph Lee та учасники спільноти NVDA
+*   Завантажити [стабільну версію][1]
+*   NVDA compatibility: 2019.3 and beyond
+
 
 Цей додаток робить можливими читання та активацію іконок на системній панелі
 та на панелі завдань, які представлені у вигляді списку, для легкого доступу
@@ -19,24 +20,7 @@ Windows+T. Цей додаток корисний лише для того, що
 з JAWS та уникнути деяких підказок, які можуть спливати під час переміщення
 системною панеллю за допомогою клавіатури.
 
-## Changes for 4.0 2020-01-03 ##
-
-* Requires NVDA 2019.3 or later.
-* No more support for Windows versions earlier than Windows 7 Service Pack
-  1.
-* Add-on has been renamed to "SysTrayList".
-* Donation request dialog will no longer appear when installing or updating
-  the add-on.
-
-## Changes for 3.2 2018-12-24 ##
-
-* More code changes to support Python 3.
-
-## Changes for 3.1 2018-11-24 ##
-
-* Internal changes to support future NVDA releases.
-
-## Changes for 3.0 2018-10-25 ##
+## Зміни у версії 3.0 2018-10-27 ##
 
 Підтримка версій Windows, старіших за Windows 7 Service Pack 1, завершится у
 2019 році

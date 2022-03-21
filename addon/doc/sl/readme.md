@@ -2,6 +2,8 @@
 
 * Avtorji: Rui Fontes, Rui Batista, sodelujoči iz NVDA Skupnosti
 * Prenesi: [različico 2.0-razvojno][1]
+* NVDA compatibility: 2019.3 and beyond
+
 
 This plugin makes possible to read and activate icons on the system tray or
 the task bar, within a list box, for easy access and interaction to those

@@ -1,8 +1,10 @@
 # systrayList #
 
-* Autores: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
-* Baixar [versão estável][1]
-* Compatibilidade com NVDA: 2017.3 a 2019.2
+*   Autores: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community
+    contributors
+*   Baixar [versão estável][1]
+*   Compatibilidade com NVDA: 2019.3 e seguintes
+
 
 Este extra permite que leia e active os ícones existentes na barra do
 sistema ou na barra de tarefas, dentro de uma caixa de listagem, para
@@ -15,24 +17,7 @@ execução.
 Observe que pode aceder à barra do sistema do Windows, em qualquer software,
 usando o Windows+B e ir para a barra de tarefas pressionando Windows+T.
 
-## Alterações para 4.0 2020-01-03 ##
-
-* Requer NVDA 2019.3 ou superiores.
-* Não há mais suporte para versões anteriores ao Service Pack 1 do Windows
-  7.
-* O extra foi renomeado para "SysTrayList".
-* O diálogo de pedido de doação deixará de aparecer aquando da instalação ou
-  actualização do extra.
-
-## Alterações para 3.2 2018-12-24 ##
-
-* Mais alterações de código para suportar o Python 3.
-
-## Alterações para 3.1 2018-11-24 ##
-
-* Alterações internas para suportar os futuros lançamentos do NVDA.
-
-## Alterações para 3,0 2018-10-25 ##
+## Mudanças para 3.0 2018-10-27 ##
 
 O suporte para as versões antriors ao windows7, service pack 1, termina em
 2019.
