@@ -6,19 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SystrayList  1.4pre\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2016-02-26 02:21-0800\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-02-25 16:20+0000\n"
+"PO-Revision-Date: 2023-02-25 17:22+0000\n"
 "Last-Translator: Leonard de Ruijter <mail@leonardder.nl>\n"
 "Language-Team: NVDA Nederlandstalig vertaalteam <nvda-nl@googlegroups.com>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 3.2.2\n"
 
-#. Translators: Input help mode message for system tray list command.
-#, fuzzy
+#. For translators: Message to be announced during Keyboard Help
+#: addon\globalPlugins\systrayList\__init__.py:81
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -26,60 +26,74 @@ msgstr ""
 "Toont de lijst van knoppen in het systeemvak. Bij tweemaal snel drukken, "
 "worden de items van de taakbalk getoond."
 
+#. For translators: Name of the section in "Input gestures" dialog.
+#: addon\globalPlugins\systrayList\__init__.py:83
+msgid "Systray list"
+msgstr "Systeemvak lijst"
+
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "System Tray List"
 msgstr "Systeemvak lijst"
 
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "Icons on the System Tray:"
 msgstr "Iconen in het systeemvak:"
 
-#, fuzzy
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Taskbar List"
 msgstr "Taakbalk lijst"
 
-#, fuzzy
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Icons of running applications on the taskbar:"
 msgstr "Iconen van draaiende applicaties in de taakbalk"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:143
 msgid "&Left Click"
 msgstr "&Linksklikken "
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:147
 msgid "Left &Double Click"
 msgstr "Links &dubbelklikken"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:151
 msgid "&Right Click"
 msgstr "&Rechts klikken"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} is een gratis add-on voor NVDA.\n"
-"U kan een gift doen om de auteur te steunen bij het verder ontwikkelen van "
-"deze add-on en andere gratis software.\n"
-"Wilt u nu een gift doen? (u wordt doorgestuurd naar de website van Paypal)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Verzoek tot bijdragen aan {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "sysTrayList - Lijst van elementen in het systeemvak en de taakbalk"
+#: buildVars.py:17
+msgid "SysTrayList"
+msgstr "Systeemvak lijst"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
 "Toont een lijst van knoppen in het systeemvak met NVDA+f11, tweemaal drukken "
 "geeft een lijst van draaiende programma's"
+
+#, python-brace-format
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} is een gratis add-on voor NVDA.\n"
+#~ "U kan een gift doen om de auteur te steunen bij het verder ontwikkelen "
+#~ "van deze add-on en andere gratis software.\n"
+#~ "Wilt u nu een gift doen? (u wordt doorgestuurd naar de website van "
+#~ "Paypal)."
+
+#, python-brace-format
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Verzoek tot bijdragen aan {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "sysTrayList - Lijst van elementen in het systeemvak en de taakbalk"

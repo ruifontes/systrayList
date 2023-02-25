@@ -6,19 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: systrayList\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2018-07-19 18:32+0200\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-02-25 16:20+0000\n"
+"PO-Revision-Date: 2023-02-25 17:20+0000\n"
 "Last-Translator: Bjørnar Seppola <bjornar@seppola.net>\n"
+"Language-Team: \n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.9\n"
-"Language-Team: \n"
+"X-Generator: Poedit 3.2.2\n"
 
-#. Translators: Input help mode message for system tray list command.
-#, fuzzy
+#. For translators: Message to be announced during Keyboard Help
+#: addon\globalPlugins\systrayList\__init__.py:81
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -26,60 +26,74 @@ msgstr ""
 "Viser listen over knapper i systemkurven. Trykk raskt to ganger for å vise "
 "elementene på oppgavelinjen."
 
+#. For translators: Name of the section in "Input gestures" dialog.
+#: addon\globalPlugins\systrayList\__init__.py:83
+msgid "Systray list"
+msgstr "Systemkurvliste"
+
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "System Tray List"
 msgstr "Systemkurvliste"
 
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "Icons on the System Tray:"
 msgstr "Ikoner i systemkurven:"
 
-#, fuzzy
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Taskbar List"
 msgstr "Oppgavelinjeliste"
 
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Icons of running applications on the taskbar:"
 msgstr "Ikoner for kjørende programmer på oppgavelinjen:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:143
 msgid "&Left Click"
 msgstr "&Venstreklikk"
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:147
 msgid "Left &Double Click"
 msgstr "&Dobbelt Venstreklikk"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:151
 msgid "&Right Click"
 msgstr "&Høyreklikk"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-" {name} er et gratis tillegg for NVDA.\n"
-"Du kan gi en donasjon til utvikleren for å støtte videre utvikling av dette "
-"tillegget og annen gratis programvare.\n"
-"Vil du gi en donasjon nå? (Du vil bli omdirigert til PayPals nettsted)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Forespørsel om bidrag til {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-#, fuzzy
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "Liste med systemkurv- og oppgavelinjeelementer"
+#: buildVars.py:17
+msgid "SysTrayList"
+msgstr "Systemkurvliste"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
 "Viser listen over knapper i systemkurven med NVDA+F11 en gang, to ganger "
 "viser kjørende oppgaveliste."
+
+#, python-brace-format
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ " {name} er et gratis tillegg for NVDA.\n"
+#~ "Du kan gi en donasjon til utvikleren for å støtte videre utvikling av "
+#~ "dette tillegget og annen gratis programvare.\n"
+#~ "Vil du gi en donasjon nå? (Du vil bli omdirigert til PayPals nettsted)."
+
+#, python-brace-format
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Forespørsel om bidrag til {name}"
+
+#, fuzzy
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "Liste med systemkurv- og oppgavelinjeelementer"

@@ -1,18 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2019-11-21 09:20-0800\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-02-25 16:20+0000\n"
+"PO-Revision-Date: 2023-02-25 16:56+0000\n"
 "Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 3.2.2\n"
 
-#. Translators: Input help mode message for system tray list command.
+#. For translators: Message to be announced during Keyboard Help
+#: addon\globalPlugins\systrayList\__init__.py:81
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -20,37 +21,51 @@ msgstr ""
 "Muestra la lista de botones en la Bandeja del Sistema. Si se pulsa dos veces "
 "rápidamente, muestra los elementos en la barra de tareas."
 
+#. For translators: Name of the section in "Input gestures" dialog.
+#: addon\globalPlugins\systrayList\__init__.py:83
+msgid "Systray list"
+msgstr "Lista de la Bandeja del Sistema"
+
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "System Tray List"
 msgstr "Lista de la Bandeja del Sistema"
 
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "Icons on the System Tray:"
 msgstr "Iconos en la Bandeja del Sistema:"
 
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Taskbar List"
 msgstr "Lista de la Barra de Tareas"
 
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Icons of running applications on the taskbar:"
 msgstr "Iconos de aplicaciones en ejecución en la barra de tareas:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:143
 msgid "&Left Click"
 msgstr "Clic en botón &Izquierdo"
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:147
 msgid "Left &Double Click"
 msgstr "Doble Clic en botón i&zquierdo"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:151
 msgid "&Right Click"
 msgstr "Clic en botón &Derecho"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
 msgid "SysTrayList"
 msgstr "Lista de la Bandeja del Sistema"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."

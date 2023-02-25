@@ -25,8 +25,7 @@ Note that you can access the windows system tray in any screen reader software u
 
 ## Changes for 3.0 2018-10-25 ##
 
-Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.
-
+* Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.
 * Add-on is Python 3 compatible.
 
 ## Changes for 2.0 2017-05-20 ##
@@ -38,7 +37,7 @@ Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2
 ## Changes for 1.5 2015-mm-dd ##
 
 * Corrected left/right click action.
-* Add-on help is now available from add-ons manger.
+* Add-on help is now available from add-ons manager.
 * Translation updates.
 
 ## Changes for 1.4 - 2013-01-19 ##

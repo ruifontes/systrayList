@@ -7,20 +7,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: systrayList 1.4\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-03-13 14:03+0100\n"
-"PO-Revision-Date: 2019-11-22 13:31+0100\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-02-25 16:20+0000\n"
+"PO-Revision-Date: 2023-02-25 17:00+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: \n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
 
-#. Translators: Input help mode message for system tray list command.
+#. For translators: Message to be announced during Keyboard Help
+#: addon\globalPlugins\systrayList\__init__.py:81
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -28,37 +29,51 @@ msgstr ""
 "Pokazuje popis gumba na programskoj traci. Ukoliko se pritisne dvaput brzo, "
 "pokazuje stavke na traci zadataka."
 
+#. For translators: Name of the section in "Input gestures" dialog.
+#: addon\globalPlugins\systrayList\__init__.py:83
+msgid "Systray list"
+msgstr "Popis programske trake"
+
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "System Tray List"
 msgstr "Popis programske trake"
 
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "Icons on the System Tray:"
 msgstr "Ikone na programskoj traci:"
 
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Taskbar List"
 msgstr "Popis trake zadataka"
 
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Icons of running applications on the taskbar:"
 msgstr "Ikone pokrenutih aplikacija na traci zadataka:"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:143
 msgid "&Left Click"
 msgstr "&Lijevi klik"
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:147
 msgid "Left &Double Click"
 msgstr "Lijevi d&vostruki klik"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:151
 msgid "&Right Click"
 msgstr "&Desni klik"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
 msgid "SysTrayList"
 msgstr "Popis programske trake"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."

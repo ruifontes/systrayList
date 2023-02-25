@@ -6,15 +6,17 @@
 # Masamitsu Misono <misono@nvsupport.org>
 # Joseph Lee <joseph.lee22590@gmail.com>
 # Shortcut: NVDA+f11
-# Copyright 2013-2020, released under GPL.
+# Copyright 2013-2023, released under GPL.
 
 import os.path
 import wx
 import globalPluginHandler
 import globalVars
 import scriptHandler
+from scriptHandler import script
 import NVDAObjects
 import winUser
+import ctypes
 import gui
 import addonHandler
 _addonDir = os.path.join(os.path.dirname(__file__), "..", "..")
@@ -60,26 +62,45 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		while o is not None:
 			l.append((o.name, o.location))
 			o = o.next
-		"""
-		o = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,0)
-		# When o.next is None it means that there is no more objects on the systray.
-		while o is not None:
-			l.append((o.name, o.location))
-			o = o.next
-		"""
 		return l
 
+	def _findAccessibleLeafsFromWindowClassPath11(self, windowClassPath):
+		# Create a list of (obj.name, obj.location)
+		h = 0
+		for className in windowClassPath:
+			h = ctypes.windll.user32.FindWindowExA(h, 0, className, 0)
+			#if not h:
+			#	break
+		obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h, -4, 0).firstChild.children
+		l = []
+		for o in obj:
+			l.append((o.name, o.location))
+		return l
+
+	@script( 
+		# For translators: Message to be announced during Keyboard Help 
+		description = _("Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the taskbar."), 
+		# For translators: Name of the section in "Input gestures" dialog. 
+		category = _("Systray list"), 
+		gesture = "kb:NVDA+f11")
 	def script_createList(self, gesture):
 		if scriptHandler.getLastScriptRepeatCount() == 0:
 			self._createSystrayList()
 		else:
 			self._createTaskList()
-	# Translators: Input help mode message for system tray list command.
-	script_createList.__doc__ = _(u"Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the taskbar.")
 
 	def _createSystrayList(self):
-		path = ("shell_TrayWnd", "TrayNotifyWnd", "SysPager", "ToolbarWindow32") #, "Windows.UI.Input.InputSite.WindowClass")
-		objects = self._findAccessibleLeafsFromWindowClassPath(path)
+		path = ("shell_TrayWnd", "TrayNotifyWnd", "SysPager", "ToolbarWindow32")
+		path11 = (b"shell_TrayWnd", b"TrayNotifyWnd", b"Windows.UI.Composition.DesktopWindowContentBridge")
+		objects10 = self._findAccessibleLeafsFromWindowClassPath(path)
+		try:
+			from winVersion import getWinVer, WinVersion
+			win11 = getWinVer() >= WinVersion(major=10, minor=0, build=22000)
+		except ImportError:
+			win11 = False
+		if win11:
+			objects11 = self._findAccessibleLeafsFromWindowClassPath11(path11)
+			objects = objects10 + objects11
 		self._createObjectsWindow(objects, _("System Tray List"), _("Icons on the System Tray:"))
 
 	def _createTaskList(self):
@@ -99,10 +120,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			gui.mainFrame.prePopup()
 			self._systrayListDialog.Show()
 			gui.mainFrame.postPopup()
-
-	__gestures={
-		"kb:NVDA+f11": "createList",
-	}
 
 
 class SystrayListDialog(wx.Dialog):

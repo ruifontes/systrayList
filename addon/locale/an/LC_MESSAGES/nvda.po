@@ -6,19 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: systrayList 1.4\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2013-03-09 13:12+0100\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-02-25 16:20+0000\n"
+"PO-Revision-Date: 2023-02-25 16:27+0000\n"
 "Last-Translator: Jorge Pérez Pérez <jorgtum@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language:an\n"
+"Language-Team: \n"
+"Language: an\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 3.2.2\n"
 
-#. Translators: Input help mode message for system tray list command.
-#, fuzzy
+#. For translators: Message to be announced during Keyboard Help
+#: addon\globalPlugins\systrayList\__init__.py:81
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -26,62 +26,76 @@ msgstr ""
 "Amuestra la lista de botons en a servilla d'o sistema. Si se pretó dos veces "
 "rapidament, amuestra os elementos d'a barra de quefers."
 
+#. For translators: Name of the section in "Input gestures" dialog.
+#: addon\globalPlugins\systrayList\__init__.py:83
+msgid "Systray list"
+msgstr "Lista d'a servilla d'o sistema"
+
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "System Tray List"
 msgstr "Lista d'a servilla d'o sistema"
 
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "Icons on the System Tray:"
 msgstr "Iconos en a servilla d'o sistema"
 
-#, fuzzy
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Taskbar List"
 msgstr "Lista de barra de quefers"
 
-#, fuzzy
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Icons of running applications on the taskbar:"
 msgstr "Iconos d'aplicacions en execución en a barra de quefers"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:143
 msgid "&Left Click"
 msgstr "Clic &Cucho"
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:147
 msgid "Left &Double Click"
 msgstr "Dople clic &cucho"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:151
 msgid "&Right Click"
 msgstr "Clic &Dreito"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-"{name} ye un complemento libre ta NVDA.\n"
-"Puetz fer una donación a lo suyo autor ta aduyar a lo desembolique d'iste "
-"complemento y atros productos de software libre.\n"
-"Quiers fer una donación agora? (Te se reendrezará ta o puesto web de PayPal)."
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "Solicitut de contribucions ta {name}"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr ""
-"sysTrayList - Lista d'elementos d'a servilla d'o sistema y a barra de "
-"quefers "
+#: buildVars.py:17
+msgid "SysTrayList"
+msgstr "Lista d'a servilla d'o sistema"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
 "Pretando nvdA + F11 una vez, amuestra la lista d'os botons d'a servilla d'o "
 "sistema . Pretando-ne dos veces, amuestra la lista de quefers en execución."
+
+#, python-brace-format
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ "{name} ye un complemento libre ta NVDA.\n"
+#~ "Puetz fer una donación a lo suyo autor ta aduyar a lo desembolique d'iste "
+#~ "complemento y atros productos de software libre.\n"
+#~ "Quiers fer una donación agora? (Te se reendrezará ta o puesto web de "
+#~ "PayPal)."
+
+#, python-brace-format
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "Solicitut de contribucions ta {name}"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr ""
+#~ "sysTrayList - Lista d'elementos d'a servilla d'o sistema y a barra de "
+#~ "quefers "

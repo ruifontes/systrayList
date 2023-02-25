@@ -6,19 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: systrayList\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-01-06 12:47+0100\n"
-"PO-Revision-Date: 2016-01-27 19:50+0900\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-02-25 16:20+0000\n"
+"PO-Revision-Date: 2023-02-25 17:17+0000\n"
 "Last-Translator: Takuya Nishimoto <nishimotz@gmail.com>\n"
 "Language-Team: NVDA Japanese Team <nvdajp@nvda.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 3.2.2\n"
 
-#. Translators: Input help mode message for system tray list command.
-#, fuzzy
+#. For translators: Message to be announced during Keyboard Help
+#: addon\globalPlugins\systrayList\__init__.py:81
 msgid ""
 "Shows the list of buttons on the System Tray. If pressed twice quickly, "
 "shows the items on the taskbar."
@@ -26,59 +26,72 @@ msgstr ""
 "システムトレイのボタンの一覧を表示します。すばやく2回押すとタスクバーの項目の"
 "一覧を表示します。"
 
+#. For translators: Name of the section in "Input gestures" dialog.
+#: addon\globalPlugins\systrayList\__init__.py:83
+msgid "Systray list"
+msgstr "システムトレイ一覧"
+
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "System Tray List"
 msgstr "システムトレイ一覧"
 
+#: addon\globalPlugins\systrayList\__init__.py:103
 msgid "Icons on the System Tray:"
 msgstr "システムトレイのアイコン："
 
-#, fuzzy
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Taskbar List"
 msgstr "タスクバー一覧"
 
-#, fuzzy
+#: addon\globalPlugins\systrayList\__init__.py:107
 msgid "Icons of running applications on the taskbar:"
 msgstr "タスクバーの実行中のアプリケーションのアイコン"
 
 #. Translators: A button on the system tray list dialog to perform left mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:143
 msgid "&Left Click"
 msgstr "左クリック(&L)"
 
 #. Translators: A button in the system tray list dialog to perform left double mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:147
 msgid "Left &Double Click"
 msgstr "左ダブルクリック(&D)"
 
 #. Translators: A button in the system tray list dialog to perform right mouse click.
+#: addon\globalPlugins\systrayList\__init__.py:151
 msgid "&Right Click"
 msgstr "右クリック(&R)"
 
-#. Translators: The text of the dialog shown during add-on installation.
-#, python-brace-format
-msgid ""
-" {name} is a free add-on for NVDA.\n"
-"You can make a donation to its author to support further developments of "
-"this add-on and other free software products.\n"
-"Do you want to donate now? (you will be redirected to the Paypal website)."
-msgstr ""
-"{name} は NVDA のためのフリーのアドオンです。\n"
-"このアドオンや他のフリーソフトの開発に対する寄付を受け付けています。\n"
-"寄付をしますか？(ペイパルのサイトに移動します)"
-
-#. Translators: The title of the dialog shown during add-on installation.
-#, python-brace-format
-msgid "Request for Contributions to {name}"
-msgstr "{name} への寄付のご案内"
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "sysTrayList - list sys tray and task bar elements"
-msgstr "sysTrayList システムトレイとタスクバーの要素の一覧"
+#: buildVars.py:17
+msgid "SysTrayList"
+msgstr "システムトレイ一覧"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
 msgid ""
 "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows "
 "running task lists."
 msgstr ""
 "NVDA+F11を1回押すとシステムトレイのボタン一覧を表示します。2回押すと実行中の"
 "タスク一覧を表示します。"
+
+#, python-brace-format
+#~ msgid ""
+#~ " {name} is a free add-on for NVDA.\n"
+#~ "You can make a donation to its author to support further developments of "
+#~ "this add-on and other free software products.\n"
+#~ "Do you want to donate now? (you will be redirected to the Paypal website)."
+#~ msgstr ""
+#~ "{name} は NVDA のためのフリーのアドオンです。\n"
+#~ "このアドオンや他のフリーソフトの開発に対する寄付を受け付けています。\n"
+#~ "寄付をしますか？(ペイパルのサイトに移動します)"
+
+#, python-brace-format
+#~ msgid "Request for Contributions to {name}"
+#~ msgstr "{name} への寄付のご案内"
+
+#~ msgid "sysTrayList - list sys tray and task bar elements"
+#~ msgstr "sysTrayList システムトレイとタスクバーの要素の一覧"
