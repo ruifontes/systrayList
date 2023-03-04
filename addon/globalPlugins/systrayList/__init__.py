@@ -16,12 +16,10 @@ import scriptHandler
 from scriptHandler import script
 import NVDAObjects
 import winUser
+import windowUtils
 import ctypes
 import gui
 import addonHandler
-_addonDir = os.path.join(os.path.dirname(__file__), "..", "..")
-_curAddon = addonHandler.Addon(_addonDir)
-_addonSummary = _curAddon.manifest['summary']
 addonHandler.initTranslation()
 
 def mouseEvents(location, *events):
@@ -34,8 +32,6 @@ def mouseEvents(location, *events):
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	scriptCategory = _addonSummary
-
 	def __init__(self):
 		super(GlobalPlugin, self).__init__()
 		# The dialog instance is initially None.
@@ -60,7 +56,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		o = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,1)
 		# When o.next is None it means that there is no more objects on the systray.
 		while o is not None:
-			l.append((o.name, o.location))
+			if o.name:
+				l.append((o.name, o.location))
 			o = o.next
 		return l
 
@@ -77,12 +74,30 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			l.append((o.name, o.location))
 		return l
 
+	def _findAccessibleLeafsFromWindowClassPath11_22h2(self):
+		"""
+		Create a list of (obj.name, obj.location)
+		"""
+		# Starting to find the handle of the Shell_TrayWnd window
+		h = winUser.FindWindow("Shell_TrayWnd", None)
+		# Now, lets get the handle of Windows.UI.Input.InputSite.WindowClass window, where the icons reside...
+		hwnd = windowUtils.findDescendantWindow(h, visible=None, controlID=None, className="Windows.UI.Input.InputSite.WindowClass")
+		# Now, lets get all objects in this window and its location
+		obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(hwnd, -4, 0).children
+		l = []
+		# We start in the second object because the first object do not interesse us...
+		o = 1
+		while o in range(len(obj)):
+			l.append((obj[o].name, obj[o].location))
+			o = o+1
+		return l
+
 	@script( 
-		# For translators: Message to be announced during Keyboard Help 
-		description = _("Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the taskbar."), 
-		# For translators: Name of the section in "Input gestures" dialog. 
-		category = _("Systray list"), 
-		gesture = "kb:NVDA+f11")
+		# Translators: Message to be announced during Keyboard Help 
+		description=_("Shows the list of buttons on the System Tray. If pressed twice quickly, shows the items on the taskbar."), 
+		# Translators: Name of the section in "Input gestures" dialog. 
+		category=_("Systray list"), 
+		gesture="kb:NVDA+f11")
 	def script_createList(self, gesture):
 		if scriptHandler.getLastScriptRepeatCount() == 0:
 			self._createSystrayList()
@@ -91,16 +106,19 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def _createSystrayList(self):
 		path = ("shell_TrayWnd", "TrayNotifyWnd", "SysPager", "ToolbarWindow32")
-		path11 = (b"shell_TrayWnd", b"TrayNotifyWnd", b"Windows.UI.Composition.DesktopWindowContentBridge")
-		objects10 = self._findAccessibleLeafsFromWindowClassPath(path)
+		path11 = ("shell_TrayWnd", "TrayNotifyWnd", "Windows.UI.Composition.DesktopWindowContentBridge")
 		try:
 			from winVersion import getWinVer, WinVersion
+			win11_22h2 = getWinVer() >= WinVersion(major=10, minor=0, build=22621)
 			win11 = getWinVer() >= WinVersion(major=10, minor=0, build=22000)
 		except ImportError:
 			win11 = False
-		if win11:
-			objects11 = self._findAccessibleLeafsFromWindowClassPath11(path11)
-			objects = objects10 + objects11
+		if win11_22h2:
+			objects = self._findAccessibleLeafsFromWindowClassPath11_22h2()
+		elif win11:
+			objects = self._findAccessibleLeafsFromWindowClassPath11(path11)
+		else:
+			objects = self._findAccessibleLeafsFromWindowClassPath(path)
 		self._createObjectsWindow(objects, _("System Tray List"), _("Icons on the System Tray:"))
 
 	def _createTaskList(self):
@@ -154,7 +172,7 @@ class SystrayListDialog(wx.Dialog):
 		cancelButton = wx.Button(self, wx.ID_CANCEL)
 		buttonsSizer.Add(cancelButton)
 		# Bind the buttons to perform mouse clicks
-		# The `makeBindingClicFunction just returns a function
+		# The "makeBindingClicFunction" just returns a function
 		# that performs the passed events. Functional programming at its best.
 		# Except for Cancel button that should destroy this dialog.
 		self.Bind( wx.EVT_BUTTON, self.makeBindingClickFunction(winUser.MOUSEEVENTF_LEFTDOWN, winUser.MOUSEEVENTF_LEFTUP), id=leftClickButtonID)
@@ -164,7 +182,7 @@ class SystrayListDialog(wx.Dialog):
 		mainSizer.Add(buttonsSizer)
 		mainSizer.Fit(self)
 		self.SetSizer(mainSizer)
-		rightClickButton.SetDefault()
+		leftDoubleClickButton.SetDefault()
 		self.CenterOnScreen()
 
 	def onClose(self, evt):
