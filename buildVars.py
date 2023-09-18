@@ -25,11 +25,11 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("""Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists."""),
 	# version
-	"addon_version": "2023.03",
+	"addon_version": "2023.09.18",
 	# Author(s)
 	"addon_author": "Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, Joseph Lee <joseph.lee22590@gmail.com>, NVDA Community Contributors",
 	# URL for the add-on documentation support
-	"addon_url": "https://addons.nvda-project.org/addons/systrayList.en.html",
+	"addon_url": "https://github.com/ruifontes/systrayList",
 	# URL for the add-on repository where the source code can be found
 	"addon_sourceURL": "https://github.com/ruifontes/systrayList",
 	# Documentation file name
@@ -37,7 +37,7 @@ addon_info = {
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
 	"addon_minimumNVDAVersion": "2019.3",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion": "2023.1",
+	"addon_lastTestedNVDAVersion": "2024.1",
 	# Add-on update channel (default is None, denoting stable releases,
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!
