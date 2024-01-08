@@ -2,7 +2,7 @@
 
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee e colaboradores da     comunidade do NVDA
 *   Baixe a [versão estável][1]
-* Última atualização: 25/02/2023
+* Última atualização: 07/01/2024
 *   Compatibilidade com NVDA: 2019.3 e seguintes
 
 Este complemento possibilita ler e ativar ícones da área de notificação ou
@@ -21,4 +21,4 @@ por meio do teclado.
 
 [[!tag stable]]
 
-[1]: https://github.com/ruifontes/systrayList/releases/download/2023.09.18/systrayList-2023.09.18.nvda-addon
+[1]: https://github.com/ruifontes/systrayList/releases/download/2024.01.07/systrayList-2024.01.07.nvda-addon

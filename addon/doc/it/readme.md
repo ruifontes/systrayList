@@ -21,4 +21,4 @@ sistema di Windos.
 
 [[!tag stable]]
 
-[1]: https://github.com/ruifontes/systrayList/releases/download/2023.09.18/systrayList-2023.09.18.nvda-addon
+[1]: https://github.com/ruifontes/systrayList/releases/download/2024.01.07/systrayList-2024.01.07.nvda-addon

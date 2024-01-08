@@ -3,13 +3,13 @@
 	"displayName": "SysTrayList",
 	"URL": "",
 	"description": "Shows the list of buttons on the System Tray with NVDA+F11 once, twice shows running task lists.",
-	"sha256": "c835aced9152bc09dd8d3e4ba000f8935f9009889242a2922676a774a4c2618b",
+	"sha256": "32455e1bfcff159a6eb496feeb912efa484f3f73faaf896cdd27bed9bc9146d7",
 	"homepage": "https://github.com/ruifontes/systrayList",
-	"addonVersionName": "2023.09.18",
+	"addonVersionName": "2024.01.07",
 	"addonVersionNumber": {
-		"major": 2023,
-		"minor": 9,
-		"patch": 18
+		"major": 2024,
+		"minor": 1,
+		"patch": 7
 	},
 	"minNVDAVersion": {
 		"major": 2019,

@@ -15,6 +15,4 @@ plugin is only useful to make the transition from JAWS for Windows smoother
 and to avoid some tooltips that may pop-up when cycling through the system
 tray with the windows keyboard means.
 
-[[!tag stable]]
-
-[1]: https://github.com/ruifontes/systrayList/releases/download/2023.09.18/systrayList-2023.09.18.nvda-addon
+[1]: https://github.com/ruifontes/systrayList/releases/download/2024.01.07/systrayList-2024.01.07.nvda-addon

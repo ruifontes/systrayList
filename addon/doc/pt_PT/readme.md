@@ -2,7 +2,7 @@
 
 *   Autores: Rui Fontes, Rui Batista, Joseph Lee e contribuidores da comunidade do NVDA
 *   Descarregar [versão estável][1]
-*   Última modificação: 25/02/2023
+*   Última modificação: 07/01/2024
 *   Compatibilidade com o NVDA: 2019.3 e seguintes
 
 Este extra disponibiliza, numa lista, os ícones da barra do sistema ou na barra de tarefas, permitindo a sua leitura e activação, para facilitar o acesso e a interacção com esses itens.
@@ -13,4 +13,4 @@ Este extra só é útil para tornar a transição do JAWS para o NVDA mais suave
 
 [[!tag stable]]
 
-[1]: https://github.com/ruifontes/systrayList/releases/download/2023.09.18/systrayList-2023.09.18.nvda-addon
+[1]: https://github.com/ruifontes/systrayList/releases/download/2024.01.07/systrayList-2024.01.07.nvda-addon
