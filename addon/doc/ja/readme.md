@@ -16,4 +16,4 @@ Windows7サービスパック1より前のWindowsのリリースについての�
 
 [[!tag stable]]
 
-[1]: https://github.com/ruifontes/systrayList/releases/download/2024.01.07/systrayList-2024.01.07.nvda-addon
+[1]: https://github.com/ruifontes/systrayList/releases/download/2024.03.23/systrayList-2024.03.23.nvda-addon

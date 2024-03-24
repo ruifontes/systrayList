@@ -19,4 +19,4 @@ Windows+T. Цей додаток корисний лише для того, що
 з JAWS та уникнути деяких підказок, які можуть спливати під час переміщення
 системною панеллю за допомогою клавіатури.
 
-[1]: https://github.com/ruifontes/systrayList/releases/download/2024.01.07/systrayList-2024.01.07.nvda-addon
+[1]: https://github.com/ruifontes/systrayList/releases/download/2024.03.23/systrayList-2024.03.23.nvda-addon
