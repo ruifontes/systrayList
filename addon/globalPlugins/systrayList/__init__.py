@@ -28,7 +28,7 @@ def mouseEvents(location, *events):
 	winUser.setCursorPos (x,y)
 	#simulation of pressing mouse button
 	for event in events:
-		winUser.mouse_event(event, 0, 0, None, None)
+		winUser.mouse_event(event, 0, 0, 0, 0)
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
